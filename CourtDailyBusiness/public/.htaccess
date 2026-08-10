@@ -1,0 +1,39 @@
+# MilesWeb / Apache — Court Daily Business static deploy
+# Place in public_html (copied from dist/ after npm run build)
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Force HTTPS
+  RewriteCond %{HTTPS} !=on
+  RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+  # Prefer apex domain (courtdailybusiness.com)
+  RewriteCond %{HTTP_HOST} ^www\.courtdailybusiness\.com$ [NC]
+  RewriteRule ^ https://courtdailybusiness.com%{REQUEST_URI} [L,R=301]
+
+  # Do not rewrite real files or directories
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  # SPA fallback for app deep links
+  RewriteRule ^ index.html [L]
+</IfModule>
+
+# Security / caching basics
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType text/css "access plus 7 days"
+  ExpiresByType application/javascript "access plus 7 days"
+  ExpiresByType image/svg+xml "access plus 30 days"
+  ExpiresByType image/png "access plus 30 days"
+  ExpiresByType image/jpeg "access plus 30 days"
+</IfModule>
+
+ErrorDocument 404 /404.html
