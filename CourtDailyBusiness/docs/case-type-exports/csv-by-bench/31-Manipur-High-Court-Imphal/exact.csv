@@ -1,0 +1,15 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+31,Manipur High Court,Imphal,Arb.A,Appeals under Indian Arbitration Act.(63),ARB_A,,,,Arbitration Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+31,Manipur High Court,Imphal,CAV,Caveat(153),CAV,,,,Caveat,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+31,Manipur High Court,Imphal,CMAppl.,Misc Applications eg Leave to Sue as indigent person restoration application condonat(33),CMAppl,,,,Civil Miscellaneous Application,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+31,Manipur High Court,Imphal,CREV,Civil Revision(172),C_REV,,,,Civil Revision,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+31,Manipur High Court,Imphal,CRP,Revision Petition(27),CRP,,,,Civil Revision Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+31,Manipur High Court,Imphal,CRREV,Criminal Revision(179),CR_REV,,,,Criminal Revision,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+31,Manipur High Court,Imphal,CS,Civil Suit(21),CS,,,,Civil Suit,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+31,Manipur High Court,Imphal,FA,First Appeal(181),FA,,,,First Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+31,Manipur High Court,Imphal,MC(OC),Misc. Case of Original Case(107),MCOC,,,,Motor Vehicle Compensation Case,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+31,Manipur High Court,Imphal,PIL,Public Interest Litigation(36),PIL,WP_PIL,WP_C_PIL,,Public Interest Litigation,Writ Petition (Public Interest Litigation),Writ Petition (Public Interest Litigation),,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+31,Manipur High Court,Imphal,RCSA,Second Appeal(54),RCS_A,,,,Regular Civil Suit - Class A,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+31,Manipur High Court,Imphal,SA,Second Appeal(200),SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+31,Manipur High Court,Imphal,W.P.(Crl.),Petition under Art226 for Writ and Habeas Corpus and other relief in relation to a Crimina(95),WP_CRL,,,,Writ Petition (Criminal),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+31,Manipur High Court,Imphal,WA,Writ Appeal(203),WA,,,,Writ Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.

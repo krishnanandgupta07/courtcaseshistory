@@ -1,0 +1,15 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+28,Madhya Pradesh High Court,Indore,AA,ARBITRATION APPEAL,ARB_A,,,,Arbitration Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: ARB_A.
+28,Madhya Pradesh High Court,Indore,ARBA,ARBITRATION APPEAL,ARB_A,,,,Arbitration Appeal,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: ARB_A.
+28,Madhya Pradesh High Court,Indore,CEA,CENTRAL EXCISE APPEAL,EX_CESTAT,CESTAT_APPEAL,,,Excise Appeal,CESTAT Appeal,,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: EX_CESTAT, CESTAT_APPEAL."
+28,Madhya Pradesh High Court,Indore,CMA(R),CIVIL MISCELLANEOUS APPEAL,CMA,,,,Civil Miscellaneous Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: CMA.
+28,Madhya Pradesh High Court,Indore,CMAP(R),CIVIL MISCELLANEOUS APPLICATION,CMAppl,MA,,,Civil Miscellaneous Application,Miscellaneous Application (Civil),,,NO,YES,suggested,"Website code differs from eCourts. Backend should search: CMAppl, MA."
+28,Madhya Pradesh High Court,Indore,CMAPL,CIVIL MISCELLANEOUS APPEAL,CMA,,,,Civil Miscellaneous Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: CMA.
+28,Madhya Pradesh High Court,Indore,COMP,COMPANY PETITION,COP,,,,Company Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: COP.
+28,Madhya Pradesh High Court,Indore,CONT,CONTEMPT. PETITION,CONMT,,,,Contempt Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: CONMT.
+28,Madhya Pradesh High Court,Indore,CRA,CRIMINAL APPEAL,CRL_A,CRA,,,Criminal Appeal,Criminal Appeal (DC),,,YES,YES,suggested,"Website code differs from eCourts. Backend should search: CRL_A, CRA."
+28,Madhya Pradesh High Court,Indore,CRMA,CRIMINAL MISCELLANEOUS APPLICATION,MCrA,,,,Miscellaneous Criminal Application,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: MCrA.
+28,Madhya Pradesh High Court,Indore,CRMC,CRIMINAL MISCELLANEOUS CASE,CR_MISC,,,,Criminal Miscellaneous,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: CR_MISC.
+28,Madhya Pradesh High Court,Indore,DR,DEATH REFERENCE,DREF,,,,Death Reference,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: DREF.
+28,Madhya Pradesh High Court,Indore,TR,TAX REFERENCE,Tax_Ref,,,,Tax Reference Case,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: Tax_Ref.
+28,Madhya Pradesh High Court,Indore,WP,WRIT PETITION,WP_C,WP_CRL,,,Writ Petition (Civil),Writ Petition (Criminal),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: WP_C, WP_CRL."

@@ -1,0 +1,36 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+37,Rajasthan High Court,Jaipur,BMTA,BLACK MONEY TAX APPEAL,BMA,,,,Black Money Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: BMA.
+37,Rajasthan High Court,Jaipur,CCP,CIVIL CONTEMPT PETITION,CONMT,,,,Contempt Petition,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CONMT.
+37,Rajasthan High Court,Jaipur,CFA,CIVIL FIRST APPEAL,CA,FA,,,Civil Appeal,First Appeal,,,NO,NO,review,"Related but not confirmed. Review before seeding. Possible eCourts codes: CA, FA."
+37,Rajasthan High Court,Jaipur,CLA,CIVIL LEAVE TO APPEAL,CA,,,,Civil Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CA.
+37,Rajasthan High Court,Jaipur,CMCC,CIVIL MISCELLANEOUS CASE CIVIL,CMA,CMAppl,MA,,Civil Miscellaneous Appeal,Civil Miscellaneous Application,Miscellaneous Application (Civil),,NO,NO,review,"Related but not confirmed. Review before seeding. Possible eCourts codes: CMA, CMAppl, MA."
+37,Rajasthan High Court,Jaipur,CMEA,CIVIL MISCELLANEOUS EXCISE APPEAL,CMA,,,,Civil Miscellaneous Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CMA.
+37,Rajasthan High Court,Jaipur,COA,COMPANY APPEAL,CAPP_AT,CAPP_CA,,,Company Appeal (AT),Company Appeal (Companies Act),,,NO,NO,review,"Related but not confirmed. Review before seeding. Possible eCourts codes: CAPP_AT, CAPP_CA."
+37,Rajasthan High Court,Jaipur,COAP,COMPANY APPLICATION,CA_CA,,,,Company Application (Companies Act),,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CA_CA.
+37,Rajasthan High Court,Jaipur,COEXP,COMPANY EXECUTION PETITION,COP,,,,Company Petition,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: COP.
+37,Rajasthan High Court,Jaipur,CRES,CIVIL RESTORATION APPLICATION,REST_APP,,,,Restoration Application,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: REST_APP.
+37,Rajasthan High Court,Jaipur,CRLAD,CRIMINAL APPEAL (DB),CRL_A,,,,Criminal Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CRL_A.
+37,Rajasthan High Court,Jaipur,CRLAS,CRIMINAL APPEAL (SB),CRL_A,,,,Criminal Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CRL_A.
+37,Rajasthan High Court,Jaipur,CRLDR,CRIMINAL DEATH REFERENCE,DREF,,,,Death Reference,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: DREF.
+37,Rajasthan High Court,Jaipur,CRLLA,CRIMINAL LEAVE TO APPEAL,CRL_A,,,,Criminal Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CRL_A.
+37,Rajasthan High Court,Jaipur,CRLMB,CRIMINAL MISCELLANEOUS BAIL APPLICATION,MCrA,CRL_MA,,,Miscellaneous Criminal Application,Criminal Miscellaneous Application (DC),,,NO,NO,review,"Related but not confirmed. Review before seeding. Possible eCourts codes: MCrA, CRL_MA."
+37,Rajasthan High Court,Jaipur,CRLMP,CRIMINAL MISCELLANEOUS (PETITION),CR_MISC,,,,Criminal Miscellaneous,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CR_MISC.
+37,Rajasthan High Court,Jaipur,CRLR,CRIMINAL REVISION PETITION,CR_REV,CRLRC,,,Criminal Revision,Criminal Revision Case,,,NO,NO,review,"Related but not confirmed. Review before seeding. Possible eCourts codes: CR_REV, CRLRC."
+37,Rajasthan High Court,Jaipur,CRLRW,CRIMINAL REVIEW,RP_CRL,,,,Review Petition (Criminal),,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: RP_CRL.
+37,Rajasthan High Court,Jaipur,CRLTP,CRIMINAL MISCELLANEOUS TRANSFER PETITION,TP_CRL,,,,Transfer Petition (Criminal),,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: TP_CRL.
+37,Rajasthan High Court,Jaipur,CSA,CIVIL SECOND APPEAL,CA,SA,,,Civil Appeal,Second Appeal,,,NO,NO,review,"Related but not confirmed. Review before seeding. Possible eCourts codes: CA, SA."
+37,Rajasthan High Court,Jaipur,ERP,ELECTION RECRIMATION PETITION,EP,,,,Election Petition,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: EP.
+37,Rajasthan High Court,Jaipur,EXCIA,CENTRAL/EXCISE APPEAL,EX_CESTAT,,,,Excise Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: EX_CESTAT.
+37,Rajasthan High Court,Jaipur,EXFA,EXECUTION FIRST APPEAL,FA,,,,First Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: FA.
+37,Rajasthan High Court,Jaipur,EXSA,EXECUTION SECOND APPEAL,SA,,,,Second Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: SA.
+37,Rajasthan High Court,Jaipur,GTR,GIFT TAX REFERENCE,Tax_Ref,,,,Tax Reference Case,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: Tax_Ref.
+37,Rajasthan High Court,Jaipur,ITR,INCOME TAX REFERENCE,Tax_Ref,,,,Tax Reference Case,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: Tax_Ref.
+37,Rajasthan High Court,Jaipur,OOS,OTHER ORIGINAL SUIT,OS,,,,Original Suit,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: OS.
+37,Rajasthan High Court,Jaipur,SAC,SPECIAL APPEAL (CIVIL),CA,,,,Civil Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CA.
+37,Rajasthan High Court,Jaipur,SAW,SPECIAL APPEAL WRIT,WA,,,,Writ Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: WA.
+37,Rajasthan High Court,Jaipur,WCP,WRIT CONTEMPT PETITION,CONMT,,,,Contempt Petition,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CONMT.
+37,Rajasthan High Court,Jaipur,WRES,WRIT RESTORATION APPLICATION,REST_APP,,,,Restoration Application,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: REST_APP.
+37,Rajasthan High Court,Jaipur,WTC,WEALTH TAX CASES,WTA,,,,Wealth Tax Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: WTA.
+37,Rajasthan High Court,Jaipur,WTR,WEALTH TAX REFERENCE,Tax_Ref,,,,Tax Reference Case,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: Tax_Ref.
+37,Rajasthan High Court,Jaipur,XOBJC,CROSS OBJECTION (CIVIL),CO,XOBJ,,,Cross Objection,Cross Objection,,,NO,NO,review,"Related but not confirmed. Review before seeding. Possible eCourts codes: CO, XOBJ."
+37,Rajasthan High Court,Jaipur,XOBJW,CROSS OBJECTION WRIT,CO,XOBJ,,,Cross Objection,Cross Objection,,,NO,NO,review,"Related but not confirmed. Review before seeding. Possible eCourts codes: CO, XOBJ."

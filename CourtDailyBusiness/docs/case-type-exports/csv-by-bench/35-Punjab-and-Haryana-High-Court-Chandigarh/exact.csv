@@ -1,0 +1,16 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+35,Punjab and Haryana High Court,Chandigarh,ARB,ARBITRATION ACT CASE (WEF 15/10/03),Arb,,,,Arbitration Case (DC),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+35,Punjab and Haryana High Court,Chandigarh,CA,CIVIL APPEAL/COMPANY APPLICATION,CA,,,,Civil Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+35,Punjab and Haryana High Court,Chandigarh,CR,CIVIL REVISION,CR,C_REV,,,Civil Revision (short form),Civil Revision,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+35,Punjab and Haryana High Court,Chandigarh,CRR,CRIMINAL REVISION,CRR,CR_REV,CRLRC,,Criminal Revision (DC),Criminal Revision,Criminal Revision Case,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+35,Punjab and Haryana High Court,Chandigarh,CS,CIVIL SUIT,CS,,,,Civil Suit,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+35,Punjab and Haryana High Court,Chandigarh,GTA,GIFT TAX APPEAL,GTA,,,,Gift Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+35,Punjab and Haryana High Court,Chandigarh,INTTA,INTEREST TAX APPEAL,INTTA,,,,Interest Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+35,Punjab and Haryana High Court,Chandigarh,ITA,INCOME TAX APPEAL,ITA,,,,Income Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+35,Punjab and Haryana High Court,Chandigarh,LPA,LETTER PATENT APPEAL,LPA,,,,Letters Patent Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+35,Punjab and Haryana High Court,Chandigarh,RA-CA,REVIEW IN COMPANY APPEAL,RA_CA,,,,Restoration Application (Companies Act),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+35,Punjab and Haryana High Court,Chandigarh,RFA,REGULAR FIRST APPEAL,RFA,FA,,,Regular First Appeal,First Appeal,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+35,Punjab and Haryana High Court,Chandigarh,RSA,REGULAR SECOND APPEAL,RSA,SA,,,Regular Second Appeal,Second Appeal,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+35,Punjab and Haryana High Court,Chandigarh,STA,SALES TAX APPEAL,STA,,,,Sur Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+35,Punjab and Haryana High Court,Chandigarh,WTA,WEALTH TAX APPEAL,WTA,,,,Wealth Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+35,Punjab and Haryana High Court,Chandigarh,XOBJ,CROSS OBJECTION,XOBJ,CO,,,Cross Objection,Cross Objection,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.

@@ -1,0 +1,14 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+23,Karnataka High Court,Dharwad,COP,Company Petition,COP,,,,Company Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+23,Karnataka High Court,Dharwad,CRL.RC,Criminal Referred Case,CRLRC,,,,Criminal Revision Case,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+23,Karnataka High Court,Dharwad,CRP,Civil Revision Petition,CRP,,,,Civil Revision Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+23,Karnataka High Court,Dharwad,EP,Election Petition,EP,,,,Election Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+23,Karnataka High Court,Dharwad,GTA,Gift Tax Appeal,GTA,,,,Gift Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+23,Karnataka High Court,Dharwad,ITA,Income Tax Appeal,ITA,,,,Income Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+23,Karnataka High Court,Dharwad,MFA,Miscellaneous First Appeal,MFA,,,,Miscellaneous First Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+23,Karnataka High Court,Dharwad,OS,Original Suit,OS,,,,Original Suit,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+23,Karnataka High Court,Dharwad,RFA,Regular First Appeal,RFA,FA,,,Regular First Appeal,First Appeal,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+23,Karnataka High Court,Dharwad,RSA,Regular Second Appeal,RSA,SA,,,Regular Second Appeal,Second Appeal,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+23,Karnataka High Court,Dharwad,STA,Sales Tax Appeal,STA,,,,Sur Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+23,Karnataka High Court,Dharwad,WA,Writ Appeal,WA,,,,Writ Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+23,Karnataka High Court,Dharwad,WTA,Wealth Tax Appeal,WTA,,,,Wealth Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.

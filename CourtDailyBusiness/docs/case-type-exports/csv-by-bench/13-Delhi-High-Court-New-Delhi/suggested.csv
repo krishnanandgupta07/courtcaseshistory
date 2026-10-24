@@ -1,0 +1,14 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+13,Delhi High Court,New Delhi,ARB.A.,ARBITRATION APPEAL,ARB_A,,,,Arbitration Appeal,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: ARB_A.
+13,Delhi High Court,New Delhi,BAIL APPLN.,BAIL APPLICATION,BA,,,,Bail Application,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: BA.
+13,Delhi High Court,New Delhi,C.R.P.,CIVIL REVISION,C_REV,CRP,,,Civil Revision,Civil Revision Petition,,,YES,YES,suggested,"Website code differs from eCourts. Backend should search: C_REV, CRP."
+13,Delhi High Court,New Delhi,CA,CAVEAT,CAV,,,,Caveat,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: CAV.
+13,Delhi High Court,New Delhi,CO.PET.,COMPANY PETITION,COP,,,,Company Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: COP.
+13,Delhi High Court,New Delhi,CRL.A.,CRIMINAL APPEAL,CRL_A,,,,Criminal Appeal,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+13,Delhi High Court,New Delhi,CRL.REV.P.,CRIMINAL REVISION,CR_REV,CRLRC,,,Criminal Revision,Criminal Revision Case,,,NO,YES,suggested,"Website code differs from eCourts. Backend should search: CR_REV, CRLRC."
+13,Delhi High Court,New Delhi,CS(OS),CIVIL SUIT,CS,,,,Civil Suit,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: CS.
+13,Delhi High Court,New Delhi,EL.PET.,ELECTION PETITION,EP,,,,Election Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: EP.
+13,Delhi High Court,New Delhi,GTC,GIFT TAX CASES,GTA,,,,Gift Tax Appeal,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: GTA.
+13,Delhi High Court,New Delhi,ITC,INCOME TAX CASES,ITA,Tax_Ref,,,Income Tax Appeal,Tax Reference Case,,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: ITA, Tax_Ref."
+13,Delhi High Court,New Delhi,RSA,REG. IInd APPEAL,RSA,SA,,,Regular Second Appeal,Second Appeal,,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: RSA, SA."
+13,Delhi High Court,New Delhi,SERTA,SERVICE TAX APPEAL,SV_CESTAT,,,,Service Tax Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: SV_CESTAT.

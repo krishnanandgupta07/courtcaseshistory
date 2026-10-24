@@ -1,0 +1,14 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+35,Punjab and Haryana High Court,Chandigarh,CEA,CENTRAL EXCEISE APPEAL (WEF 10-11-2003),EX_CESTAT,CESTAT_APPEAL,,,Excise Appeal,CESTAT Appeal,,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: EX_CESTAT, CESTAT_APPEAL."
+35,Punjab and Haryana High Court,Chandigarh,CMA,COMPANY MISC. APPLICATION,CMA,,,,Civil Miscellaneous Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: CMA.
+35,Punjab and Haryana High Court,Chandigarh,CP,COMPANY PETITIONS,COP,CP_CA,,,Company Petition,Company Petition (Companies Act),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: COP, CP_CA."
+35,Punjab and Haryana High Court,Chandigarh,CRA,CRIMINAL APPEAL,CRL_A,CRA,,,Criminal Appeal,Criminal Appeal (DC),,,YES,YES,suggested,"Website code differs from eCourts. Backend should search: CRL_A, CRA."
+35,Punjab and Haryana High Court,Chandigarh,CRWP,CRIMINAL WRIT PETITION,WP_CRL,,,,Writ Petition (Criminal),,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: WP_CRL.
+35,Punjab and Haryana High Court,Chandigarh,CWP,CIVIL WRIT PETITION,WP_C,,,,Writ Petition (Civil),,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: WP_C.
+35,Punjab and Haryana High Court,Chandigarh,EDC,ESTATE DUTY CASE,EDA,,,,Estate Duty Appeal,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: EDA.
+35,Punjab and Haryana High Court,Chandigarh,EP,ELECTION PETITIONS,EP,,,,Election Petition,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: EP.
+35,Punjab and Haryana High Court,Chandigarh,GTC,GIFT TAX CASE,GTA,,,,Gift Tax Appeal,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: GTA.
+35,Punjab and Haryana High Court,Chandigarh,ITC,INCOME TAX CASES,ITA,Tax_Ref,,,Income Tax Appeal,Tax Reference Case,,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: ITA, Tax_Ref."
+35,Punjab and Haryana High Court,Chandigarh,RERA-APPL,RERA APPEAL,RERA,,,,RERA Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: RERA.
+35,Punjab and Haryana High Court,Chandigarh,SA,SERVICE APPEAL,SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: SA, RSA."
+35,Punjab and Haryana High Court,Chandigarh,TCRM,TRANSFER CRIMINAL PETITION,TP_CRL,,,,Transfer Petition (Criminal),,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: TP_CRL.

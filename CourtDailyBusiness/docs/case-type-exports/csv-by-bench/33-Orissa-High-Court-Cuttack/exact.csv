@@ -1,0 +1,11 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+33,Orissa High Court,Cuttack,ARBA,ARBA-Appeals under Arbitration Conciliation Act - (3),ARB_A,,,,Arbitration Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+33,Orissa High Court,Cuttack,CRLMA,CRLMA-Other Miscellaneous Application. - (26),CRL_MA,,,,Criminal Miscellaneous Application (DC),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+33,Orissa High Court,Cuttack,CRREV,CRREV-Criminal Revision - (35),CR_REV,,,,Criminal Revision,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+33,Orissa High Court,Cuttack,CS,CS-Civil Suit - (36),CS,,,,Civil Suit,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+33,Orissa High Court,Cuttack,DREF,DREF-Death Reference. - (43),DREF,,,,Death Reference,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+33,Orissa High Court,Cuttack,EP,EP-Election Petition Case. - (50),EP,,,,Election Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+33,Orissa High Court,Cuttack,FA,FA-First Appeal - (55),FA,,,,First Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+33,Orissa High Court,Cuttack,OS,OS-Original Suit. - (95),OS,,,,Original Suit,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+33,Orissa High Court,Cuttack,RCSA,RCSA-Second Appeals(Rent Control Matters) - (103),RCS_A,,,,Regular Civil Suit - Class A,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+33,Orissa High Court,Cuttack,SA,SA-Second Appeal - (108),SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.

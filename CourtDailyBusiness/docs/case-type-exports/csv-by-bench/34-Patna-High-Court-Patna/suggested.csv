@@ -1,0 +1,10 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+34,Patna High Court,Patna,C.R.,CIVIL REVISION,C_REV,CR,,,Civil Revision,Civil Revision (short form),,,YES,YES,suggested,"Website code differs from eCourts. Backend should search: C_REV, CR."
+34,Patna High Court,Patna,COMP PET,COMPANY PETITION,COP,,,,Company Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: COP.
+34,Patna High Court,Patna,CR. MISC.,CRIMINAL MISCELLANEOUS,CR_MISC,,,,Criminal Miscellaneous,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: CR_MISC.
+34,Patna High Court,Patna,CR. REV.,CRIMINAL REVISION,CR_REV,CRLRC,,,Criminal Revision,Criminal Revision Case,,,YES,YES,suggested,"Website code differs from eCourts. Backend should search: CR_REV, CRLRC."
+34,Patna High Court,Patna,CR. WJC,Criminal Writ Jurisdiction Case,CR_WJC,,,,Criminal Writ Jurisdiction Case,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: CR_WJC.
+34,Patna High Court,Patna,D. REF.,DEATH REFERENCE,DREF,,,,Death Reference,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: DREF.
+34,Patna High Court,Patna,E.P.,ELECTION PETITION,EP,,,,Election Petition,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: EP.
+34,Patna High Court,Patna,L.P.A,Letters Patent Appeal,LPA,,,,Letters Patent Appeal,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: LPA.
+34,Patna High Court,Patna,SLP,SPECIAL LEAVE PETITION,SLP_C,SLP_CRL,,,Special Leave Petition (Civil),Special Leave Petition (Criminal),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: SLP_C, SLP_CRL."

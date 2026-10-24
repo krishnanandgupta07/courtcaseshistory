@@ -1,6 +1,10 @@
 import { formatCaseNumberWithType, formatDisplayDate } from '../api/ecourts';
 import type { CaseDetail, CaseHearing, CaseOrder } from '../types/ecourts';
+import { courtOrderSheetCss, formatCourtOrderHtml } from './courtOrderHtml';
 import { pdfBrandStripCss, pdfBrandStripHtml } from './pdfBrandStrip';
+import { buildPdfFileName, type PdfFileNameContext } from './pdfFileName';
+
+export type { PdfFileNameContext } from './pdfFileName';
 
 export type DateSortOrder = 'asc' | 'desc';
 
@@ -23,12 +27,25 @@ export function sortByDateValue<T>(
   getDate: (item: T) => string | undefined | null,
   order: DateSortOrder,
 ): T[] {
-  return [...items].sort((a, b) => {
-    const left = getDate(a) || '';
-    const right = getDate(b) || '';
-    const compared = left.localeCompare(right);
-    return order === 'asc' ? compared : -compared;
-  });
+  return items
+    .map((item, index) => ({ item, index }))
+    .sort((a, b) => {
+      const left = getDate(a.item) || '';
+      const right = getDate(b.item) || '';
+      const compared = left.localeCompare(right);
+      if (compared !== 0) {
+        return order === 'asc' ? compared : -compared;
+      }
+      // Same date: keep API sequence so the last hearing is first in DESC
+      // and last in ASC.
+      return order === 'asc' ? a.index - b.index : b.index - a.index;
+    })
+    .map(({ item }) => item);
+}
+
+/** Listing date for a history row: this hearing, not the next hearingDate. */
+export function getHearingListDate(hearing: CaseHearing): string | undefined {
+  return hearing.businessOnDate || hearing.hearingDate;
 }
 
 function collectUniqueNames(...lists: Array<Array<string | undefined> | undefined>): string[] {
@@ -69,6 +86,7 @@ function formatPartyListHtml(names: string[]): string {
 
 export function wrapCaseReportHtml(options: {
   title: string;
+  documentTitle: string;
   caseData: CaseDetail;
   tableHead: string;
   tableBody: string;
@@ -81,7 +99,7 @@ export function wrapCaseReportHtml(options: {
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>${escapeHtml(options.title)} - ${escapeHtml(meta.cnr)}</title>
+  <title>${escapeHtml(options.documentTitle)}</title>
   <style>
     body { font-family: Georgia, 'Times New Roman', serif; color: #2A2620; margin: 24px; background: #fff; }
     h1 { font-size: 22px; margin: 0 0 8px; color: #1C2B4A; text-align: center; }
@@ -147,15 +165,16 @@ export function wrapCaseReportHtml(options: {
 </html>`;
 }
 
-/** Print / Save-as-PDF using a hidden iframe (no popup window). */
+/** Print / Save-as-PDF using a hidden iframe (no popup window).
+ * Chrome's "Save as PDF" uses the top-level document title as the file name. */
 export function printHtmlDocument(title: string, html: string) {
   const iframe = document.createElement('iframe');
   iframe.setAttribute('title', title);
   iframe.style.position = 'fixed';
-  iframe.style.right = '0';
-  iframe.style.bottom = '0';
-  iframe.style.width = '0';
-  iframe.style.height = '0';
+  iframe.style.left = '-10000px';
+  iframe.style.top = '0';
+  iframe.style.width = '830px';
+  iframe.style.height = '1100px';
   iframe.style.border = '0';
   iframe.style.opacity = '0';
   iframe.style.pointerEvents = 'none';
@@ -171,20 +190,40 @@ export function printHtmlDocument(title: string, html: string) {
   frameDocument.open();
   frameDocument.write(html);
   frameDocument.close();
+  frameDocument.title = title;
 
-  const cleanup = () => {
-    if (iframe.parentNode) {
-      iframe.parentNode.removeChild(iframe);
-    }
+  const previousTitle = document.title;
+  document.title = title;
+
+  let finished = false;
+  const finish = () => {
+    if (finished) return;
+    finished = true;
+    window.removeEventListener('afterprint', finish);
+    frameWindow.removeEventListener('afterprint', finish);
+    // Keep the custom title until Chrome's Save As dialog has copied it.
+    window.setTimeout(() => {
+      document.title = previousTitle;
+      if (iframe.parentNode) {
+        iframe.parentNode.removeChild(iframe);
+      }
+    }, 10000);
   };
+
+  window.addEventListener('afterprint', finish);
+  frameWindow.addEventListener('afterprint', finish);
 
   const triggerPrint = () => {
     try {
       frameWindow.focus();
       frameWindow.print();
-    } finally {
-      window.setTimeout(cleanup, 1500);
+    } catch (error) {
+      finish();
+      throw error instanceof Error
+        ? error
+        : new Error('Unable to open print dialog.');
     }
+    window.setTimeout(finish, 120000);
   };
 
   window.setTimeout(triggerPrint, 250);
@@ -195,14 +234,14 @@ export function sortOrders(orders: CaseOrder[], order: DateSortOrder): CaseOrder
 }
 
 export function sortHearings(hearings: CaseHearing[], order: DateSortOrder): CaseHearing[] {
-  return sortByDateValue(
-    hearings,
-    (item) => item.hearingDate || item.businessOnDate,
-    order,
-  );
+  return sortByDateValue(hearings, getHearingListDate, order);
 }
 
-export function buildOrdersHtml(caseData: CaseDetail, orders: CaseOrder[]): string {
+export function buildOrdersHtml(
+  caseData: CaseDetail,
+  orders: CaseOrder[],
+  fileNameContext?: PdfFileNameContext,
+): string {
   const rows = orders
     .map(
       (order, index) => `
@@ -217,6 +256,9 @@ export function buildOrdersHtml(caseData: CaseDetail, orders: CaseOrder[]): stri
 
   return wrapCaseReportHtml({
     title: 'Orders / Judgments',
+    documentTitle: fileNameContext
+      ? buildPdfFileName('orders', caseData, fileNameContext)
+      : `Orders / Judgments - ${caseData.cnr || 'case'}`,
     caseData,
     tableHead: `
       <th style="width:6%">S No</th>
@@ -229,17 +271,99 @@ export function buildOrdersHtml(caseData: CaseDetail, orders: CaseOrder[]): stri
   });
 }
 
-export function printOrdersDocument(caseData: CaseDetail, orders: CaseOrder[]) {
-  printHtmlDocument('Orders / Judgments PDF', buildOrdersHtml(caseData, orders));
+export function printOrdersDocument(
+  caseData: CaseDetail,
+  orders: CaseOrder[],
+  fileNameContext?: PdfFileNameContext,
+) {
+  const html = buildOrdersHtml(caseData, orders, fileNameContext);
+  const fileName = fileNameContext
+    ? buildPdfFileName('orders', caseData, fileNameContext)
+    : 'Orders / Judgments PDF';
+  printHtmlDocument(fileName, html);
 }
 
-export function buildCaseHistoryHtml(caseData: CaseDetail, hearings: CaseHearing[]): string {
+export function buildOrderFileHtml(
+  caseData: CaseDetail,
+  options: {
+    documentTitle: string;
+    heading: string;
+    orderDate?: string;
+    orderType?: string;
+    body?: string;
+  },
+): string {
+  const meta = getCaseReportMeta(caseData);
+  const body = (options.body || '').trim();
+  const orderHtml = body
+    ? formatCourtOrderHtml(body)
+    : '<p class="order-para">No order text is available for this document.</p>';
+
+  return `<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>${escapeHtml(options.documentTitle)}</title>
+  <style>
+    body { font-family: 'Times New Roman', Times, Georgia, serif; color: #2A2620; margin: 24px; background: #fff; }
+    h1 { font-size: 22px; margin: 0 0 8px; color: #1C2B4A; text-align: center; }
+    .meta-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px 28px;
+      margin: 0 0 18px;
+      font-size: 13px;
+      line-height: 1.55;
+      color: #6B6455;
+    }
+    .meta-grid strong { color: #1C2B4A; }
+    .meta-item { margin: 0; }
+    .party-list { margin: 4px 0 0 18px; padding: 0; }
+    .party-list li { margin: 0 0 2px; }
+    ${courtOrderSheetCss()}
+    ${pdfBrandStripCss()}
+    @media print {
+      .no-print { display: none !important; }
+    }
+  </style>
+</head>
+<body class="has-site-strip">
+  ${pdfBrandStripHtml()}
+  <h1>${escapeHtml(options.heading)}</h1>
+  <div class="meta-grid">
+    <p class="meta-item"><strong>CNR Number:</strong> ${cell(meta.cnr)}</p>
+    <p class="meta-item"><strong>Case Number:</strong> ${cell(meta.caseNumber)}</p>
+    <p class="meta-item"><strong>Order Date:</strong> ${cell(formatDisplayDate(options.orderDate))}</p>
+    <p class="meta-item"><strong>Type:</strong> ${cell(options.orderType)}</p>
+    <div class="meta-item">
+      <strong>Petitioner(s):</strong>
+      ${formatPartyListHtml(meta.petitioners)}
+    </div>
+    <div class="meta-item">
+      <strong>Respondent(s):</strong>
+      ${formatPartyListHtml(meta.respondents)}
+    </div>
+  </div>
+  <article class="order-sheet">${orderHtml}</article>
+</body>
+</html>`;
+}
+
+export function printOrderFileDocument(title: string, html: string) {
+  printHtmlDocument(title, html);
+}
+
+export function buildCaseHistoryHtml(
+  caseData: CaseDetail,
+  hearings: CaseHearing[],
+  fileNameContext?: PdfFileNameContext,
+): string {
   const rows = hearings
     .map(
       (hearing, index) => `
       <tr>
         <td class="sno">${index + 1}</td>
-        <td>${cell(formatDisplayDate(hearing.hearingDate || hearing.businessOnDate))}</td>
+        <td>${cell(formatDisplayDate(getHearingListDate(hearing)))}</td>
         <td>${cell(hearing.causeListType)}</td>
         <td>${cell(hearing.judge)}</td>
         <td class="wrap">${cell(hearing.purposeOfListing)}</td>
@@ -249,6 +373,9 @@ export function buildCaseHistoryHtml(caseData: CaseDetail, hearings: CaseHearing
 
   return wrapCaseReportHtml({
     title: 'Case History',
+    documentTitle: fileNameContext
+      ? buildPdfFileName('casehistory', caseData, fileNameContext)
+      : `Case History - ${caseData.cnr || 'case'}`,
     caseData,
     tableHead: `
       <th style="width:6%">S No</th>
@@ -262,6 +389,14 @@ export function buildCaseHistoryHtml(caseData: CaseDetail, hearings: CaseHearing
   });
 }
 
-export function printCaseHistoryDocument(caseData: CaseDetail, hearings: CaseHearing[]) {
-  printHtmlDocument('Case History PDF', buildCaseHistoryHtml(caseData, hearings));
+export function printCaseHistoryDocument(
+  caseData: CaseDetail,
+  hearings: CaseHearing[],
+  fileNameContext?: PdfFileNameContext,
+) {
+  const html = buildCaseHistoryHtml(caseData, hearings, fileNameContext);
+  const fileName = fileNameContext
+    ? buildPdfFileName('casehistory', caseData, fileNameContext)
+    : 'Case History PDF';
+  printHtmlDocument(fileName, html);
 }

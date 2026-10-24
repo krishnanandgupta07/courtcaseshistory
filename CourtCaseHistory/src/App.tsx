@@ -4,7 +4,7 @@ import { AppHeader } from './components/AppHeader';
 import { CaseStatusSearch } from './components/CaseStatusSearch';
 import { CnrSearch } from './components/CnrSearch';
 import { Footer } from './components/Footer';
-import { courtTypes, searchModes } from './config/courtLevels';
+import { courtTypes, DEFAULT_SEARCH_MODE } from './config/courtLevels';
 import { SEO_COURTS } from './seo/site';
 import { readSearchLaunchParams } from './seo/launchParams';
 
@@ -14,16 +14,26 @@ function App() {
     launch.courtTypeId ?? courtTypes[0].id,
   );
   const [activeSearchMode, setActiveSearchMode] = useState(
-    launch.searchModeId ?? searchModes[0].id,
+    launch.searchModeId ?? DEFAULT_SEARCH_MODE,
   );
+
+  function handleCourtTypeChange(id: string) {
+    setActiveCourtType(id);
+  }
+
+  function handleSearchModeChange(id: string) {
+    if (id === 'cnr' || id === 'case-status') {
+      setActiveSearchMode(id);
+    }
+  }
 
   return (
     <div className="min-h-screen bg-parchment text-ink">
       <AppHeader
         activeCourtType={activeCourtType}
         activeSearchMode={activeSearchMode}
-        onCourtTypeChange={setActiveCourtType}
-        onSearchModeChange={setActiveSearchMode}
+        onCourtTypeChange={handleCourtTypeChange}
+        onSearchModeChange={handleSearchModeChange}
       />
 
       <main className="mx-auto w-full max-w-7xl px-3 py-3 sm:px-4 sm:py-4">

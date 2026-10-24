@@ -44,6 +44,7 @@ export type InterlocutoryApplication = {
 
 export type CaseFile = {
   pdfFile?: string;
+  pdfUrl?: string;
   markdownFile?: string;
   markdownContent?: string;
 };

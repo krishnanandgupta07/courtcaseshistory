@@ -1,0 +1,17 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+31,Manipur High Court,Imphal,BAIL APPLN.,Bail Application(93),BA,,,,Bail Application,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: BA.
+31,Manipur High Court,Imphal,COMPET,Company Petition(159),COP,,,,Company Petition,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: COP.
+31,Manipur High Court,Imphal,CRAPL,Criminal Appeal(169),CRL_A,,,,Criminal Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CRL_A.
+31,Manipur High Court,Imphal,Co.Pet.,Company Petition(20),COP,,,,Company Petition,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: COP.
+31,Manipur High Court,Imphal,Cus. App.,Customs Appeal(220),CU_CESTAT,,,,Customs Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CU_CESTAT.
+31,Manipur High Court,Imphal,EL.PET.,Election Petition(58),EP,,,,Election Petition,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: EP.
+31,Manipur High Court,Imphal,FA(T),First Appeal(183),FA,,,,First Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: FA.
+31,Manipur High Court,Imphal,MAC,Motor Accident Claims(56),MACA,,,,Motor Accident Claims Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: MACA.
+31,Manipur High Court,Imphal,MACApp.,Motor Accident Appeal(57),MACA,,,,Motor Accident Claims Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: MACA.
+31,Manipur High Court,Imphal,MAF,Miscellaneous Appeal(first)(188),MFA,,,,Miscellaneous First Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: MFA.
+31,Manipur High Court,Imphal,MAF(T),Miscellaneous Appeal First(tender)(189),MFA,,,,Miscellaneous First Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: MFA.
+31,Manipur High Court,Imphal,MC(LPA),Misc. Case of Letters Patent Appeal(110),LPA,,,,Letters Patent Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: LPA.
+31,Manipur High Court,Imphal,MC(MAF),Misc. Case of Miscellaneous Appeal (first)(111),MFA,,,,Miscellaneous First Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: MFA.
+31,Manipur High Court,Imphal,MC(PIL),Misc. Case of Public Interest Litigation(114),PIL,,,,Public Interest Litigation,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: PIL.
+31,Manipur High Court,Imphal,RCFA,First Appeal(53),FA,,,,First Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: FA.
+31,Manipur High Court,Imphal,Tr.P.(Crl.),Transfer Petition for transfer a Criminal Proceeding(99),TP_CRL,,,,Transfer Petition (Criminal),,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: TP_CRL.

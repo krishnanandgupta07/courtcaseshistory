@@ -1,0 +1,25 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+2,Allahabad High Court,Lucknow,CEXA,CENTRAL EXCISE APPEAL,EX_CESTAT,,,,Excise Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: EX_CESTAT.
+2,Allahabad High Court,Lucknow,CLRED,CIVIL REVISION DEFECTIVE,C_REV,,,,Civil Revision,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: C_REV.
+2,Allahabad High Court,Lucknow,COMA,COMPANY APPEAL,CAPP_AT,CAPP_CA,,,Company Appeal (AT),Company Appeal (Companies Act),,,NO,NO,review,"Related but not confirmed. Review before seeding. Possible eCourts codes: CAPP_AT, CAPP_CA."
+2,Allahabad High Court,Lucknow,COMP,COMPANY APPLICATION,CA_CA,,,,Company Application (Companies Act),,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CA_CA.
+2,Allahabad High Court,Lucknow,COSU,COMPANY ORIGINAL SUIT,OS,,,,Original Suit,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: OS.
+2,Allahabad High Court,Lucknow,CRLAD,CRIMINAL APPEAL DEFECTIVE,CRL_A,,,,Criminal Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CRL_A.
+2,Allahabad High Court,Lucknow,CRLRD,CRIMINAL REVISION DEFECTIVE,CR_REV,CRLRC,,,Criminal Revision,Criminal Revision Case,,,NO,NO,review,"Related but not confirmed. Review before seeding. Possible eCourts codes: CR_REV, CRLRC."
+2,Allahabad High Court,Lucknow,CRPIL,CRIMINAL WRIT-PUBLIC INTEREST LITIGATION,WP_C_PIL,WP_PIL,PIL,,Writ Petition (Public Interest Litigation),Writ Petition (Public Interest Litigation),Public Interest Litigation,,NO,NO,review,"Related but not confirmed. Review before seeding. Possible eCourts codes: WP_C_PIL, WP_PIL, PIL."
+2,Allahabad High Court,Lucknow,EAPLD,ESTATE DUTY APPEAL DEFECTIVE,EDA,,,,Estate Duty Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: EDA.
+2,Allahabad High Court,Lucknow,EFAPL,EQUATION FIRST APPEAL,FA,,,,First Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: FA.
+2,Allahabad High Court,Lucknow,FAPLD,FIRST APPEAL DEFECTIVE,FA,,,,First Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: FA.
+2,Allahabad High Court,Lucknow,GAPLD,GIFT TAX APPEAL DEFECTIVE,GTA,,,,Gift Tax Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: GTA.
+2,Allahabad High Court,Lucknow,GSTAL,GOODS AND SERVICE TAX APPEAL,SV_CESTAT,,,,Service Tax Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: SV_CESTAT.
+2,Allahabad High Court,Lucknow,GSTALD,GOODS AND SERVICE TAX APPEAL DEFECTIVE,SV_CESTAT,,,,Service Tax Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: SV_CESTAT.
+2,Allahabad High Court,Lucknow,GTRE,GIFT TAX REFERENCE,Tax_Ref,,,,Tax Reference Case,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: Tax_Ref.
+2,Allahabad High Court,Lucknow,HABC,HABEAS CORPUS WRIT PETITION,HCP,,,,Habeas Corpus Petition,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: HCP.
+2,Allahabad High Court,Lucknow,IAPLD,INCOME TAX APPEAL DEFECTIVE,ITA,,,,Income Tax Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: ITA.
+2,Allahabad High Court,Lucknow,ITRE,INCOME TAX REFERENCE,Tax_Ref,,,,Tax Reference Case,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: Tax_Ref.
+2,Allahabad High Court,Lucknow,RERAD,RERA APPEAL DEFECTIVE,RERA,,,,RERA Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: RERA.
+2,Allahabad High Court,Lucknow,SAMC,SECOND APPEAL MISC CASES,SA,,,,Second Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: SA.
+2,Allahabad High Court,Lucknow,SAPLD,SECOND APPEAL DEFECTIVE,SA,,,,Second Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: SA.
+2,Allahabad High Court,Lucknow,WAPLD,WEALTH TAX APPEAL DEFECTIVE,WTA,,,,Wealth Tax Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: WTA.
+2,Allahabad High Court,Lucknow,WPIL,WRIT - PUBLIC INTEREST LITIGATION,WP_C_PIL,WP_PIL,PIL,,Writ Petition (Public Interest Litigation),Writ Petition (Public Interest Litigation),Public Interest Litigation,,NO,NO,review,"Related but not confirmed. Review before seeding. Possible eCourts codes: WP_C_PIL, WP_PIL, PIL."
+2,Allahabad High Court,Lucknow,WTAR,WEALTH TAX REFERENCE,Tax_Ref,,,,Tax Reference Case,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: Tax_Ref.

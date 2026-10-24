@@ -1,0 +1,9 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+39,Telangana High Court,Hyderabad,CMARERA,Civil Miscellaneous Appeal RERA,CMA,,,,Civil Miscellaneous Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CMA.
+39,Telangana High Court,Hyderabad,CMSA,CIVIL MISCELLANEOUS SECOND APPEAL,CMA,,,,Civil Miscellaneous Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CMA.
+39,Telangana High Court,Hyderabad,COMAA,COMMERCIAL ARBITRATION APPEAL,ARB_A,,,,Arbitration Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: ARB_A.
+39,Telangana High Court,Hyderabad,COMPA,COMPANY APPL. IN COMPANY PETITION,COP,,,,Company Petition,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: COP.
+39,Telangana High Court,Hyderabad,CS(9BY1),CIVIL SUIT (9BY1),CS,,,,Civil Suit,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CS.
+39,Telangana High Court,Hyderabad,SARERA,Second Appeal RERA,RERA,SA,,,RERA Appeal,Second Appeal,,,NO,NO,review,"Related but not confirmed. Review before seeding. Possible eCourts codes: RERA, SA."
+39,Telangana High Court,Hyderabad,WA X-OBJ,Writ Cross Objection,CO,XOBJ,,,Cross Objection,Cross Objection,,,NO,NO,review,"Related but not confirmed. Review before seeding. Possible eCourts codes: CO, XOBJ."
+39,Telangana High Court,Hyderabad,WTC,WEALTH TAX CASE,WTA,,,,Wealth Tax Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: WTA.

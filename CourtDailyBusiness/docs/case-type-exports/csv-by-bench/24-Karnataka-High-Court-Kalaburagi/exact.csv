@@ -1,0 +1,14 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+24,Karnataka High Court,Kalaburagi,COP,Company Petition,COP,,,,Company Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+24,Karnataka High Court,Kalaburagi,CRL.RC,Criminal Referred Case,CRLRC,,,,Criminal Revision Case,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+24,Karnataka High Court,Kalaburagi,CRP,Civil Revision Petition,CRP,,,,Civil Revision Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+24,Karnataka High Court,Kalaburagi,EP,Election Petition,EP,,,,Election Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+24,Karnataka High Court,Kalaburagi,GTA,Gift Tax Appeal,GTA,,,,Gift Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+24,Karnataka High Court,Kalaburagi,ITA,Income Tax Appeal,ITA,,,,Income Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+24,Karnataka High Court,Kalaburagi,MFA,Miscellaneous First Appeal,MFA,,,,Miscellaneous First Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+24,Karnataka High Court,Kalaburagi,OS,Original Suit,OS,,,,Original Suit,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+24,Karnataka High Court,Kalaburagi,RFA,Regular First Appeal,RFA,FA,,,Regular First Appeal,First Appeal,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+24,Karnataka High Court,Kalaburagi,RSA,Regular Second Appeal,RSA,SA,,,Regular Second Appeal,Second Appeal,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+24,Karnataka High Court,Kalaburagi,STA,Sales Tax Appeal,STA,,,,Sur Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+24,Karnataka High Court,Kalaburagi,WA,Writ Appeal,WA,,,,Writ Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+24,Karnataka High Court,Kalaburagi,WTA,Wealth Tax Appeal,WTA,,,,Wealth Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.

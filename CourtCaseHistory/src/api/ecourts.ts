@@ -173,7 +173,7 @@ function normalizeBusinessOnDateEntries(value: unknown): BusinessOnDateEntry[] {
     const record = asRecord(item);
     if (!record) continue;
     entries.push({
-      date: pickString(record, ['date', 'businessDate', 'hearingDate']),
+      date: pickString(record, ['date', 'businessDate', 'businessOnDate', 'hearingDate']),
       courtOf: pickString(record, ['courtOf', 'court', 'courtName']),
       petitioner: pickString(record, ['petitioner', 'petitioners']),
       respondent: pickString(record, ['respondent', 'respondents']),
@@ -636,7 +636,7 @@ export async function fetchAppCourtsList(courtLevel: CourtLevel): Promise<AppCou
 
 /** Case types for a local bench (`case_types` table). Public `benchId` query. */
 export async function fetchCaseTypesByBench(benchId: string): Promise<SelectOption[]> {
-  const body = await apiGetPublic('/api/casetypes', { benchId });
+  const body = await apiGetPublic('/api/web/casetypes', { benchId });
   const options = sortSelectOptions(
     normalizeOptions(body).filter((option) => option.code !== 'UNKNOWN'),
   );

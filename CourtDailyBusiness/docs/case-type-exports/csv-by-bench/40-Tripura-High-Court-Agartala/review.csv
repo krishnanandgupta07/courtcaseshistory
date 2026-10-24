@@ -1,0 +1,12 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+40,Tripura High Court,Agartala,AB,Anticipatory Bail,ABA,,,,Anticipatory Bail Application,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: ABA.
+40,Tripura High Court,Agartala,CMAppl.(CRP),Misc. Application In Civil Revision Petition,CRP,,,,Civil Revision Petition,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CRP.
+40,Tripura High Court,Agartala,Central Ex.App.,Central Excise Appeal,EX_CESTAT,,,,Excise Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: EX_CESTAT.
+40,Tripura High Court,Agartala,Ex.FA.,Execution First Appeal,FA,,,,First Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: FA.
+40,Tripura High Court,Agartala,FA(D),First Appeal(Divorce),FA,,,,First Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: FA.
+40,Tripura High Court,Agartala,LA.App.,Land Acquisition Appeals,LC,,,,Land Acquisition Case,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: LC.
+40,Tripura High Court,Agartala,MAF(T),Miscellaneous Appeal First(tender),MFA,,,,Miscellaneous First Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: MFA.
+40,Tripura High Court,Agartala,MFA(Customs Act),Miscellaneous First Appeal ( Customs Act),MFA,,,,Miscellaneous First Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: MFA.
+40,Tripura High Court,Agartala,REP,Recrimination Case in Election Petition,EP,,,,Election Petition,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: EP.
+40,Tripura High Court,Agartala,Tr.P.(Crl.),Transfer Petition For Transfer A Criminal Proceeding.,TP_CRL,,,,Transfer Petition (Criminal),,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: TP_CRL.
+40,Tripura High Court,Agartala,WP(C)(HC),Writ Petition Civil for Habeas Corpus,HCP,WP_C,,,Habeas Corpus Petition,Writ Petition (Civil),,,NO,NO,review,"Related but not confirmed. Review before seeding. Possible eCourts codes: HCP, WP_C."

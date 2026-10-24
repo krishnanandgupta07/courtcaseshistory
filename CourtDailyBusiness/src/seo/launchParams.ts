@@ -35,7 +35,9 @@ export function readSearchLaunchParams(
       ? 'case-status'
       : initialCnr
         ? 'cnr'
-        : null;
+        : courtTypeId
+          ? 'case-status'
+          : null;
 
   return {
     courtTypeId,

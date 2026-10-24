@@ -1,0 +1,11 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+13,Delhi High Court,New Delhi,C.O.,CIVIL ORIGINAL,CO,,,,Cross Objection,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+13,Delhi High Court,New Delhi,GTA,GIFT TAX APPEALS,GTA,,,,Gift Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+13,Delhi High Court,New Delhi,ITA,INCOME TAX APPEAL,ITA,,,,Income Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+13,Delhi High Court,New Delhi,LPA,LETTER PATENT APPEAL,LPA,,,,Letters Patent Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+13,Delhi High Court,New Delhi,O.M.P.,ORGL. MISC. PETITION,OMP,,,,Original Miscellaneous Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+13,Delhi High Court,New Delhi,RC.S.A.,SEC. APP. FROM ORDER,RCS_A,,,,Regular Civil Suit - Class A,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+13,Delhi High Court,New Delhi,RFA,REGULAR FIST APPEAL,RFA,FA,,,Regular First Appeal,First Appeal,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+13,Delhi High Court,New Delhi,W.P.(C),CIVIL WRITS,WP_C,,,,Writ Petition (Civil),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+13,Delhi High Court,New Delhi,W.P.(CRL),CRIMINAL WRITS,WP_CRL,,,,Writ Petition (Criminal),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+13,Delhi High Court,New Delhi,WTA,WEALTH TAX CASE,WTA,,,,Wealth Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.

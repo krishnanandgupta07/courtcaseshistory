@@ -1,0 +1,14 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+25,Kerala High Court,Kochi,COM.S,Commercial Suit-(177),COM_S,,,,Commercial Suit,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+25,Kerala High Court,Kochi,COP,Company Petition-(102),COP,,,,Company Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+25,Kerala High Court,Kochi,CRL.RC,Criminal Referred Case-(113),CRLRC,,,,Criminal Revision Case,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+25,Kerala High Court,Kochi,CRP,Civil Revision Petition-(108),CRP,,,,Civil Revision Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+25,Kerala High Court,Kochi,EP,Election Petition-(116),EP,,,,Election Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+25,Kerala High Court,Kochi,GTA,Gift Tax Appeal-(148),GTA,,,,Gift Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+25,Kerala High Court,Kochi,ITA,Income Tax Appeal-(120),ITA,,,,Income Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+25,Kerala High Court,Kochi,OS,Original Suit-(154),OS,,,,Original Suit,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+25,Kerala High Court,Kochi,RFA,Regular First Appeal-(132),RFA,FA,,,Regular First Appeal,First Appeal,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+25,Kerala High Court,Kochi,RSA,Regular Second Appeal-(136),RSA,SA,,,Regular Second Appeal,Second Appeal,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+25,Kerala High Court,Kochi,SA,Second Appeal-(174),SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+25,Kerala High Court,Kochi,WA,Writ Appeal-(145),WA,,,,Writ Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+25,Kerala High Court,Kochi,WTA,Wealth Tax Appeal-(149),WTA,,,,Wealth Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.

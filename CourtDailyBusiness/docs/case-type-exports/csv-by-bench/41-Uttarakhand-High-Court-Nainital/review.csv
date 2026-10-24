@@ -1,0 +1,14 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+41,Uttarakhand High Court,Nainital,ABCA,ANTICIPATORY BAIL CANCELLATION APPLICATION(192),ABA,,,,Anticipatory Bail Application,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: ABA.
+41,Uttarakhand High Court,Nainital,CLMA,CIVIL MISC. APPLICATION FOR SPECIAL CASES(157),SCA,,,,Special Civil Application,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: SCA.
+41,Uttarakhand High Court,Nainital,CLR,CIVIL REVISION(9),C_REV,,,,Civil Revision,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: C_REV.
+41,Uttarakhand High Court,Nainital,COMP,COMPANY PETITION(11),COP,,,,Company Petition,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: COP.
+41,Uttarakhand High Court,Nainital,CRLR,CRIMINAL REVISION(15),CR_REV,CRLRC,,,Criminal Revision,Criminal Revision Case,,,NO,NO,review,"Related but not confirmed. Review before seeding. Possible eCourts codes: CR_REV, CRLRC."
+41,Uttarakhand High Court,Nainital,CROSS,CROSS OBJECTION(40),CO,XOBJ,,,Cross Objection,Cross Objection,,,NO,NO,review,"Related but not confirmed. Review before seeding. Possible eCourts codes: CO, XOBJ."
+41,Uttarakhand High Court,Nainital,CTA,Customs Appeal(182),CU_CESTAT,,,,Customs Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CU_CESTAT.
+41,Uttarakhand High Court,Nainital,DITA,DEFECTIVE INCOME TAX APPEAL(101),ITA,,,,Income Tax Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: ITA.
+41,Uttarakhand High Court,Nainital,ELEP,ELECTION PETITION(16),EP,,,,Election Petition,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: EP.
+41,Uttarakhand High Court,Nainital,LITA,LODGING INCOME TAX APPEAL(134),ITA,,,,Income Tax Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: ITA.
+41,Uttarakhand High Court,Nainital,RENC,RENT CONTROL(23),RC,,,,Rent Control Case,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: RC.
+41,Uttarakhand High Court,Nainital,SABA,SECOND ANTICIPATORY BAIL APPLICATION(184),ABA,,,,Anticipatory Bail Application,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: ABA.
+41,Uttarakhand High Court,Nainital,WPCRLS,WRIT PETITION CRIMINAL SINGLE(171),WP_CRL,,,,Writ Petition (Criminal),,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: WP_CRL.

@@ -1,0 +1,44 @@
+﻿bench_id,court,bench,ecourtsindia_cc,dropdown_total,exact_match,suggested_map,review,conflict,not_available_in_ecourtsindia,backend_seed_count,backend_seed_pct
+1,Allahabad High Court,Allahabad(Prayagraj),UPHC01,154,1,17,24,0,112,18,11.7%
+2,Allahabad High Court,Lucknow,UPHC02,154,1,17,24,0,112,18,11.7%
+3,Andhra Pradesh High Court,Amaravati,APHC01,80,10,26,2,4,38,36,45.0%
+5,Bombay High Court,Aurangabad,HCBM03,66,10,11,13,4,28,21,31.8%
+8,Bombay High Court,Kolhapur,HCBM01,130,7,8,15,4,96,15,11.5%
+4,Bombay High Court,Mumbai,HCBM01,119,6,7,11,4,91,13,10.9%
+6,Bombay High Court,Nagpur,HCBM02,93,11,12,13,3,54,23,24.7%
+7,Bombay High Court,Panaji,HCBM04,78,7,13,16,1,41,20,25.6%
+10,Calcutta High Court,Jalpaiguri,WBHC01,71,5,3,9,2,52,8,11.3%
+9,Calcutta High Court,kolkata,WBHC01,134,2,5,4,5,118,7,5.2%
+11,Calcutta High Court,Port Blair,WBHC01,66,5,3,11,2,45,8,12.1%
+12,Chhattisgarh High Court,Bilaspur,CGHC01,62,3,13,0,5,41,16,25.8%
+13,Delhi High Court,New Delhi,DLHC01,154,10,13,5,1,125,23,14.9%
+15,Gauhati High Court,Aizawl,GAHC01,79,5,4,5,4,61,9,11.4%
+14,Gauhati High Court,Guwahati,GAHC01,112,10,2,4,2,94,12,10.7%
+16,Gauhati High Court,Itanagar,GAHC01,135,6,4,9,1,115,10,7.4%
+17,Gauhati High Court,Kohima,GAHC01,217,11,10,15,7,174,21,9.7%
+18,Gujarat High Court,Ahmedabad,GJHC01,217,11,10,15,7,174,21,9.7%
+19,Himachal Pradesh High Court,Shimla,HPHC01,91,12,8,7,1,63,20,22.0%
+20,Jammu & Kashmir and Ladakh High Court,Jammu,JKHC02,234,9,9,3,4,209,18,7.7%
+43,Jammu & Kashmir and Ladakh High Court,Srinagar,JKHC01,0,0,0,0,0,0,0,0%
+21,Jharkhand High Court,Ranchi,JHHC01,64,14,2,3,4,41,16,25.0%
+22,Karnataka High Court,Bengaluru,KAHC01,72,13,10,18,0,31,23,31.9%
+23,Karnataka High Court,Dharwad,KAHC02,72,13,10,18,0,31,23,31.9%
+24,Karnataka High Court,Kalaburagi,KAHC03,72,13,10,17,0,32,23,31.9%
+25,Kerala High Court,Kochi,KLHC01,75,13,7,3,4,48,20,26.7%
+27,Madhya Pradesh High Court,Gwalior,MPHC02,104,13,14,15,4,58,27,26.0%
+28,Madhya Pradesh High Court,Indore,MPHC03,104,13,14,15,4,58,27,26.0%
+26,Madhya Pradesh High Court,Jabalpur,MPHC01,104,13,14,15,4,58,27,26.0%
+29,Madras High Court,Chennai,HCMA01,169,8,14,27,3,117,22,13.0%
+30,Madras High Court,Madurai,HCMD01,124,6,4,6,0,108,10,8.1%
+31,Manipur High Court,Imphal,MNHC01,218,14,7,16,4,177,21,9.6%
+32,Meghalaya High Court,Shillong,MLHC01,226,11,11,12,10,182,22,9.7%
+33,Orissa High Court,Cuttack,ODHC01,160,10,15,2,8,125,25,15.6%
+34,Patna High Court,Patna,BRHC01,45,6,9,5,2,23,15,33.3%
+35,Punjab and Haryana High Court,Chandigarh,PHHC01,131,15,13,25,3,75,28,21.4%
+37,Rajasthan High Court,Jaipur,RJHC02,94,6,8,35,1,44,14,14.9%
+36,Rajasthan High Court,Jodhpur,RJHC01,118,8,8,23,2,77,16,13.6%
+38,Sikkim High Court,Gangtok,SKHC01,40,4,4,4,1,27,8,20.0%
+42,Supreme Court,Supreme Court,SCIN01,34,1,15,8,0,10,16,47.1%
+39,Telangana High Court,Hyderabad,HBHC01,91,11,31,8,4,37,42,46.2%
+40,Tripura High Court,Agartala,TRHC01,94,11,12,11,5,55,23,24.5%
+41,Uttarakhand High Court,Nainital,UKHC01,198,9,2,13,3,171,11,5.6%

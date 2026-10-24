@@ -1,0 +1,18 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+2,Allahabad High Court,Lucknow,APPL,APPL.,CMAppl,MA,,,Civil Miscellaneous Application,Miscellaneous Application (Civil),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: CMAppl, MA."
+2,Allahabad High Court,Lucknow,CLRE,CIVIL REVISION,C_REV,,,,Civil Revision,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: C_REV.
+2,Allahabad High Court,Lucknow,COPP,COMPANY PETITION,COP,,,,Company Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: COP.
+2,Allahabad High Court,Lucknow,CRLA,CRIMINAL APPEAL,CRL_A,,,,Criminal Appeal,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+2,Allahabad High Court,Lucknow,CRLP,CRIMINAL MISC. WRIT PETITION,CRLP,,,,Criminal Leave Petition,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: CRLP.
+2,Allahabad High Court,Lucknow,CRLR,CRIMINAL REVISION,CR_REV,CRLRC,,,Criminal Revision,Criminal Revision Case,,,NO,YES,suggested,"Website code differs from eCourts. Backend should search: CR_REV, CRLRC."
+2,Allahabad High Court,Lucknow,CROB,CROSS OBJECTION,CO,XOBJ,,,Cross Objection,Cross Objection,,,NO,YES,suggested,"Website code differs from eCourts. Backend should search: CO, XOBJ."
+2,Allahabad High Court,Lucknow,CUSA,CUSTOMS APPEAL,CU_CESTAT,,,,Customs Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: CU_CESTAT.
+2,Allahabad High Court,Lucknow,EAPL,ESTATE DUTY APPEAL,EDA,,,,Estate Duty Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: EDA.
+2,Allahabad High Court,Lucknow,ELEP,ELECTION PETITION,EP,,,,Election Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: EP.
+2,Allahabad High Court,Lucknow,FAPL,FIRST APPEAL,FA,,,,First Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: FA.
+2,Allahabad High Court,Lucknow,GAPL,GIFT TAX APPEAL,GTA,,,,Gift Tax Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: GTA.
+2,Allahabad High Court,Lucknow,IAPL,INCOME TAX APPEAL,ITA,,,,Income Tax Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: ITA.
+2,Allahabad High Court,Lucknow,OSUT,ORIGINAL SUIT,OS,,,,Original Suit,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: OS.
+2,Allahabad High Court,Lucknow,SAPL,SECOND APPEAL,SA,,,,Second Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: SA.
+2,Allahabad High Court,Lucknow,TESU,TESTAMENTARY SUIT,TS,,,,Testamentary Suit,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: TS.
+2,Allahabad High Court,Lucknow,WAPL,WEALTH TAX APPEAL,WTA,,,,Wealth Tax Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: WTA.

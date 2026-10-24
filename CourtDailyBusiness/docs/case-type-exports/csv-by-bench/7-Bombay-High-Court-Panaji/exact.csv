@@ -1,0 +1,8 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+7,Bombay High Court,Panaji,COP,Company Petition,COP,,,,Company Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+7,Bombay High Court,Panaji,CS,Civil Suit,CS,,,,Civil Suit,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+7,Bombay High Court,Panaji,EA,Execution Application,EA,,,,Execution Application (Civil),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+7,Bombay High Court,Panaji,FA,First Appeal,FA,,,,First Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+7,Bombay High Court,Panaji,ITA,Income Tax Appeal,ITA,,,,Income Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+7,Bombay High Court,Panaji,LPA,Letter Patent Appeal,LPA,,,,Letters Patent Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+7,Bombay High Court,Panaji,SA,Second Appeal,SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.

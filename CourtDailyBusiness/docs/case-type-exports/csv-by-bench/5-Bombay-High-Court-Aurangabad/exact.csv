@@ -1,0 +1,11 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+5,Bombay High Court,Aurangabad,ABA,ANTICIPATORY BAIL APPLICATION,ABA,,,,Anticipatory Bail Application,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+5,Bombay High Court,Aurangabad,ARB,ARBITRATION APPLICATION,Arb,,,,Arbitration Case (DC),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+5,Bombay High Court,Aurangabad,BA,BAIL APPLICATION,BA,,,,Bail Application,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+5,Bombay High Court,Aurangabad,EP,Election petition,EP,,,,Election Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+5,Bombay High Court,Aurangabad,FA,First Appeal,FA,,,,First Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+5,Bombay High Court,Aurangabad,ITA,INCOME TAX APPEAL,ITA,,,,Income Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+5,Bombay High Court,Aurangabad,LPA,Letter Patent Appeal,LPA,,,,Letters Patent Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+5,Bombay High Court,Aurangabad,PIL,Public Interest Litigation,PIL,WP_PIL,WP_C_PIL,,Public Interest Litigation,Writ Petition (Public Interest Litigation),Writ Petition (Public Interest Litigation),,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+5,Bombay High Court,Aurangabad,SA,Second Appeal,SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+5,Bombay High Court,Aurangabad,WTA,Wealth Tax Apeal,WTA,,,,Wealth Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.

@@ -52,7 +52,7 @@ export function AppHeader({
           </div>
         </div>
 
-        <nav className="order-3 w-full md:order-2 md:flex-1" aria-label="Court filters and search mode tabs">
+        <nav className="order-3 w-full md:order-2 md:flex-1" aria-label="Court filters and search mode">
           <div
             role="radiogroup"
             aria-label="Court type"

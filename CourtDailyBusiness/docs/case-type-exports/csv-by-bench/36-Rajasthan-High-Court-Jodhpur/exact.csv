@@ -1,0 +1,9 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+36,Rajasthan High Court,Jodhpur,CMA,CIVIL MISC. APPEAL,CMA,,,,Civil Miscellaneous Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+36,Rajasthan High Court,Jodhpur,COP,COMPANY PETITION,COP,,,,Company Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+36,Rajasthan High Court,Jodhpur,CRLMA,CRIMINAL MISC. APPLI,CRL_MA,,,,Criminal Miscellaneous Application (DC),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+36,Rajasthan High Court,Jodhpur,EP,ELECTION PETITION,EP,,,,Election Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+36,Rajasthan High Court,Jodhpur,GTA,GIFT TAX APPEAL,GTA,,,,Gift Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+36,Rajasthan High Court,Jodhpur,ITA,INCOME TAX APPEAL,ITA,,,,Income Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+36,Rajasthan High Court,Jodhpur,LPA,LETTER PATENT APPEAL,LPA,,,,Letters Patent Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+36,Rajasthan High Court,Jodhpur,WTA,WEALTH TAX APPEAL,WTA,,,,Wealth Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.

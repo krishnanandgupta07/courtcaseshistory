@@ -1,0 +1,3 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+33,Orissa High Court,Cuttack,Arbitration Appeal,Arbitration Appeal - (160),ARB_A,,,,Arbitration Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: ARB_A.
+33,Orissa High Court,Cuttack,CR,Civil Revision - (131),C_REV,,,,Civil Revision,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: C_REV.

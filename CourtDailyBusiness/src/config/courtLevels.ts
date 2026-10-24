@@ -14,9 +14,12 @@ export const courtTypes: NavItem[] = [
 ];
 
 export const searchModes: NavItem[] = [
-  { id: 'case-status', label: 'Case Status Search', mobileLabel: 'Case Status' },
   { id: 'cnr', label: 'CNR Search', mobileLabel: 'CNR' },
+  { id: 'case-status', label: 'Case Status Search', mobileLabel: 'Case Status' },
 ];
+
+/** First-load default: CNR works for every court and does not need a court tab. */
+export const DEFAULT_SEARCH_MODE: SearchModeId = 'cnr';
 
 const courtLevelByType: Record<CourtTypeId, CourtLevel> = {
   supreme: 'SC',

@@ -158,7 +158,7 @@ export function CnrSearch({ initialCnr = '' }: { initialCnr?: string }) {
         </p>
       ) : null}
 
-      {result ? <CaseDetailView caseData={result} /> : null}
+      {result ? <CaseDetailView caseData={result} searchMode="cnr" /> : null}
     </div>
   );
 }

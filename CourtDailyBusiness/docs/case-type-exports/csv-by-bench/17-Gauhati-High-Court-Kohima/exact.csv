@@ -1,0 +1,12 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+17,Gauhati High Court,Kohima,Arb.A.,Appeals under Indian Arbitration Act.(139),ARB_A,,,,Arbitration Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+17,Gauhati High Court,Kohima,CMAppl.,Miscellaneous Applications,CMAppl,,,,Civil Miscellaneous Application,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+17,Gauhati High Court,Kohima,CRP,Revision Petition(102),CRP,,,,Civil Revision Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+17,Gauhati High Court,Kohima,CS,Civil Suit(95),CS,,,,Civil Suit,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+17,Gauhati High Court,Kohima,FA,First Appeal(18),FA,,,,First Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+17,Gauhati High Court,Kohima,I.A.,Interlocutory Application.(218),IA,,,,Interlocutory Application,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+17,Gauhati High Court,Kohima,MC(RA),MISC. CASE (R.A.)(85),MCrA,,,,Miscellaneous Criminal Application,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+17,Gauhati High Court,Kohima,PIL,Public Interest Litigation(93),PIL,WP_PIL,WP_C_PIL,,Public Interest Litigation,Writ Petition (Public Interest Litigation),Writ Petition (Public Interest Litigation),,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+17,Gauhati High Court,Kohima,RCSA,Second Appeal(130),RCS_A,,,,Regular Civil Suit - Class A,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+17,Gauhati High Court,Kohima,SA,Second Appeal(39),SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+17,Gauhati High Court,Kohima,W.P.(Crl.),Petition u/a 226 for Writ and Habeas Corpus and other relief in relation to a Cr P(173),WP_CRL,,,,Writ Petition (Criminal),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.

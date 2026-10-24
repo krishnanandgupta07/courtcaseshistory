@@ -1,0 +1,28 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+29,Madras High Court,Chennai,(T)CMA(PT),TRANSFERRED CIVIL MISCELLANEOUS APPEAL PATENTS ACT,CMA,,,,Civil Miscellaneous Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CMA.
+29,Madras High Court,Chennai,AS B,FIRST APPEAL BENCH,FA,,,,First Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: FA.
+29,Madras High Court,Chennai,AS(MD),FIRST APPEAL(MD),FA,,,,First Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: FA.
+29,Madras High Court,Chennai,Arb Appeal(MD),Arbitration Appeal(MD),ARB_A,,,,Arbitration Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: ARB_A.
+29,Madras High Court,Chennai,Arb O.P,Arbitration Original Petition,Arb_Pet,,,,Arbitration Petition,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: Arb_Pet.
+29,Madras High Court,Chennai,Arb. E.P,Arbitration Execution Petition,Arb_Pet,,,,Arbitration Petition,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: Arb_Pet.
+29,Madras High Court,Chennai,CMA(CR),CIVIL MISCELLANEOUS APPEAL COPY RIGHTS ACT,CMA,,,,Civil Miscellaneous Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CMA.
+29,Madras High Court,Chennai,CMA(GI),CIVIL MISCELLANEOUS APPEAL GEOGRAPHICAL INDICATIONS ACT,CMA,,,,Civil Miscellaneous Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CMA.
+29,Madras High Court,Chennai,CMA(PT),CIVIL MISCELLANEOUS APPEAL PATENTS ACT,CMA,,,,Civil Miscellaneous Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CMA.
+29,Madras High Court,Chennai,CMA(TM),CIVIL MISCELLANEOUS APPEAL TRADE MARK ACT,CMA,,,,Civil Miscellaneous Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CMA.
+29,Madras High Court,Chennai,COM APEL,Company Appeal,CAPP_AT,CAPP_CA,,,Company Appeal (AT),Company Appeal (Companies Act),,,NO,NO,review,"Related but not confirmed. Review before seeding. Possible eCourts codes: CAPP_AT, CAPP_CA."
+29,Madras High Court,Chennai,CONT P (MD),CONTEMPT PETITION (MD),CONMT,,,,Contempt Petition,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CONMT.
+29,Madras High Court,Chennai,CRL A(MD),CRIMINAL APPEAL(MD),CRL_A,,,,Criminal Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CRL_A.
+29,Madras High Court,Chennai,CRL RC(MD),CRIMINAL REVISION CASE(MD),CR_REV,CRLRC,,,Criminal Revision,Criminal Revision Case,,,NO,NO,review,"Related but not confirmed. Review before seeding. Possible eCourts codes: CR_REV, CRLRC."
+29,Madras High Court,Chennai,CRP(MD),CIVIL REVISION PETITION(MD),CRP,,,,Civil Revision Petition,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CRP.
+29,Madras High Court,Chennai,HCMP,HABEAS CORPUS MISC. PETITION,HCP,,,,Habeas Corpus Petition,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: HCP.
+29,Madras High Court,Chennai,HCP(MD),HABEAS CORPUS PETITION(MD),HCP,,,,Habeas Corpus Petition,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: HCP.
+29,Madras High Court,Chennai,REV.APLWP Crl.,REV. APPLICATION WRIT PETITION CRIMINAL,WP_CRL,,,,Writ Petition (Criminal),,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: WP_CRL.
+29,Madras High Court,Chennai,SA(MD),SECOND APPEAL(MD),SA,,,,Second Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: SA.
+29,Madras High Court,Chennai,TCA,TAX CASE APPEAL,ETA,GTA,INTTA,,Expenditure Tax Appeal,Gift Tax Appeal,Interest Tax Appeal,,NO,NO,review,"Related but not confirmed. Review before seeding. Possible eCourts codes: ETA, GTA, INTTA."
+29,Madras High Court,Chennai,TOS,TESTAMENTARY ORIGINAL SUIT,OS,TS,,,Original Suit,Testamentary Suit,,,NO,NO,review,"Related but not confirmed. Review before seeding. Possible eCourts codes: OS, TS."
+29,Madras High Court,Chennai,TR CMP,TRANSFER CIVIL MISC. PETITION,TP_C,,,,Transfer Petition (Civil),,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: TP_C.
+29,Madras High Court,Chennai,TRCS,TRANSFER CIVIL SUIT,CS,,,,Civil Suit,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CS.
+29,Madras High Court,Chennai,WA(MD),WRIT APPEAL(MD),WA,,,,Writ Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: WA.
+29,Madras High Court,Chennai,WP Crl. (MD),Writ Petition Criminal (MD),WP_CRL,,,,Writ Petition (Criminal),,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: WP_CRL.
+29,Madras High Court,Chennai,WPMP Crl.,Writ Miscellaneous Petition Criminal,WP_CRL,,,,Writ Petition (Criminal),,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: WP_CRL.
+29,Madras High Court,Chennai,WPMP Crl.(MD),Writ Miscellaneous Petition Criminal (MD),WP_CRL,,,,Writ Petition (Criminal),,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: WP_CRL.

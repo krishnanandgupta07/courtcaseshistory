@@ -1,0 +1,43 @@
+﻿bench_id,court,bench,exact_count,suggested_count,review_count,conflict_count,local_types_in_these_files
+1,Allahabad High Court,Allahabad(Prayagraj),1,17,24,0,42
+2,Allahabad High Court,Lucknow,1,17,24,0,42
+3,Andhra Pradesh High Court,Amaravati,10,26,2,4,42
+5,Bombay High Court,Aurangabad,10,11,13,4,38
+8,Bombay High Court,Kolhapur,7,8,15,4,34
+4,Bombay High Court,Mumbai,6,7,11,4,28
+6,Bombay High Court,Nagpur,11,12,13,3,39
+7,Bombay High Court,Panaji,7,13,16,1,37
+10,Calcutta High Court,Jalpaiguri,5,3,9,2,19
+11,Calcutta High Court,Port Blair,5,3,11,2,21
+9,Calcutta High Court,kolkata,2,5,4,5,16
+12,Chhattisgarh High Court,Bilaspur,3,13,0,5,21
+13,Delhi High Court,New Delhi,10,13,5,1,29
+15,Gauhati High Court,Aizawl,5,4,5,4,18
+14,Gauhati High Court,Guwahati,10,2,4,2,18
+16,Gauhati High Court,Itanagar,6,4,9,1,20
+17,Gauhati High Court,Kohima,11,10,15,7,43
+18,Gujarat High Court,Ahmedabad,11,10,15,7,43
+19,Himachal Pradesh High Court,Shimla,12,8,7,1,28
+20,Jammu & Kashmir and Ladakh High Court,Jammu,9,9,3,4,25
+21,Jharkhand High Court,Ranchi,14,2,3,4,23
+22,Karnataka High Court,Bengaluru,13,10,18,0,41
+23,Karnataka High Court,Dharwad,13,10,18,0,41
+24,Karnataka High Court,Kalaburagi,13,10,17,0,40
+25,Kerala High Court,Kochi,13,7,3,4,27
+27,Madhya Pradesh High Court,Gwalior,13,14,15,4,46
+28,Madhya Pradesh High Court,Indore,13,14,15,4,46
+26,Madhya Pradesh High Court,Jabalpur,13,14,15,4,46
+29,Madras High Court,Chennai,8,14,27,3,52
+30,Madras High Court,Madurai,6,4,6,0,16
+31,Manipur High Court,Imphal,14,7,16,4,41
+32,Meghalaya High Court,Shillong,11,11,12,10,44
+33,Orissa High Court,Cuttack,10,15,2,8,35
+34,Patna High Court,Patna,6,9,5,2,22
+35,Punjab and Haryana High Court,Chandigarh,15,13,25,3,56
+37,Rajasthan High Court,Jaipur,6,8,35,1,50
+36,Rajasthan High Court,Jodhpur,8,8,23,2,41
+38,Sikkim High Court,Gangtok,4,4,4,1,13
+42,Supreme Court,Supreme Court,1,15,8,0,24
+39,Telangana High Court,Hyderabad,11,31,8,4,54
+40,Tripura High Court,Agartala,11,12,11,5,39
+41,Uttarakhand High Court,Nainital,9,2,13,3,27

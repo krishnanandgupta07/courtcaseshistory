@@ -1,6 +1,8 @@
 import { formatCaseNumberWithType, formatDisplayDate } from '../api/ecourts';
 import type { BusinessOnDateEntry, CaseDetail } from '../types/ecourts';
+import { printHtmlDocument, sortByDateValue } from './caseReportPdf';
 import { pdfBrandStripCss, pdfBrandStripHtml } from './pdfBrandStrip';
+import { buildPdfFileName, type PdfFileNameContext } from './pdfFileName';
 
 export type DateSortOrder = 'asc' | 'desc';
 
@@ -18,16 +20,15 @@ function cell(value?: string | null): string {
   return escapeHtml(String(value));
 }
 
+export function getBusinessEventDate(entry: BusinessOnDateEntry): string | undefined {
+  return entry.date;
+}
+
 export function sortBusinessEntries(
   entries: BusinessOnDateEntry[],
   order: DateSortOrder,
 ): BusinessOnDateEntry[] {
-  return [...entries].sort((a, b) => {
-    const left = a.date || '';
-    const right = b.date || '';
-    const compared = left.localeCompare(right);
-    return order === 'asc' ? compared : -compared;
-  });
+  return sortByDateValue(entries, getBusinessEventDate, order);
 }
 
 /** Show courtOf only when it changes from the previous row; otherwise blank. */
@@ -93,9 +94,16 @@ function formatPartyListHtml(names: string[]): string {
   return `<ol class="party-list">${names.map((name) => `<li>${cell(name)}</li>`).join('')}</ol>`;
 }
 
-export function buildDailyBusinessHtml(caseData: CaseDetail, entries: BusinessOnDateEntry[]): string {
+export function buildDailyBusinessHtml(
+  caseData: CaseDetail,
+  entries: BusinessOnDateEntry[],
+  fileNameContext?: PdfFileNameContext,
+): string {
   const header = getDailyBusinessHeader(caseData, entries);
   const parties = getDailyBusinessPdfParties(caseData, entries);
+  const documentTitle = fileNameContext
+    ? buildPdfFileName('dailybusiness', caseData, fileNameContext)
+    : `Daily Business - ${header.cnr}`;
   const rows = entries
     .map((entry, index) => {
       const courtOfValue = getCourtOfCellValue(entries, index);
@@ -114,7 +122,7 @@ export function buildDailyBusinessHtml(caseData: CaseDetail, entries: BusinessOn
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Daily Business - ${escapeHtml(header.cnr)}</title>
+  <title>${escapeHtml(documentTitle)}</title>
   <style>
     body { font-family: Georgia, 'Times New Roman', serif; color: #2A2620; margin: 24px; background: #fff; }
     h1 { font-size: 22px; margin: 0 0 8px; color: #1C2B4A; text-align: center; }
@@ -184,45 +192,14 @@ export function buildDailyBusinessHtml(caseData: CaseDetail, entries: BusinessOn
 }
 
 /** Print / Save-as-PDF using a hidden iframe (no popup window). */
-export function printDailyBusinessDocument(caseData: CaseDetail, entries: BusinessOnDateEntry[]) {
-  const html = buildDailyBusinessHtml(caseData, entries);
-  const iframe = document.createElement('iframe');
-  iframe.setAttribute('title', 'Daily Business PDF');
-  iframe.style.position = 'fixed';
-  iframe.style.right = '0';
-  iframe.style.bottom = '0';
-  iframe.style.width = '0';
-  iframe.style.height = '0';
-  iframe.style.border = '0';
-  iframe.style.opacity = '0';
-  iframe.style.pointerEvents = 'none';
-  document.body.appendChild(iframe);
-
-  const frameWindow = iframe.contentWindow;
-  const frameDocument = frameWindow?.document;
-  if (!frameWindow || !frameDocument) {
-    document.body.removeChild(iframe);
-    throw new Error('Unable to prepare the PDF document in this browser.');
-  }
-
-  frameDocument.open();
-  frameDocument.write(html);
-  frameDocument.close();
-
-  const cleanup = () => {
-    if (iframe.parentNode) {
-      iframe.parentNode.removeChild(iframe);
-    }
-  };
-
-  const triggerPrint = () => {
-    try {
-      frameWindow.focus();
-      frameWindow.print();
-    } finally {
-      window.setTimeout(cleanup, 1500);
-    }
-  };
-
-  window.setTimeout(triggerPrint, 250);
+export function printDailyBusinessDocument(
+  caseData: CaseDetail,
+  entries: BusinessOnDateEntry[],
+  fileNameContext?: PdfFileNameContext,
+) {
+  const html = buildDailyBusinessHtml(caseData, entries, fileNameContext);
+  const fileName = fileNameContext
+    ? buildPdfFileName('dailybusiness', caseData, fileNameContext)
+    : 'Daily Business PDF';
+  printHtmlDocument(fileName, html);
 }

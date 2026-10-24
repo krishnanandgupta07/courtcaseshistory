@@ -1,0 +1,12 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+4,Bombay High Court,Mumbai,APPCR,Application In Cr. Reference,RA,,,,Reference Application,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: RA.
+4,Bombay High Court,Mumbai,CA,Civil Application,CMAppl,EA,MA,,Civil Miscellaneous Application,Execution Application (Civil),Miscellaneous Application (Civil),,NO,NO,review,"Related but not confirmed. Review before seeding. Possible eCourts codes: CMAppl, EA, MA."
+4,Bombay High Court,Mumbai,COARA,COMMERCIAL ARBITRATION APPEAL,ARB_A,,,,Arbitration Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: ARB_A.
+4,Bombay High Court,Mumbai,COARP,COMMERCIAL ARBITRATION PETITION,Arb_Pet,,,,Arbitration Petition,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: Arb_Pet.
+4,Bombay High Court,Mumbai,COMCP,COMMERCIAL CONTEMPT PETITION,CONMT,,,,Contempt Petition,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CONMT.
+4,Bombay High Court,Mumbai,CONP,Cr. Contempt Petition,CONMT,,,,Contempt Petition,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CONMT.
+4,Bombay High Court,Mumbai,FAG,First Appeal (GOA),FA,,,,First Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: FA.
+4,Bombay High Court,Mumbai,REVW,Criminal Review,RP_CRL,,,,Review Petition (Criminal),,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: RP_CRL.
+4,Bombay High Court,Mumbai,TXA,Tax Appeal,ETA,GTA,INTTA,,Expenditure Tax Appeal,Gift Tax Appeal,Interest Tax Appeal,,NO,NO,review,"Related but not confirmed. Review before seeding. Possible eCourts codes: ETA, GTA, INTTA."
+4,Bombay High Court,Mumbai,WP-Z,Writ Petition,WP_C,WP_CRL,,,Writ Petition (Civil),Writ Petition (Criminal),,,NO,NO,review,"Related but not confirmed. Review before seeding. Possible eCourts codes: WP_C, WP_CRL."
+4,Bombay High Court,Mumbai,XOB,Cross Objection Stamp,CO,XOBJ,,,Cross Objection,Cross Objection,,,NO,NO,review,"Related but not confirmed. Review before seeding. Possible eCourts codes: CO, XOBJ."

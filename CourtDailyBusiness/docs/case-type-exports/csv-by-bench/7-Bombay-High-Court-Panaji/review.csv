@@ -1,0 +1,17 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+7,Bombay High Court,Panaji,AELEP,Application in Election Petition,EP,,,,Election Petition,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: EP.
+7,Bombay High Court,Panaji,AUA,Appeal Under Arbitration Act,ARB_A,,,,Arbitration Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: ARB_A.
+7,Bombay High Court,Panaji,CA,Civil Application,CMAppl,EA,MA,,Civil Miscellaneous Application,Execution Application (Civil),Miscellaneous Application (Civil),,NO,NO,review,"Related but not confirmed. Review before seeding. Possible eCourts codes: CMAppl, EA, MA."
+7,Bombay High Court,Panaji,COA,Company Appeal,CAPP_AT,CAPP_CA,,,Company Appeal (AT),Company Appeal (Companies Act),,,NO,NO,review,"Related but not confirmed. Review before seeding. Possible eCourts codes: CAPP_AT, CAPP_CA."
+7,Bombay High Court,Panaji,COAP,Company Application,CA_CA,,,,Company Application (Companies Act),,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CA_CA.
+7,Bombay High Court,Panaji,COMP,COMPLAINTS (IN COMPANY PETITION),COP,,,,Company Petition,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: COP.
+7,Bombay High Court,Panaji,CPM,Contempt Petition (Main),CONMT,,,,Contempt Petition,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CONMT.
+7,Bombay High Court,Panaji,CRIR,Criminal Revision Application,CR_REV,CRLRC,,,Criminal Revision,Criminal Revision Case,,,NO,NO,review,"Related but not confirmed. Review before seeding. Possible eCourts codes: CR_REV, CRLRC."
+7,Bombay High Court,Panaji,CRMAB,Criminal Application ( Bail ),BA,,,,Bail Application,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: BA.
+7,Bombay High Court,Panaji,CRREF,Criminal Reference Application,RA,,,,Reference Application,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: RA.
+7,Bombay High Court,Panaji,PILCW,PIL Criminal Writ Petition,WP_CRL,,,,Writ Petition (Criminal),,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: WP_CRL.
+7,Bombay High Court,Panaji,PILSM,Public Interest Litigation (Suo Motu),PIL,,,,Public Interest Litigation,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: PIL.
+7,Bombay High Court,Panaji,SMCWP,SUO MOTU CRIMINAL WRIT PETITION,WP_CRL,,,,Writ Petition (Criminal),,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: WP_CRL.
+7,Bombay High Court,Panaji,TACR,Criminal Transfer Appeal,CRL_A,,,,Criminal Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CRL_A.
+7,Bombay High Court,Panaji,TXA,Tax Appeal,ETA,GTA,INTTA,,Expenditure Tax Appeal,Gift Tax Appeal,Interest Tax Appeal,,NO,NO,review,"Related but not confirmed. Review before seeding. Possible eCourts codes: ETA, GTA, INTTA."
+7,Bombay High Court,Panaji,WTR,Wealth Tax Reference,Tax_Ref,,,,Tax Reference Case,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: Tax_Ref.

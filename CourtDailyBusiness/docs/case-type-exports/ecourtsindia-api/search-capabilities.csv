@@ -1,0 +1,19 @@
+﻿public_url_param,partner_api_field,meaning,example_values,note,example_url,api_docs
+ct,caseType,Case type code,"WP_C, BA, CS, SLP_C","Global. Comma-OR. Must be exact enum, not CIS WP.",https://ecourtsindia.com/search?ct=WP_C,https://ecourtsindia.com/api/docs#search-capabilities
+cc,courtCode,Court establishment code,"HBHC01, DLHC01, SCIN01",Per bench. High Court needs suffix (DLHC is empty).,https://ecourtsindia.com/search?cc=HBHC01,https://ecourtsindia.com/api/docs#search-capabilities
+st,caseStatus,Case status code,"PENDING, DISPOSED",Not cs. Use live status enum.,https://ecourtsindia.com/search?st=PENDING,https://ecourtsindia.com/api/docs#search-capabilities
+sc,stateCode,State / UT two-letter code,"TS, DL, MH, KA","State filter, not a court.",https://ecourtsindia.com/search?sc=TS,https://ecourtsindia.com/api/docs#search-capabilities
+js,judicialSection,Judicial section,,From live enums.,,https://ecourtsindia.com/api/docs#search-capabilities
+cat,caseCategory,Case category,,From live enums.,,https://ecourtsindia.com/api/docs#search-capabilities
+bt,benchType,Bench type,"SB, DB, FB",Single / Division / Full etc.,,https://ecourtsindia.com/api/docs#search-capabilities
+q,q,Free text,neglig*,"Phrase, AND/OR/NOT, trailing wildcard.",https://ecourtsindia.com/search?q=IPC+302,https://ecourtsindia.com/api/docs#search-capabilities
+adv,advocate,Advocate name,,,,https://ecourtsindia.com/api/docs#search-capabilities
+jdg,judge,Judge name,,Not judge=. Public URL uses jdg.,,https://ecourtsindia.com/api/docs#search-capabilities
+pet,petitioner,Petitioner name,,,,https://ecourtsindia.com/api/docs#search-capabilities
+resp,respondent,Respondent name,,Not res=.,,https://ecourtsindia.com/api/docs#search-capabilities
+lit,litigant,Litigant / party name,,,,https://ecourtsindia.com/api/docs#search-capabilities
+fdr,filingDateRange,Filing date range YYYY-YYYY,2015-2024,Public URL. Partner API may use filingYear.,https://ecourtsindia.com/search?cc=DLHC01&ct=WP_C&fdr=2015-2024,https://ecourtsindia.com/api/docs#search-capabilities
+rdr,registrationDateRange,Registration date range,,,,https://ecourtsindia.com/api/docs#search-capabilities
+hdr,firstHearingDateRange,First hearing date range,,,,https://ecourtsindia.com/api/docs#search-capabilities
+ndr,nextHearingDateRange,Next hearing date range,,,,https://ecourtsindia.com/api/docs#search-capabilities
+ddr,decisionDateRange,Decision date range,,,,https://ecourtsindia.com/api/docs#search-capabilities

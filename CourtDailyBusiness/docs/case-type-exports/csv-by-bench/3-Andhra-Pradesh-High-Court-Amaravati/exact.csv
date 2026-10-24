@@ -1,0 +1,11 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+3,Andhra Pradesh High Court,Amaravati,CMA,CIVIL MISCELLANEOUS APPEAL(12),CMA,,,,Civil Miscellaneous Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+3,Andhra Pradesh High Court,Amaravati,CRLP,CRIMINAL PETITION(21),CRLP,,,,Criminal Leave Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+3,Andhra Pradesh High Court,Amaravati,CRLRC,CRIMINAL REVISION CASE(22),CRLRC,,,,Criminal Revision Case,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+3,Andhra Pradesh High Court,Amaravati,CRP,CIVIL REVISION PETITION(23),CRP,,,,Civil Revision Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+3,Andhra Pradesh High Court,Amaravati,CS,CIVIL SUIT(24),CS,,,,Civil Suit,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+3,Andhra Pradesh High Court,Amaravati,EP,ELECTION PETITION(26),EP,,,,Election Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+3,Andhra Pradesh High Court,Amaravati,PIL,PUBLIC INTEREST LITIGATION(39),PIL,WP_PIL,WP_C_PIL,,Public Interest Litigation,Writ Petition (Public Interest Litigation),Writ Petition (Public Interest Litigation),,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+3,Andhra Pradesh High Court,Amaravati,SA,SECOND APPEAL(49),SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+3,Andhra Pradesh High Court,Amaravati,WA,WRIT APPEAL(62),WA,,,,Writ Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+3,Andhra Pradesh High Court,Amaravati,WTA,WEALTH TAX APPEAL(66),WTA,,,,Wealth Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.

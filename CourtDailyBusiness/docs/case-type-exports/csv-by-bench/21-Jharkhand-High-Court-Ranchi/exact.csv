@@ -1,0 +1,15 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+21,Jharkhand High Court,Ranchi,A.B.A.,ANTICIPATORY BAIL(57),ABA,,,,Anticipatory Bail Application,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+21,Jharkhand High Court,Ranchi,B.A.,REGULAR BAIL(56),BA,,,,Bail Application,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+21,Jharkhand High Court,Ranchi,C.A.,COMPANY APPEAL(20),CA,,,,Civil Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+21,Jharkhand High Court,Ranchi,C.O.,CROSS OBJECTIONS(52),CO,,,,Cross Objection,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+21,Jharkhand High Court,Ranchi,C.R.,CIVIL REVISION(8),CR,,,,Civil Revision (short form),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+21,Jharkhand High Court,Ranchi,C.Rev.,CIVIL REVIEW(11),C_REV,,,,Civil Revision,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+21,Jharkhand High Court,Ranchi,Cr.Misc.,CRIMINAL MISCELLENOUS(6),CR_MISC,,,,Criminal Miscellaneous,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+21,Jharkhand High Court,Ranchi,Cr.Rev.,CRIMINAL REVISION(7),CR_REV,,,,Criminal Revision,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+21,Jharkhand High Court,Ranchi,Cr.WJC,Cr.WJC(CRIMINAL WRIT)(16),CR_WJC,,,,Criminal Writ Jurisdiction Case,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+21,Jharkhand High Court,Ranchi,D. Ref.,DEATH REFERENCE(28),DREF,,,,Death Reference,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+21,Jharkhand High Court,Ranchi,E.P.,ELECTION PETITION(14),EP,,,,Election Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+21,Jharkhand High Court,Ranchi,FA,FIRST APPEAL(1),FA,,,,First Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+21,Jharkhand High Court,Ranchi,SA,SECOND APPEAL(9),SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+21,Jharkhand High Court,Ranchi,T.S.,TESTAMENTARY SUIT(22),TS,,,,Testamentary Suit,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.

@@ -6,15 +6,21 @@ import type {
   CaseFile,
   CaseHearing,
   CaseOrder,
+  CourtLevel,
+  SearchModeId,
 } from '../types/ecourts';
 import {
   buildCaseHistoryHtml,
+  buildOrderFileHtml,
   buildOrdersHtml,
+  getHearingEventDate,
   printCaseHistoryDocument,
+  printOrderFileDocument,
   printOrdersDocument,
   sortHearings,
   sortOrders,
   type DateSortOrder,
+  type PdfFileNameContext,
 } from '../utils/caseReportPdf';
 import {
   buildDailyBusinessHtml,
@@ -95,18 +101,40 @@ function isEmptyRecord(value?: Record<string, unknown> | null): boolean {
   });
 }
 
+function isHttpUrl(value?: string | null): boolean {
+  return /^https?:\/\//i.test((value || '').trim());
+}
+
+function fileNameFromPath(value?: string | null): string | undefined {
+  const trimmed = (value || '').trim();
+  if (!trimmed) return undefined;
+  return trimmed.split(/[\\/]/).pop() || trimmed;
+}
+
 function findOrderFile(order: CaseOrder, files: CaseFile[]): CaseFile | undefined {
   if (!files.length) return undefined;
   const url = (order.orderUrl || '').toLowerCase();
-  if (!url) return files[0];
-
-  return (
-    files.find((file) => {
+  if (url) {
+    const matched = files.find((file) => {
       const pdf = (file.pdfFile || '').toLowerCase();
       const md = (file.markdownFile || '').toLowerCase();
-      return pdf.includes(url.replace('.pdf', '')) || md.includes(url.replace('.pdf', '')) || pdf.endsWith(url);
-    }) ?? files.find((file) => Boolean(file.markdownContent))
-  );
+      const needle = url.replace(/\.pdf$/i, '');
+      return pdf.includes(needle) || md.includes(needle) || pdf.endsWith(url) || md.endsWith(url);
+    });
+    if (matched) return matched;
+  }
+  return files.length === 1 ? files[0] : undefined;
+}
+
+function getOrderDocumentLabel(order: CaseOrder, file?: CaseFile): string | undefined {
+  return fileNameFromPath(file?.pdfFile || file?.pdfUrl || order.orderUrl);
+}
+
+function getOrderDocumentHref(order: CaseOrder, file?: CaseFile): string | undefined {
+  if (isHttpUrl(file?.pdfUrl)) return file?.pdfUrl;
+  if (isHttpUrl(file?.pdfFile)) return file?.pdfFile;
+  if (isHttpUrl(order.orderUrl)) return order.orderUrl;
+  return undefined;
 }
 
 function CaseDetailsTab({ caseData }: { caseData: CaseDetail }) {
@@ -255,7 +283,7 @@ function PdfPreviewModal(props: {
   );
 }
 
-function OrdersTab({ caseData }: { caseData: CaseDetail }) {
+function OrdersTab({ caseData, fileNameContext }: { caseData: CaseDetail; fileNameContext: PdfFileNameContext }) {
   const orders = useMemo(
     () => [...(caseData.judgmentOrders ?? []), ...(caseData.interimOrders ?? [])],
     [caseData.judgmentOrders, caseData.interimOrders],
@@ -263,25 +291,42 @@ function OrdersTab({ caseData }: { caseData: CaseDetail }) {
   const files = caseData.files ?? [];
   const [pdfError, setPdfError] = useState<string | null>(null);
   const [previewOpen, setPreviewOpen] = useState(false);
+  const [orderFilePreview, setOrderFilePreview] = useState<{ title: string; html: string } | null>(
+    null,
+  );
   const [sortOrder, setSortOrder] = useState<DateSortOrder>('desc');
 
   const sortedOrders = useMemo(() => sortOrders(orders, sortOrder), [orders, sortOrder]);
 
+  const orderRows = useMemo(() => {
+    const rows = sortedOrders.map((order) => ({
+      order,
+      file: findOrderFile(order, files),
+    }));
+    const used = new Set(rows.map((row) => row.file).filter(Boolean));
+    for (const file of files) {
+      if (used.has(file)) continue;
+      if (!file.pdfFile && !file.pdfUrl && !file.markdownContent) continue;
+      rows.push({
+        order: { orderUrl: file.pdfFile || file.pdfUrl },
+        file,
+      });
+    }
+    return rows;
+  }, [sortedOrders, files]);
+
   const ordersForPdf = useMemo(
     () =>
-      sortedOrders.map((order) => {
-        const file = findOrderFile(order, files);
-        return {
-          ...order,
-          orderUrl: file?.pdfFile || order.orderUrl,
-        };
-      }),
-    [sortedOrders, files],
+      orderRows.map(({ order, file }) => ({
+        ...order,
+        orderUrl: getOrderDocumentLabel(order, file) || order.orderUrl,
+      })),
+    [orderRows],
   );
 
   const previewHtml = useMemo(
-    () => buildOrdersHtml(caseData, ordersForPdf),
-    [caseData, ordersForPdf],
+    () => buildOrdersHtml(caseData, ordersForPdf, fileNameContext),
+    [caseData, ordersForPdf, fileNameContext],
   );
 
   function handleShowPdf() {
@@ -292,7 +337,7 @@ function OrdersTab({ caseData }: { caseData: CaseDetail }) {
   function handleDownloadPdf() {
     setPdfError(null);
     try {
-      printOrdersDocument(caseData, ordersForPdf);
+      printOrdersDocument(caseData, ordersForPdf, fileNameContext);
     } catch (error) {
       setPdfError(
         error instanceof Error
@@ -302,99 +347,141 @@ function OrdersTab({ caseData }: { caseData: CaseDetail }) {
     }
   }
 
-  if (orders.length === 0 && files.length === 0) {
+  function handleOpenOrderDocument(order: CaseOrder, file?: CaseFile) {
+    setPdfError(null);
+    const href = getOrderDocumentHref(order, file);
+    if (href) {
+      window.open(href, '_blank', 'noopener,noreferrer');
+      return;
+    }
+
+    const label = getOrderDocumentLabel(order, file) || 'Order / Judgment';
+    if (!file?.markdownContent) {
+      setPdfError(`Unable to open ${label}. The PDF data is not available for this document.`);
+      return;
+    }
+
+    const title = label.replace(/\.pdf$/i, '') || 'Order / Judgment';
+    setOrderFilePreview({
+      title,
+      html: buildOrderFileHtml(caseData, {
+        documentTitle: title,
+        heading: 'Order / Judgment',
+        orderDate: order.orderDate,
+        orderType: order.orderType,
+        body: file.markdownContent,
+      }),
+    });
+  }
+
+  function handlePrintOrderFile() {
+    if (!orderFilePreview) return;
+    setPdfError(null);
+    try {
+      printOrderFileDocument(orderFilePreview.title, orderFilePreview.html);
+    } catch (error) {
+      setPdfError(
+        error instanceof Error
+          ? error.message
+          : 'Unable to open print dialog. Use View PDF, then print from there.',
+      );
+    }
+  }
+
+  if (orderRows.length === 0) {
     return <EmptyBlock message="No orders or judgments available for this case." />;
   }
 
   return (
     <div className="space-y-4">
-      {orders.length > 0 ? (
-        <>
-          <div className="flex flex-wrap items-center justify-between gap-3">
-            <p className="text-xs text-inkSoft">
-              Sorted by date: {sortOrder === 'desc' ? 'newest first (DESC)' : 'oldest first (ASC)'}.
-              PDF uses the same order.
-            </p>
-            <SortPdfControls
-              sortOrder={sortOrder}
-              onSortChange={setSortOrder}
-              onShowPdf={handleShowPdf}
-            />
-          </div>
+      <div className="flex flex-wrap items-center justify-between gap-3">
+        <p className="text-xs text-inkSoft">
+          Sorted by date: {sortOrder === 'desc' ? 'newest first (DESC)' : 'oldest first (ASC)'}.
+          PDF uses the same order.
+        </p>
+        <SortPdfControls
+          sortOrder={sortOrder}
+          onSortChange={setSortOrder}
+          onShowPdf={handleShowPdf}
+        />
+      </div>
 
-          {pdfError ? (
-            <p
-              className="rounded-sm border border-burgundy/30 bg-burgundy/5 px-3 py-2 text-sm text-burgundy"
-              role="alert"
-            >
-              {pdfError}
-            </p>
-          ) : null}
-
-          <div className="overflow-x-auto">
-            <table className="min-w-full border-collapse text-left text-sm">
-              <thead>
-                <tr className="border-b border-navy/15 text-xs uppercase tracking-wide text-inkSoft">
-                  <th className="px-2 py-2 font-semibold">S No</th>
-                  <th className="px-2 py-2 font-semibold">Order Date</th>
-                  <th className="px-2 py-2 font-semibold">Type</th>
-                  <th className="px-2 py-2 font-semibold">Document</th>
-                </tr>
-              </thead>
-              <tbody>
-                {sortedOrders.map((order, index) => {
-                  const file = findOrderFile(order, files);
-                  return (
-                    <tr
-                      key={`${order.orderDate}-${order.orderType}-${index}`}
-                      className="border-b border-navy/10"
-                    >
-                      <td className="whitespace-nowrap px-2 py-3 text-center text-inkSoft">
-                        {index + 1}
-                      </td>
-                      <td className="px-2 py-3 text-ink">{formatDisplayDate(order.orderDate)}</td>
-                      <td className="px-2 py-3 text-ink">{display(order.orderType)}</td>
-                      <td className="px-2 py-3 text-inkSoft">
-                        {file?.pdfFile || order.orderUrl || '—'}
-                      </td>
-                    </tr>
-                  );
-                })}
-              </tbody>
-            </table>
-          </div>
-
-          <PdfPreviewModal
-            open={previewOpen}
-            title="Orders / Judgments PDF Preview"
-            html={previewHtml}
-            onClose={() => setPreviewOpen(false)}
-            onPrint={handleDownloadPdf}
-          />
-        </>
+      {pdfError ? (
+        <p
+          className="rounded-sm border border-burgundy/30 bg-burgundy/5 px-3 py-2 text-sm text-burgundy"
+          role="alert"
+        >
+          {pdfError}
+        </p>
       ) : null}
 
-      {files.map((file, index) =>
-        file.markdownContent ? (
-          <details
-            key={`${file.pdfFile || file.markdownFile || index}`}
-            className="rounded-sm border border-navy/10 bg-parchment open:shadow-slip"
-          >
-            <summary className="cursor-pointer px-4 py-3 text-sm font-semibold text-navy">
-              Judgment / Order text
-              {file.pdfFile ? ` (${file.pdfFile})` : ''}
-            </summary>
-            <pre className="max-h-[28rem] overflow-auto whitespace-pre-wrap border-t border-navy/10 bg-white/40 px-4 py-3 font-mono text-xs leading-relaxed text-ink">
-              {file.markdownContent}
-            </pre>
-          </details>
-        ) : null,
-      )}
+      <div className="overflow-x-auto">
+        <table className="min-w-full border-collapse text-left text-sm">
+          <thead>
+            <tr className="border-b border-navy/15 text-xs uppercase tracking-wide text-inkSoft">
+              <th className="px-2 py-2 font-semibold">S No</th>
+              <th className="px-2 py-2 font-semibold">Order Date</th>
+              <th className="px-2 py-2 font-semibold">Type</th>
+              <th className="px-2 py-2 font-semibold">Document</th>
+            </tr>
+          </thead>
+          <tbody>
+            {orderRows.map(({ order, file }, index) => {
+              const label = getOrderDocumentLabel(order, file);
+              const canOpen = Boolean(
+                getOrderDocumentHref(order, file) || file?.markdownContent,
+              );
+              return (
+                <tr
+                  key={`${order.orderDate}-${order.orderType}-${label}-${index}`}
+                  className="border-b border-navy/10"
+                >
+                  <td className="whitespace-nowrap px-2 py-3 text-center text-inkSoft">
+                    {index + 1}
+                  </td>
+                  <td className="px-2 py-3 text-ink">{formatDisplayDate(order.orderDate)}</td>
+                  <td className="px-2 py-3 text-ink">{display(order.orderType)}</td>
+                  <td className="px-2 py-3">
+                    {canOpen ? (
+                      <button
+                        type="button"
+                        onClick={() => handleOpenOrderDocument(order, file)}
+                        aria-label={`View PDF ${label || ''}`.trim()}
+                        className="inline-flex min-h-9 items-center rounded-sm bg-navy px-3 text-xs font-semibold text-parchment transition hover:bg-navyDeep focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-brass"
+                      >
+                        View PDF
+                      </button>
+                    ) : (
+                      <span className="text-inkSoft">—</span>
+                    )}
+                  </td>
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+
+      <PdfPreviewModal
+        open={previewOpen}
+        title="Orders / Judgments PDF Preview"
+        html={previewHtml}
+        onClose={() => setPreviewOpen(false)}
+        onPrint={handleDownloadPdf}
+      />
+
+      <PdfPreviewModal
+        open={Boolean(orderFilePreview)}
+        title={orderFilePreview?.title || 'Order / Judgment'}
+        html={orderFilePreview?.html || ''}
+        onClose={() => setOrderFilePreview(null)}
+        onPrint={handlePrintOrderFile}
+      />
     </div>
   );
 }
 
-function ListingsTab({ caseData }: { caseData: CaseDetail }) {
+function ListingsTab({ caseData, fileNameContext }: { caseData: CaseDetail; fileNameContext: PdfFileNameContext }) {
   const hearings = caseData.historyOfCaseHearings ?? [];
   const [pdfError, setPdfError] = useState<string | null>(null);
   const [previewOpen, setPreviewOpen] = useState(false);
@@ -406,8 +493,8 @@ function ListingsTab({ caseData }: { caseData: CaseDetail }) {
   );
 
   const previewHtml = useMemo(
-    () => buildCaseHistoryHtml(caseData, sortedHearings),
-    [caseData, sortedHearings],
+    () => buildCaseHistoryHtml(caseData, sortedHearings, fileNameContext),
+    [caseData, sortedHearings, fileNameContext],
   );
 
   function handleShowPdf() {
@@ -418,7 +505,7 @@ function ListingsTab({ caseData }: { caseData: CaseDetail }) {
   function handleDownloadPdf() {
     setPdfError(null);
     try {
-      printCaseHistoryDocument(caseData, sortedHearings);
+      printCaseHistoryDocument(caseData, sortedHearings, fileNameContext);
     } catch (error) {
       setPdfError(
         error instanceof Error
@@ -469,12 +556,12 @@ function ListingsTab({ caseData }: { caseData: CaseDetail }) {
           <tbody>
             {sortedHearings.map((hearing: CaseHearing, index) => (
               <tr
-                key={`${hearing.hearingDate || hearing.businessOnDate}-${index}`}
+                key={`${getHearingEventDate(hearing)}-${index}`}
                 className="border-b border-navy/10"
               >
                 <td className="whitespace-nowrap px-2 py-3 text-center text-inkSoft">{index + 1}</td>
                 <td className="px-2 py-3">
-                  {formatDisplayDate(hearing.hearingDate || hearing.businessOnDate)}
+                  {formatDisplayDate(getHearingEventDate(hearing))}
                 </td>
                 <td className="px-2 py-3">{display(hearing.causeListType)}</td>
                 <td className="px-2 py-3">{display(hearing.judge)}</td>
@@ -496,7 +583,13 @@ function ListingsTab({ caseData }: { caseData: CaseDetail }) {
   );
 }
 
-function DailyBusinessTab({ caseData }: { caseData: CaseDetail }) {
+function DailyBusinessTab({
+  caseData,
+  fileNameContext,
+}: {
+  caseData: CaseDetail;
+  fileNameContext: PdfFileNameContext;
+}) {
   const entries = caseData.businessOnDateEntries ?? [];
   const [pdfError, setPdfError] = useState<string | null>(null);
   const [previewOpen, setPreviewOpen] = useState(false);
@@ -510,8 +603,8 @@ function DailyBusinessTab({ caseData }: { caseData: CaseDetail }) {
   );
 
   const previewHtml = useMemo(
-    () => buildDailyBusinessHtml(caseData, sortedEntries),
-    [caseData, sortedEntries],
+    () => buildDailyBusinessHtml(caseData, sortedEntries, fileNameContext),
+    [caseData, sortedEntries, fileNameContext],
   );
 
   function handleShowPdf() {
@@ -522,7 +615,7 @@ function DailyBusinessTab({ caseData }: { caseData: CaseDetail }) {
   function handleDownloadPdf() {
     setPdfError(null);
     try {
-      printDailyBusinessDocument(caseData, sortedEntries);
+      printDailyBusinessDocument(caseData, sortedEntries, fileNameContext);
     } catch (error) {
       setPdfError(
         error instanceof Error
@@ -746,10 +839,29 @@ function LowerCourtTab({ caseData }: { caseData: CaseDetail }) {
 
 type Props = {
   caseData: CaseDetail;
+  searchMode: SearchModeId;
+  courtLevel?: CourtLevel;
+  searchBenchName?: string;
+  searchCourtName?: string;
 };
 
-export function CaseDetailView({ caseData }: Props) {
+export function CaseDetailView({
+  caseData,
+  searchMode,
+  courtLevel,
+  searchBenchName,
+  searchCourtName,
+}: Props) {
   const [activeTab, setActiveTab] = useState<TabId>('details');
+  const fileNameContext = useMemo<PdfFileNameContext>(
+    () => ({
+      searchMode,
+      courtLevel,
+      benchName: searchBenchName,
+      courtName: searchCourtName,
+    }),
+    [searchMode, courtLevel, searchBenchName, searchCourtName],
+  );
 
   const petitioners = useMemo(
     () => (caseData.petitioners ?? []).filter(Boolean),
@@ -829,9 +941,13 @@ export function CaseDetailView({ caseData }: Props) {
 
       <div role="tabpanel" className="bg-white/40 px-3 py-3 sm:px-4 sm:py-4">
         {activeTab === 'details' ? <CaseDetailsTab caseData={caseData} /> : null}
-        {activeTab === 'orders' ? <OrdersTab caseData={caseData} /> : null}
-        {activeTab === 'listings' ? <ListingsTab caseData={caseData} /> : null}
-        {activeTab === 'daily-business' ? <DailyBusinessTab caseData={caseData} /> : null}
+        {activeTab === 'orders' ? <OrdersTab caseData={caseData} fileNameContext={fileNameContext} /> : null}
+        {activeTab === 'listings' ? (
+          <ListingsTab caseData={caseData} fileNameContext={fileNameContext} />
+        ) : null}
+        {activeTab === 'daily-business' ? (
+          <DailyBusinessTab caseData={caseData} fileNameContext={fileNameContext} />
+        ) : null}
         {activeTab === 'misc' ? <MiscTab caseData={caseData} /> : null}
         {activeTab === 'connected' ? <ConnectedTab caseData={caseData} /> : null}
         {activeTab === 'lower' ? <LowerCourtTab caseData={caseData} /> : null}

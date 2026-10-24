@@ -1,0 +1,12 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+40,Tripura High Court,Agartala,Arb.A.,Appeals under Indian Arbitration Act.,ARB_A,,,,Arbitration Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+40,Tripura High Court,Agartala,BA,Bail Application,BA,,,,Bail Application,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+40,Tripura High Court,Agartala,CMAppl.,Miscellaneous Applications,CMAppl,,,,Civil Miscellaneous Application,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+40,Tripura High Court,Agartala,CRP,Civil Revision Petition,CRP,,,,Civil Revision Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+40,Tripura High Court,Agartala,CS,Civil Suit,CS,,,,Civil Suit,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+40,Tripura High Court,Agartala,FA,First Appeal,FA,,,,First Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+40,Tripura High Court,Agartala,LPA,Latters Patent Appeal,LPA,,,,Letters Patent Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+40,Tripura High Court,Agartala,PIL,Public Interest Litigation,PIL,WP_PIL,WP_C_PIL,,Public Interest Litigation,Writ Petition (Public Interest Litigation),Writ Petition (Public Interest Litigation),,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+40,Tripura High Court,Agartala,SA,Second Appeal,SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+40,Tripura High Court,Agartala,W.P.(Crl.),Petition U/A 226 For Writ And Habeas Corpus And Other Relief In Relation To A Criminal Pro,WP_CRL,,,,Writ Petition (Criminal),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+40,Tripura High Court,Agartala,WP(C)(PIL),Public Interest Letigation,WP_C_PIL,,,,Writ Petition (Public Interest Litigation),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.

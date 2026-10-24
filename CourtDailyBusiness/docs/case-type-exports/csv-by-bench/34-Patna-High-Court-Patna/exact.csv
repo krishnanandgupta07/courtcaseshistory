@@ -1,0 +1,7 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+34,Patna High Court,Patna,C. REV.,CIVIL REVIEW,C_REV,,,,Civil Revision,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+34,Patna High Court,Patna,COMP. APP,COMPANY APPEAL,COMP_APP,,,,Compensation Application,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+34,Patna High Court,Patna,CWJC,Civil Writ Jurisdiction Case,CWJC,,,,Civil Writ Jurisdiction Case,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+34,Patna High Court,Patna,FA,FIRST APPEAL,FA,,,,First Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+34,Patna High Court,Patna,SA,SECOND APPEAL,SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+34,Patna High Court,Patna,T.S.,TITLE SUIT,TS,,,,Testamentary Suit,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.

@@ -1,0 +1,2 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+42,Supreme Court,Supreme Court,MA,MISCELLANEOUS APPLICATION,MA,,,,Miscellaneous Application (Civil),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.

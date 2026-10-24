@@ -1,0 +1,430 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+1,Allahabad High Court,Allahabad(Prayagraj),APPL,APPL.,CMAppl,MA,,,Civil Miscellaneous Application,Miscellaneous Application (Civil),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: CMAppl, MA."
+1,Allahabad High Court,Allahabad(Prayagraj),CLRE,CIVIL REVISION,C_REV,,,,Civil Revision,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: C_REV.
+1,Allahabad High Court,Allahabad(Prayagraj),COPP,COMPANY PETITION,COP,,,,Company Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: COP.
+1,Allahabad High Court,Allahabad(Prayagraj),CRLA,CRIMINAL APPEAL,CRL_A,,,,Criminal Appeal,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+1,Allahabad High Court,Allahabad(Prayagraj),CRLP,CRIMINAL MISC. WRIT PETITION,CRLP,,,,Criminal Leave Petition,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: CRLP.
+1,Allahabad High Court,Allahabad(Prayagraj),CRLR,CRIMINAL REVISION,CR_REV,CRLRC,,,Criminal Revision,Criminal Revision Case,,,NO,YES,suggested,"Website code differs from eCourts. Backend should search: CR_REV, CRLRC."
+1,Allahabad High Court,Allahabad(Prayagraj),CROB,CROSS OBJECTION,CO,XOBJ,,,Cross Objection,Cross Objection,,,NO,YES,suggested,"Website code differs from eCourts. Backend should search: CO, XOBJ."
+1,Allahabad High Court,Allahabad(Prayagraj),CUSA,CUSTOMS APPEAL,CU_CESTAT,,,,Customs Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: CU_CESTAT.
+1,Allahabad High Court,Allahabad(Prayagraj),EAPL,ESTATE DUTY APPEAL,EDA,,,,Estate Duty Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: EDA.
+1,Allahabad High Court,Allahabad(Prayagraj),ELEP,ELECTION PETITION,EP,,,,Election Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: EP.
+1,Allahabad High Court,Allahabad(Prayagraj),FAPL,FIRST APPEAL,FA,,,,First Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: FA.
+1,Allahabad High Court,Allahabad(Prayagraj),GAPL,GIFT TAX APPEAL,GTA,,,,Gift Tax Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: GTA.
+1,Allahabad High Court,Allahabad(Prayagraj),IAPL,INCOME TAX APPEAL,ITA,,,,Income Tax Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: ITA.
+1,Allahabad High Court,Allahabad(Prayagraj),OSUT,ORIGINAL SUIT,OS,,,,Original Suit,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: OS.
+1,Allahabad High Court,Allahabad(Prayagraj),SAPL,SECOND APPEAL,SA,,,,Second Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: SA.
+1,Allahabad High Court,Allahabad(Prayagraj),TESU,TESTAMENTARY SUIT,TS,,,,Testamentary Suit,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: TS.
+1,Allahabad High Court,Allahabad(Prayagraj),WAPL,WEALTH TAX APPEAL,WTA,,,,Wealth Tax Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: WTA.
+2,Allahabad High Court,Lucknow,APPL,APPL.,CMAppl,MA,,,Civil Miscellaneous Application,Miscellaneous Application (Civil),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: CMAppl, MA."
+2,Allahabad High Court,Lucknow,CLRE,CIVIL REVISION,C_REV,,,,Civil Revision,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: C_REV.
+2,Allahabad High Court,Lucknow,COPP,COMPANY PETITION,COP,,,,Company Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: COP.
+2,Allahabad High Court,Lucknow,CRLA,CRIMINAL APPEAL,CRL_A,,,,Criminal Appeal,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+2,Allahabad High Court,Lucknow,CRLP,CRIMINAL MISC. WRIT PETITION,CRLP,,,,Criminal Leave Petition,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: CRLP.
+2,Allahabad High Court,Lucknow,CRLR,CRIMINAL REVISION,CR_REV,CRLRC,,,Criminal Revision,Criminal Revision Case,,,NO,YES,suggested,"Website code differs from eCourts. Backend should search: CR_REV, CRLRC."
+2,Allahabad High Court,Lucknow,CROB,CROSS OBJECTION,CO,XOBJ,,,Cross Objection,Cross Objection,,,NO,YES,suggested,"Website code differs from eCourts. Backend should search: CO, XOBJ."
+2,Allahabad High Court,Lucknow,CUSA,CUSTOMS APPEAL,CU_CESTAT,,,,Customs Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: CU_CESTAT.
+2,Allahabad High Court,Lucknow,EAPL,ESTATE DUTY APPEAL,EDA,,,,Estate Duty Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: EDA.
+2,Allahabad High Court,Lucknow,ELEP,ELECTION PETITION,EP,,,,Election Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: EP.
+2,Allahabad High Court,Lucknow,FAPL,FIRST APPEAL,FA,,,,First Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: FA.
+2,Allahabad High Court,Lucknow,GAPL,GIFT TAX APPEAL,GTA,,,,Gift Tax Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: GTA.
+2,Allahabad High Court,Lucknow,IAPL,INCOME TAX APPEAL,ITA,,,,Income Tax Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: ITA.
+2,Allahabad High Court,Lucknow,OSUT,ORIGINAL SUIT,OS,,,,Original Suit,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: OS.
+2,Allahabad High Court,Lucknow,SAPL,SECOND APPEAL,SA,,,,Second Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: SA.
+2,Allahabad High Court,Lucknow,TESU,TESTAMENTARY SUIT,TS,,,,Testamentary Suit,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: TS.
+2,Allahabad High Court,Lucknow,WAPL,WEALTH TAX APPEAL,WTA,,,,Wealth Tax Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: WTA.
+3,Andhra Pradesh High Court,Amaravati,APPL,APPLICATION IN CIVIL SUIT(1),CMAppl,MA,,,Civil Miscellaneous Application,Miscellaneous Application (Civil),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: CMAppl, MA."
+3,Andhra Pradesh High Court,Amaravati,ARBAPPL,ARBITRATION APPLICATION(2),ARB_PET,Arb_Pet,ARB_A,,Arbitration Petition (uppercase variant),Arbitration Petition,Arbitration Appeal,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: ARB_PET, Arb_Pet, ARB_A."
+3,Andhra Pradesh High Court,Amaravati,AS,APPEAL SUIT(3),FA,AS,,,First Appeal,Appeal from Subordinate Court,,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: FA, AS."
+3,Andhra Pradesh High Court,Amaravati,CAPPEAL,COMPANY APPEAL(5),CAPP_CA,CAPP_AT,,,Company Appeal (Companies Act),Company Appeal (AT),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: CAPP_CA, CAPP_AT."
+3,Andhra Pradesh High Court,Amaravati,CEA,CENTRAL EXCISE APPEALS(9),EX_CESTAT,CESTAT_APPEAL,,,Excise Appeal,CESTAT Appeal,,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: EX_CESTAT, CESTAT_APPEAL."
+3,Andhra Pradesh High Court,Amaravati,COMS,COMMERCIAL SUIT(16),COM_S,,,,Commercial Suit,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: COM_S.
+3,Andhra Pradesh High Court,Amaravati,CP,COMPANY PETITION(18),COP,CP_CA,,,Company Petition,Company Petition (Companies Act),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: COP, CP_CA."
+3,Andhra Pradesh High Court,Amaravati,CRLA,CRIMINAL APPEAL(19),CRL_A,,,,Criminal Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+3,Andhra Pradesh High Court,Amaravati,CRLATR,CRIMINAL APPEAL TRANSFER(72),CRL_A,,,,Criminal Appeal,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+3,Andhra Pradesh High Court,Amaravati,EDC,ESTATE DUTY CASE(25),EDA,,,,Estate Duty Appeal,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: EDA.
+3,Andhra Pradesh High Court,Amaravati,EXEP,EXECUTION PETITION(28),EA,,,,Execution Application (Civil),,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: EA.
+3,Andhra Pradesh High Court,Amaravati,GTC,GIFT TAX CASE(30),GTA,,,,Gift Tax Appeal,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: GTA.
+3,Andhra Pradesh High Court,Amaravati,ITC,INCOME TAX CASE(31),ITA,Tax_Ref,,,Income Tax Appeal,Tax Reference Case,,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: ITA, Tax_Ref."
+3,Andhra Pradesh High Court,Amaravati,ITTA,INCOME TAX TRIBUNAL APPEAL(32),ITA,,,,Income Tax Appeal,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: ITA.
+3,Andhra Pradesh High Court,Amaravati,LPA,LETTER PATENT APPEAL(35),LPA,,,,Letters Patent Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: LPA.
+3,Andhra Pradesh High Court,Amaravati,MACMA,MOTOR ACCIDENT CIVIL MISCELLANEOUS APPEAL(36),MACA,,,,Motor Accident Claims Appeal,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: MACA.
+3,Andhra Pradesh High Court,Amaravati,OP,ORIGINAL PETITION(37),OMP,,,,Original Miscellaneous Petition,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: OMP.
+3,Andhra Pradesh High Court,Amaravati,REFCRLA,REFERRED CRLA(43),CRL_A,,,,Criminal Appeal,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+3,Andhra Pradesh High Court,Amaravati,SCLP,SUPREME COURT LEAVE PETITION(50),SLP_C,SLP_CRL,,,Special Leave Petition (Civil),Special Leave Petition (Criminal),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: SLP_C, SLP_CRL."
+3,Andhra Pradesh High Court,Amaravati,TRC,TAX REVISION CASE(54),Tax_Ref,,,,Tax Reference Case,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: Tax_Ref.
+3,Andhra Pradesh High Court,Amaravati,TRCRLA,TRANSFER CRIMINAL APPEAL(58),CRL_A,,,,Criminal Appeal,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+3,Andhra Pradesh High Court,Amaravati,TREVC,TAX REVISION CASE(61),Tax_Ref,,,,Tax Reference Case,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: Tax_Ref.
+3,Andhra Pradesh High Court,Amaravati,WP,WRIT PETITION(63),WP_C,WP_CRL,,,Writ Petition (Civil),Writ Petition (Criminal),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: WP_C, WP_CRL."
+3,Andhra Pradesh High Court,Amaravati,WP(PIL),WP(PIL)(64),WP_PIL,WP_C_PIL,PIL,,Writ Petition (Public Interest Litigation),Writ Petition (Public Interest Litigation),Public Interest Litigation,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: WP_PIL, WP_C_PIL, PIL."
+3,Andhra Pradesh High Court,Amaravati,WP(TR),WRIT PETITION TRANSFERED(65),WP_C,,,,Writ Petition (Civil),,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: WP_C.
+3,Andhra Pradesh High Court,Amaravati,X-OBJ,Cross Objection(70),XOBJ,CO,,,Cross Objection,Cross Objection,,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: XOBJ, CO."
+5,Bombay High Court,Aurangabad,APEAL,criminal Appeal,CRL_A,,,,Criminal Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+5,Bombay High Court,Aurangabad,ARBA,Arbitration Appeal,ARB_A,,,,Arbitration Appeal,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: ARB_A.
+5,Bombay High Court,Aurangabad,CEA,CENTRAL EXCISE APPEAL,EX_CESTAT,CESTAT_APPEAL,,,Excise Appeal,CESTAT Appeal,,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: EX_CESTAT, CESTAT_APPEAL."
+5,Bombay High Court,Aurangabad,CMA,Company Application,CMA,,,,Civil Miscellaneous Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: CMA.
+5,Bombay High Court,Aurangabad,CMP,COMPANY PETITION,COP,,,,Company Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: COP.
+5,Bombay High Court,Aurangabad,CP,Cont. Petition,COP,CP_CA,,,Company Petition,Company Petition (Companies Act),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: COP, CP_CA."
+5,Bombay High Court,Aurangabad,CRA,CRA,CRL_A,CRA,,,Criminal Appeal,Criminal Appeal (DC),,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: CRL_A, CRA."
+5,Bombay High Court,Aurangabad,CSA,CUSTOMS APPEAL,CU_CESTAT,,,,Customs Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: CU_CESTAT.
+5,Bombay High Court,Aurangabad,SPLCA,Special Civil Application,SCA,,,,Special Civil Application,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: SCA.
+5,Bombay High Court,Aurangabad,WP-Y,Criminal Writ Petition,WP_CRL,,,,Writ Petition (Criminal),,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: WP_CRL.
+5,Bombay High Court,Aurangabad,X-OBJ,X-Objection,XOBJ,CO,,,Cross Objection,Cross Objection,,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: XOBJ, CO."
+8,Bombay High Court,Kolhapur,ABA,Cr. Anticipatory Bail Appln.,ABA,,,,Anticipatory Bail Application,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: ABA.
+8,Bombay High Court,Kolhapur,ARP,Arbitration Petition,Arb_Pet,,,,Arbitration Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: Arb_Pet.
+8,Bombay High Court,Kolhapur,BA,Criminal Bail Appln.,BA,,,,Bail Application,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: BA.
+8,Bombay High Court,Kolhapur,CP,Cont. Petition,COP,CP_CA,,,Company Petition,Company Petition (Companies Act),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: COP, CP_CA."
+8,Bombay High Court,Kolhapur,CRA,Civil Revision Application,CRL_A,CRA,,,Criminal Appeal,Criminal Appeal (DC),,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: CRL_A, CRA."
+8,Bombay High Court,Kolhapur,CRPIL,Public Interest Litigation,PIL,,,,Public Interest Litigation,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: PIL.
+8,Bombay High Court,Kolhapur,IRXA,INTEREST TAX APPEAL,INTTA,,,,Interest Tax Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: INTTA.
+8,Bombay High Court,Kolhapur,SPLCA,Special Civil Application,SCA,,,,Special Civil Application,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: SCA.
+4,Bombay High Court,Mumbai,ABA,Cr. Anticipatory Bail Appln.,ABA,,,,Anticipatory Bail Application,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: ABA.
+4,Bombay High Court,Mumbai,ARP,Arbitration Petition,Arb_Pet,,,,Arbitration Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: Arb_Pet.
+4,Bombay High Court,Mumbai,BA,Criminal Bail Appln.,BA,,,,Bail Application,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: BA.
+4,Bombay High Court,Mumbai,CP,Cont. Petition,COP,CP_CA,,,Company Petition,Company Petition (Companies Act),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: COP, CP_CA."
+4,Bombay High Court,Mumbai,CRA,Civil Revision Application,CRL_A,CRA,,,Criminal Appeal,Criminal Appeal (DC),,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: CRL_A, CRA."
+4,Bombay High Court,Mumbai,CRPIL,Public Interest Litigation,PIL,,,,Public Interest Litigation,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: PIL.
+4,Bombay High Court,Mumbai,SPLCA,Special Civil Application,SCA,,,,Special Civil Application,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: SCA.
+6,Bombay High Court,Nagpur,ABA,Cr. Anticipatory Bail Applications,ABA,,,,Anticipatory Bail Application,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: ABA.
+6,Bombay High Court,Nagpur,APEAL,Criminal Appeal,CRL_A,,,,Criminal Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+6,Bombay High Court,Nagpur,ARP,Arbitration Petition,Arb_Pet,,,,Arbitration Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: Arb_Pet.
+6,Bombay High Court,Nagpur,BA,Cr. Bail Applications,BA,,,,Bail Application,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: BA.
+6,Bombay High Court,Nagpur,CMP,Company Petition,COP,,,,Company Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: COP.
+6,Bombay High Court,Nagpur,CP,Cont. Petition,COP,CP_CA,,,Company Petition,Company Petition (Companies Act),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: COP, CP_CA."
+6,Bombay High Court,Nagpur,CRA,Civil Revision Application,CRL_A,CRA,,,Criminal Appeal,Criminal Appeal (DC),,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: CRL_A, CRA."
+6,Bombay High Court,Nagpur,ITL,INCOME TAX APPEAL,ITA,,,,Income Tax Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: ITA.
+6,Bombay High Court,Nagpur,SPLCA,Special Civil Application,SCA,,,,Special Civil Application,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: SCA.
+6,Bombay High Court,Nagpur,WP,Writ Petition,WP_C,WP_CRL,,,Writ Petition (Civil),Writ Petition (Criminal),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: WP_C, WP_CRL."
+6,Bombay High Court,Nagpur,WP©,Criminal Writ Petition,WP_CRL,,,,Writ Petition (Criminal),,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: WP_CRL.
+6,Bombay High Court,Nagpur,XOB,Cross Objection,CO,XOBJ,,,Cross Objection,Cross Objection,,,NO,YES,suggested,"Website code differs from eCourts. Backend should search: CO, XOBJ."
+7,Bombay High Court,Panaji,ARP,Arbitration Petition,Arb_Pet,,,,Arbitration Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: Arb_Pet.
+7,Bombay High Court,Panaji,AS,Admiralty Suit,FA,AS,,,First Appeal,Appeal from Subordinate Court,,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: FA, AS."
+7,Bombay High Court,Panaji,CP,Contempt Petition,CONMT,COP,CP_CA,,Contempt Petition,Company Petition,Company Petition (Companies Act),,NO,YES,suggested,"Website code differs from eCourts. Backend should search: CONMT, COP, CP_CA."
+7,Bombay High Court,Panaji,CRA,Civil Revision Application,CRL_A,CRA,,,Criminal Appeal,Criminal Appeal (DC),,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: CRL_A, CRA."
+7,Bombay High Court,Panaji,CRIA,Criminal Appeal,CRL_A,,,,Criminal Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+7,Bombay High Court,Panaji,ELEP,Election Petition,EP,,,,Election Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: EP.
+7,Bombay High Court,Panaji,EXA,Excise Appeal,EX_CESTAT,,,,Excise Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: EX_CESTAT.
+7,Bombay High Court,Panaji,PILWP,Public Interest Litigation WP,WP_PIL,WP_C_PIL,,,Writ Petition (Public Interest Litigation),Writ Petition (Public Interest Litigation),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: WP_PIL, WP_C_PIL."
+7,Bombay High Court,Panaji,PROP,Probate Petition,PP,,,,Probate Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: PP.
+7,Bombay High Court,Panaji,STXA,Service Tax Appeal,SV_CESTAT,,,,Service Tax Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: SV_CESTAT.
+7,Bombay High Court,Panaji,WP,Writ Petition,WP_C,WP_CRL,,,Writ Petition (Civil),Writ Petition (Criminal),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: WP_C, WP_CRL."
+7,Bombay High Court,Panaji,WPCR,Criminal Writ Petition,WP_CRL,,,,Writ Petition (Criminal),,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: WP_CRL.
+7,Bombay High Court,Panaji,XOB,Cross Objection,CO,XOBJ,,,Cross Objection,Cross Objection,,,NO,YES,suggested,"Website code differs from eCourts. Backend should search: CO, XOBJ."
+10,Calcutta High Court,Jalpaiguri,CRA,CRIMINAL APPEAL,CRL_A,CRA,,,Criminal Appeal,Criminal Appeal (DC),,,YES,YES,suggested,"Website code differs from eCourts. Backend should search: CRL_A, CRA."
+10,Calcutta High Court,Jalpaiguri,CRA(DB-AB),APPLICATION FOR ANTICIPATORY BAIL,ABA,,,,Anticipatory Bail Application,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: ABA.
+10,Calcutta High Court,Jalpaiguri,DR,DEATH REFERENCE,DREF,,,,Death Reference,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: DREF.
+11,Calcutta High Court,Port Blair,AP,ARBITRATION PETITION,Arb_Pet,,,,Arbitration Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: Arb_Pet.
+11,Calcutta High Court,Port Blair,CRA,CRIMINAL APPEAL,CRL_A,CRA,,,Criminal Appeal,Criminal Appeal (DC),,,YES,YES,suggested,"Website code differs from eCourts. Backend should search: CRL_A, CRA."
+11,Calcutta High Court,Port Blair,DR,DEATH REFERENCE,DREF,,,,Death Reference,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: DREF.
+9,Calcutta High Court,kolkata,AS,ADMIRALITY  SUITS(33),FA,AS,,,First Appeal,Appeal from Subordinate Court,,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: FA, AS."
+9,Calcutta High Court,kolkata,CP,COMPANY PETITIONS(48),COP,CP_CA,,,Company Petition,Company Petition (Companies Act),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: COP, CP_CA."
+9,Calcutta High Court,kolkata,CRA,COPYRIGHT APPEAL(50),CRL_A,CRA,,,Criminal Appeal,Criminal Appeal (DC),,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: CRL_A, CRA."
+9,Calcutta High Court,kolkata,CS,CIVIL SUITS(52),CS,,,,Civil Suit,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: CS.
+9,Calcutta High Court,kolkata,EP,"ELEC.PET.(PEOPLES REPRESENTATION ACT, 1951)(60)",EP,,,,Election Petition,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: EP.
+12,Chhattisgarh High Court,Bilaspur,CEA,CEA,EX_CESTAT,CESTAT_APPEAL,,,Excise Appeal,CESTAT Appeal,,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: EX_CESTAT, CESTAT_APPEAL."
+12,Chhattisgarh High Court,Bilaspur,CP,CP,COP,CP_CA,,,Company Petition,Company Petition (Companies Act),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: COP, CP_CA."
+12,Chhattisgarh High Court,Bilaspur,CRA,CRA,CRL_A,CRA,,,Criminal Appeal,Criminal Appeal (DC),,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: CRL_A, CRA."
+12,Chhattisgarh High Court,Bilaspur,CS,CS,CS,,,,Civil Suit,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: CS.
+12,Chhattisgarh High Court,Bilaspur,EP,EP,EP,,,,Election Petition,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: EP.
+12,Chhattisgarh High Court,Bilaspur,FA,FA,FA,,,,First Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: FA.
+12,Chhattisgarh High Court,Bilaspur,ITA,ITA,ITA,,,,Income Tax Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: ITA.
+12,Chhattisgarh High Court,Bilaspur,LPA,LPA,LPA,,,,Letters Patent Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: LPA.
+12,Chhattisgarh High Court,Bilaspur,SA,SA,SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: SA, RSA."
+12,Chhattisgarh High Court,Bilaspur,WA,WA,WA,,,,Writ Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: WA.
+12,Chhattisgarh High Court,Bilaspur,WP,WP,WP_C,WP_CRL,,,Writ Petition (Civil),Writ Petition (Criminal),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: WP_C, WP_CRL."
+12,Chhattisgarh High Court,Bilaspur,WPC,WPC,WP_C,,,,Writ Petition (Civil),,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: WP_C.
+12,Chhattisgarh High Court,Bilaspur,WTA,WTA,WTA,,,,Wealth Tax Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: WTA.
+13,Delhi High Court,New Delhi,ARB.A.,ARBITRATION APPEAL,ARB_A,,,,Arbitration Appeal,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: ARB_A.
+13,Delhi High Court,New Delhi,BAIL APPLN.,BAIL APPLICATION,BA,,,,Bail Application,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: BA.
+13,Delhi High Court,New Delhi,C.R.P.,CIVIL REVISION,C_REV,CRP,,,Civil Revision,Civil Revision Petition,,,YES,YES,suggested,"Website code differs from eCourts. Backend should search: C_REV, CRP."
+13,Delhi High Court,New Delhi,CA,CAVEAT,CAV,,,,Caveat,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: CAV.
+13,Delhi High Court,New Delhi,CO.PET.,COMPANY PETITION,COP,,,,Company Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: COP.
+13,Delhi High Court,New Delhi,CRL.A.,CRIMINAL APPEAL,CRL_A,,,,Criminal Appeal,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+13,Delhi High Court,New Delhi,CRL.REV.P.,CRIMINAL REVISION,CR_REV,CRLRC,,,Criminal Revision,Criminal Revision Case,,,NO,YES,suggested,"Website code differs from eCourts. Backend should search: CR_REV, CRLRC."
+13,Delhi High Court,New Delhi,CS(OS),CIVIL SUIT,CS,,,,Civil Suit,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: CS.
+13,Delhi High Court,New Delhi,EL.PET.,ELECTION PETITION,EP,,,,Election Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: EP.
+13,Delhi High Court,New Delhi,GTC,GIFT TAX CASES,GTA,,,,Gift Tax Appeal,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: GTA.
+13,Delhi High Court,New Delhi,ITC,INCOME TAX CASES,ITA,Tax_Ref,,,Income Tax Appeal,Tax Reference Case,,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: ITA, Tax_Ref."
+13,Delhi High Court,New Delhi,RSA,REG. IInd APPEAL,RSA,SA,,,Regular Second Appeal,Second Appeal,,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: RSA, SA."
+13,Delhi High Court,New Delhi,SERTA,SERVICE TAX APPEAL,SV_CESTAT,,,,Service Tax Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: SV_CESTAT.
+15,Gauhati High Court,Aizawl,CP,Condonation Petition(68),COP,CP_CA,,,Company Petition,Company Petition (Companies Act),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: COP, CP_CA."
+15,Gauhati High Court,Aizawl,Crl.A.,Appeal against Judgment/Sentence.(166),CRL_A,,,,Criminal Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+15,Gauhati High Court,Aizawl,WA,Appeal before Division Bench against judgment or order of Single Judge in a Writ Petition.(112),WA,,,,Writ Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: WA.
+15,Gauhati High Court,Aizawl,WP(C),Writ Petition under Article 226 and 227 of the Constitution(111),WP_C,,,,Writ Petition (Civil),,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: WP_C.
+14,Gauhati High Court,Guwahati,CP,Condonation Petition(68),COP,CP_CA,,,Company Petition,Company Petition (Companies Act),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: COP, CP_CA."
+14,Gauhati High Court,Guwahati,Crl.A.,Appeal against Judgment/Sentence.(166),CRL_A,,,,Criminal Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+16,Gauhati High Court,Itanagar,CP,Condonation Petition(68),COP,CP_CA,,,Company Petition,Company Petition (Companies Act),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: COP, CP_CA."
+16,Gauhati High Court,Itanagar,Crl.A.,Appeal against Judgment/Sentence.(166),CRL_A,,,,Criminal Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+16,Gauhati High Court,Itanagar,ITA,Application under Section 256(2)(148),ITA,,,,Income Tax Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: ITA.
+16,Gauhati High Court,Itanagar,LPA,Latters Patent Appeal(23),LPA,,,,Letters Patent Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: LPA.
+17,Gauhati High Court,Kohima,CP,Condonation Petition(68),COP,CP_CA,,,Company Petition,Company Petition (Companies Act),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: COP, CP_CA."
+17,Gauhati High Court,Kohima,Crl.A.,Appeal against Judgment/Sentence.(166),CRL_A,,,,Criminal Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+17,Gauhati High Court,Kohima,ITA,Application under Section 256(2)(148),ITA,,,,Income Tax Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: ITA.
+17,Gauhati High Court,Kohima,LPA,Latters Patent Appeal(23),LPA,,,,Letters Patent Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: LPA.
+17,Gauhati High Court,Kohima,RFA,First Appeal from Judgment and Decree in Suit(96),RFA,FA,,,Regular First Appeal,First Appeal,,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: RFA, FA."
+17,Gauhati High Court,Kohima,RSA,Second Appeal from Judgment and Decree(99),RSA,SA,,,Regular Second Appeal,Second Appeal,,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: RSA, SA."
+17,Gauhati High Court,Kohima,SCLP,Petition for Leave to Appeal to Supreme Court(113),SLP_C,SLP_CRL,,,Special Leave Petition (Civil),Special Leave Petition (Criminal),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: SLP_C, SLP_CRL."
+17,Gauhati High Court,Kohima,SLP,Special Leave Petition(203),SLP_C,SLP_CRL,,,Special Leave Petition (Civil),Special Leave Petition (Criminal),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: SLP_C, SLP_CRL."
+17,Gauhati High Court,Kohima,WA,Appeal before Division Bench against judgment or order of Single Judge in a Writ Petition.(112),WA,,,,Writ Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: WA.
+17,Gauhati High Court,Kohima,WP(C),Writ Petition under Article 226 and 227 of the Constitution(111),WP_C,,,,Writ Petition (Civil),,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: WP_C.
+18,Gujarat High Court,Ahmedabad,CP,Condonation Petition(68),COP,CP_CA,,,Company Petition,Company Petition (Companies Act),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: COP, CP_CA."
+18,Gujarat High Court,Ahmedabad,Crl.A.,Appeal against Judgment/Sentence.(166),CRL_A,,,,Criminal Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+18,Gujarat High Court,Ahmedabad,ITA,Application under Section 256(2)(148),ITA,,,,Income Tax Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: ITA.
+18,Gujarat High Court,Ahmedabad,LPA,Latters Patent Appeal(23),LPA,,,,Letters Patent Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: LPA.
+18,Gujarat High Court,Ahmedabad,RFA,First Appeal from Judgment and Decree in Suit(96),RFA,FA,,,Regular First Appeal,First Appeal,,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: RFA, FA."
+18,Gujarat High Court,Ahmedabad,RSA,Second Appeal from Judgment and Decree(99),RSA,SA,,,Regular Second Appeal,Second Appeal,,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: RSA, SA."
+18,Gujarat High Court,Ahmedabad,SCLP,Petition for Leave to Appeal to Supreme Court(113),SLP_C,SLP_CRL,,,Special Leave Petition (Civil),Special Leave Petition (Criminal),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: SLP_C, SLP_CRL."
+18,Gujarat High Court,Ahmedabad,SLP,Special Leave Petition(203),SLP_C,SLP_CRL,,,Special Leave Petition (Civil),Special Leave Petition (Criminal),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: SLP_C, SLP_CRL."
+18,Gujarat High Court,Ahmedabad,WA,Appeal before Division Bench against judgment or order of Single Judge in a Writ Petition.(112),WA,,,,Writ Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: WA.
+18,Gujarat High Court,Ahmedabad,WP(C),Writ Petition under Article 226 and 227 of the Constitution(111),WP_C,,,,Writ Petition (Civil),,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: WP_C.
+19,Himachal Pradesh High Court,Shimla,ARB.P,Arbirtration Petition(16),ARB_PET,Arb_Pet,,,Arbitration Petition (uppercase variant),Arbitration Petition,,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: ARB_PET, Arb_Pet."
+19,Himachal Pradesh High Court,Shimla,CEA,Central Excise Appeal(53),EX_CESTAT,CESTAT_APPEAL,,,Excise Appeal,CESTAT Appeal,,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: EX_CESTAT, CESTAT_APPEAL."
+19,Himachal Pradesh High Court,Shimla,COMS,Commercial Suit(69),COM_S,,,,Commercial Suit,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: COM_S.
+19,Himachal Pradesh High Court,Shimla,CR.A,Criminal Appeal(304),CRL_A,CRA,,,Criminal Appeal,Criminal Appeal (DC),,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: CRL_A, CRA."
+19,Himachal Pradesh High Court,Shimla,CRWP,Criminal Writ Petition(301),WP_CRL,,,,Writ Petition (Criminal),,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: WP_CRL.
+19,Himachal Pradesh High Court,Shimla,CWP,Civil Writ Petition(1),WP_C,,,,Writ Petition (Civil),,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: WP_C.
+19,Himachal Pradesh High Court,Shimla,LPA,Letter Patent Appeal(22),LPA,,,,Letters Patent Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: LPA.
+19,Himachal Pradesh High Court,Shimla,SA,Succession Application(314),SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: SA, RSA."
+20,Jammu & Kashmir and Ladakh High Court,Jammu,Arb P,ARBITRATION PETITIONS -SB(329),ARB_PET,Arb_Pet,,,Arbitration Petition (uppercase variant),Arbitration Petition,,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: ARB_PET, Arb_Pet."
+20,Jammu & Kashmir and Ladakh High Court,Jammu,CEA,CENTRAL EXCISE ACT APPEAL(208),EX_CESTAT,CESTAT_APPEAL,,,Excise Appeal,CESTAT Appeal,,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: EX_CESTAT, CESTAT_APPEAL."
+20,Jammu & Kashmir and Ladakh High Court,Jammu,CP,PETITION UNDER COMPANIES ACT(38),COP,CP_CA,,,Company Petition,Company Petition (Companies Act),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: COP, CP_CA."
+20,Jammu & Kashmir and Ladakh High Court,Jammu,CRA,CRIMINAL APPEALS(39),CRL_A,CRA,,,Criminal Appeal,Criminal Appeal (DC),,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: CRL_A, CRA."
+20,Jammu & Kashmir and Ladakh High Court,Jammu,ITC,Income Tax Cases(339),ITA,Tax_Ref,,,Income Tax Appeal,Tax Reference Case,,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: ITA, Tax_Ref."
+20,Jammu & Kashmir and Ladakh High Court,Jammu,RFA,1st APPEAL-S.B(336),RFA,FA,,,Regular First Appeal,First Appeal,,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: RFA, FA."
+20,Jammu & Kashmir and Ladakh High Court,Jammu,RSA,CIVIL 2nd APPEAL -SB(326),RSA,SA,,,Regular Second Appeal,Second Appeal,,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: RSA, SA."
+20,Jammu & Kashmir and Ladakh High Court,Jammu,WP(C),WRIT PETITION(300),WP_C,,,,Writ Petition (Civil),,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: WP_C.
+20,Jammu & Kashmir and Ladakh High Court,Jammu,WP(Crl),WRIT PETITION CRIMINAL(328),WP_CRL,,,,Writ Petition (Criminal),,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: WP_CRL.
+21,Jharkhand High Court,Ranchi,LPA,LETTER PATENTS APPEAL(3),LPA,,,,Letters Patent Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: LPA.
+21,Jharkhand High Court,Ranchi,WPC,WRIT PETITIONS(50),WP_C,,,,Writ Petition (Civil),,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: WP_C.
+22,Karnataka High Court,Bengaluru,CEA,Central Excise Appeal,EX_CESTAT,CESTAT_APPEAL,,,Excise Appeal,CESTAT Appeal,,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: EX_CESTAT, CESTAT_APPEAL."
+22,Karnataka High Court,Bengaluru,COM.S,Commercial Suit,COM_S,,,,Commercial Suit,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: COM_S.
+22,Karnataka High Court,Bengaluru,CP,Civil Petition,COP,CP_CA,,,Company Petition,Company Petition (Companies Act),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: COP, CP_CA."
+22,Karnataka High Court,Bengaluru,CRA,CROSS APPEALS,CRL_A,CRA,,,Criminal Appeal,Criminal Appeal (DC),,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: CRL_A, CRA."
+22,Karnataka High Court,Bengaluru,CRL.A,Criminal Appeal,CRL_A,,,,Criminal Appeal,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+22,Karnataka High Court,Bengaluru,CRL.P,Criminal Petition,CRLP,,,,Criminal Leave Petition,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: CRLP.
+22,Karnataka High Court,Bengaluru,CROB,Cross Objection,CO,XOBJ,,,Cross Objection,Cross Objection,,,NO,YES,suggested,"Website code differs from eCourts. Backend should search: CO, XOBJ."
+22,Karnataka High Court,Bengaluru,CSTA,Customs Appeal,CU_CESTAT,,,,Customs Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: CU_CESTAT.
+22,Karnataka High Court,Bengaluru,TRC,Tax referred cases,Tax_Ref,,,,Tax Reference Case,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: Tax_Ref.
+22,Karnataka High Court,Bengaluru,WP,Writ Petition,WP_C,WP_CRL,,,Writ Petition (Civil),Writ Petition (Criminal),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: WP_C, WP_CRL."
+23,Karnataka High Court,Dharwad,CEA,Central Excise Appeal,EX_CESTAT,CESTAT_APPEAL,,,Excise Appeal,CESTAT Appeal,,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: EX_CESTAT, CESTAT_APPEAL."
+23,Karnataka High Court,Dharwad,COM.S,Commercial Suit,COM_S,,,,Commercial Suit,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: COM_S.
+23,Karnataka High Court,Dharwad,CP,Civil Petition,COP,CP_CA,,,Company Petition,Company Petition (Companies Act),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: COP, CP_CA."
+23,Karnataka High Court,Dharwad,CRA,CROSS APPEALS,CRL_A,CRA,,,Criminal Appeal,Criminal Appeal (DC),,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: CRL_A, CRA."
+23,Karnataka High Court,Dharwad,CRL.A,Criminal Appeal,CRL_A,,,,Criminal Appeal,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+23,Karnataka High Court,Dharwad,CRL.P,Criminal Petition,CRLP,,,,Criminal Leave Petition,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: CRLP.
+23,Karnataka High Court,Dharwad,CROB,Cross Objection,CO,XOBJ,,,Cross Objection,Cross Objection,,,NO,YES,suggested,"Website code differs from eCourts. Backend should search: CO, XOBJ."
+23,Karnataka High Court,Dharwad,CSTA,Customs Appeal,CU_CESTAT,,,,Customs Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: CU_CESTAT.
+23,Karnataka High Court,Dharwad,TRC,Tax referred cases,Tax_Ref,,,,Tax Reference Case,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: Tax_Ref.
+23,Karnataka High Court,Dharwad,WP,Writ Petition,WP_C,WP_CRL,,,Writ Petition (Civil),Writ Petition (Criminal),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: WP_C, WP_CRL."
+24,Karnataka High Court,Kalaburagi,CEA,Central Excise Appeal,EX_CESTAT,CESTAT_APPEAL,,,Excise Appeal,CESTAT Appeal,,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: EX_CESTAT, CESTAT_APPEAL."
+24,Karnataka High Court,Kalaburagi,COM.S,Commercial Suit,COM_S,,,,Commercial Suit,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: COM_S.
+24,Karnataka High Court,Kalaburagi,CP,Civil Petition,COP,CP_CA,,,Company Petition,Company Petition (Companies Act),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: COP, CP_CA."
+24,Karnataka High Court,Kalaburagi,CRA,CROSS APPEALS,CRL_A,CRA,,,Criminal Appeal,Criminal Appeal (DC),,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: CRL_A, CRA."
+24,Karnataka High Court,Kalaburagi,CRL.A,Criminal Appeal,CRL_A,,,,Criminal Appeal,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+24,Karnataka High Court,Kalaburagi,CRL.P,Criminal Petition,CRLP,,,,Criminal Leave Petition,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: CRLP.
+24,Karnataka High Court,Kalaburagi,CROB,Cross Objection,CO,XOBJ,,,Cross Objection,Cross Objection,,,NO,YES,suggested,"Website code differs from eCourts. Backend should search: CO, XOBJ."
+24,Karnataka High Court,Kalaburagi,CSTA,Customs Appeal,CU_CESTAT,,,,Customs Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: CU_CESTAT.
+24,Karnataka High Court,Kalaburagi,TRC,Tax referred cases,Tax_Ref,,,,Tax Reference Case,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: Tax_Ref.
+24,Karnataka High Court,Kalaburagi,WP,Writ Petition,WP_C,WP_CRL,,,Writ Petition (Civil),Writ Petition (Criminal),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: WP_C, WP_CRL."
+25,Kerala High Court,Kochi,CEA,Central Excise Appeal-(104),EX_CESTAT,CESTAT_APPEAL,,,Excise Appeal,CESTAT Appeal,,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: EX_CESTAT, CESTAT_APPEAL."
+25,Kerala High Court,Kochi,CP,Civil Petition-(106),COP,CP_CA,,,Company Petition,Company Petition (Companies Act),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: COP, CP_CA."
+25,Kerala High Court,Kochi,CRA,CROSS APPEALS-(160),CRL_A,CRA,,,Criminal Appeal,Criminal Appeal (DC),,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: CRL_A, CRA."
+25,Kerala High Court,Kochi,CRL.A,Criminal Appeal-(110),CRL_A,,,,Criminal Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+25,Kerala High Court,Kochi,CRL.P,Criminal Petition-(112),CRLP,,,,Criminal Leave Petition,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: CRLP.
+25,Kerala High Court,Kochi,TRC,Tax referred cases-(142),Tax_Ref,,,,Tax Reference Case,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: Tax_Ref.
+25,Kerala High Court,Kochi,WP,Writ Petition-(144),WP_C,WP_CRL,,,Writ Petition (Civil),Writ Petition (Criminal),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: WP_C, WP_CRL."
+27,Madhya Pradesh High Court,Gwalior,AA,ARBITRATION APPEAL,ARB_A,,,,Arbitration Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: ARB_A.
+27,Madhya Pradesh High Court,Gwalior,ARBA,ARBITRATION APPEAL,ARB_A,,,,Arbitration Appeal,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: ARB_A.
+27,Madhya Pradesh High Court,Gwalior,CEA,CENTRAL EXCISE APPEAL,EX_CESTAT,CESTAT_APPEAL,,,Excise Appeal,CESTAT Appeal,,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: EX_CESTAT, CESTAT_APPEAL."
+27,Madhya Pradesh High Court,Gwalior,CMA(R),CIVIL MISCELLANEOUS APPEAL,CMA,,,,Civil Miscellaneous Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: CMA.
+27,Madhya Pradesh High Court,Gwalior,CMAP(R),CIVIL MISCELLANEOUS APPLICATION,CMAppl,MA,,,Civil Miscellaneous Application,Miscellaneous Application (Civil),,,NO,YES,suggested,"Website code differs from eCourts. Backend should search: CMAppl, MA."
+27,Madhya Pradesh High Court,Gwalior,CMAPL,CIVIL MISCELLANEOUS APPEAL,CMA,,,,Civil Miscellaneous Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: CMA.
+27,Madhya Pradesh High Court,Gwalior,COMP,COMPANY PETITION,COP,,,,Company Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: COP.
+27,Madhya Pradesh High Court,Gwalior,CONT,CONTEMPT. PETITION,CONMT,,,,Contempt Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: CONMT.
+27,Madhya Pradesh High Court,Gwalior,CRA,CRIMINAL APPEAL,CRL_A,CRA,,,Criminal Appeal,Criminal Appeal (DC),,,YES,YES,suggested,"Website code differs from eCourts. Backend should search: CRL_A, CRA."
+27,Madhya Pradesh High Court,Gwalior,CRMA,CRIMINAL MISCELLANEOUS APPLICATION,MCrA,,,,Miscellaneous Criminal Application,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: MCrA.
+27,Madhya Pradesh High Court,Gwalior,CRMC,CRIMINAL MISCELLANEOUS CASE,CR_MISC,,,,Criminal Miscellaneous,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: CR_MISC.
+27,Madhya Pradesh High Court,Gwalior,DR,DEATH REFERENCE,DREF,,,,Death Reference,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: DREF.
+27,Madhya Pradesh High Court,Gwalior,TR,TAX REFERENCE,Tax_Ref,,,,Tax Reference Case,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: Tax_Ref.
+27,Madhya Pradesh High Court,Gwalior,WP,WRIT PETITION,WP_C,WP_CRL,,,Writ Petition (Civil),Writ Petition (Criminal),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: WP_C, WP_CRL."
+28,Madhya Pradesh High Court,Indore,AA,ARBITRATION APPEAL,ARB_A,,,,Arbitration Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: ARB_A.
+28,Madhya Pradesh High Court,Indore,ARBA,ARBITRATION APPEAL,ARB_A,,,,Arbitration Appeal,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: ARB_A.
+28,Madhya Pradesh High Court,Indore,CEA,CENTRAL EXCISE APPEAL,EX_CESTAT,CESTAT_APPEAL,,,Excise Appeal,CESTAT Appeal,,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: EX_CESTAT, CESTAT_APPEAL."
+28,Madhya Pradesh High Court,Indore,CMA(R),CIVIL MISCELLANEOUS APPEAL,CMA,,,,Civil Miscellaneous Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: CMA.
+28,Madhya Pradesh High Court,Indore,CMAP(R),CIVIL MISCELLANEOUS APPLICATION,CMAppl,MA,,,Civil Miscellaneous Application,Miscellaneous Application (Civil),,,NO,YES,suggested,"Website code differs from eCourts. Backend should search: CMAppl, MA."
+28,Madhya Pradesh High Court,Indore,CMAPL,CIVIL MISCELLANEOUS APPEAL,CMA,,,,Civil Miscellaneous Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: CMA.
+28,Madhya Pradesh High Court,Indore,COMP,COMPANY PETITION,COP,,,,Company Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: COP.
+28,Madhya Pradesh High Court,Indore,CONT,CONTEMPT. PETITION,CONMT,,,,Contempt Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: CONMT.
+28,Madhya Pradesh High Court,Indore,CRA,CRIMINAL APPEAL,CRL_A,CRA,,,Criminal Appeal,Criminal Appeal (DC),,,YES,YES,suggested,"Website code differs from eCourts. Backend should search: CRL_A, CRA."
+28,Madhya Pradesh High Court,Indore,CRMA,CRIMINAL MISCELLANEOUS APPLICATION,MCrA,,,,Miscellaneous Criminal Application,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: MCrA.
+28,Madhya Pradesh High Court,Indore,CRMC,CRIMINAL MISCELLANEOUS CASE,CR_MISC,,,,Criminal Miscellaneous,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: CR_MISC.
+28,Madhya Pradesh High Court,Indore,DR,DEATH REFERENCE,DREF,,,,Death Reference,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: DREF.
+28,Madhya Pradesh High Court,Indore,TR,TAX REFERENCE,Tax_Ref,,,,Tax Reference Case,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: Tax_Ref.
+28,Madhya Pradesh High Court,Indore,WP,WRIT PETITION,WP_C,WP_CRL,,,Writ Petition (Civil),Writ Petition (Criminal),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: WP_C, WP_CRL."
+26,Madhya Pradesh High Court,Jabalpur,AA,ARBITRATION APPEAL,ARB_A,,,,Arbitration Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: ARB_A.
+26,Madhya Pradesh High Court,Jabalpur,ARBA,ARBITRATION APPEAL,ARB_A,,,,Arbitration Appeal,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: ARB_A.
+26,Madhya Pradesh High Court,Jabalpur,CEA,CENTRAL EXCISE APPEAL,EX_CESTAT,CESTAT_APPEAL,,,Excise Appeal,CESTAT Appeal,,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: EX_CESTAT, CESTAT_APPEAL."
+26,Madhya Pradesh High Court,Jabalpur,CMA(R),CIVIL MISCELLANEOUS APPEAL,CMA,,,,Civil Miscellaneous Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: CMA.
+26,Madhya Pradesh High Court,Jabalpur,CMAP(R),CIVIL MISCELLANEOUS APPLICATION,CMAppl,MA,,,Civil Miscellaneous Application,Miscellaneous Application (Civil),,,NO,YES,suggested,"Website code differs from eCourts. Backend should search: CMAppl, MA."
+26,Madhya Pradesh High Court,Jabalpur,CMAPL,CIVIL MISCELLANEOUS APPEAL,CMA,,,,Civil Miscellaneous Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: CMA.
+26,Madhya Pradesh High Court,Jabalpur,COMP,COMPANY PETITION,COP,,,,Company Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: COP.
+26,Madhya Pradesh High Court,Jabalpur,CONT,CONTEMPT PETITION,CONMT,,,,Contempt Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: CONMT.
+26,Madhya Pradesh High Court,Jabalpur,CRA,CRIMINAL APPEAL,CRL_A,CRA,,,Criminal Appeal,Criminal Appeal (DC),,,YES,YES,suggested,"Website code differs from eCourts. Backend should search: CRL_A, CRA."
+26,Madhya Pradesh High Court,Jabalpur,CRMA,CRIMINAL MISCELLANEOUS APPLICATION,MCrA,,,,Miscellaneous Criminal Application,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: MCrA.
+26,Madhya Pradesh High Court,Jabalpur,CRMC,CRIMINAL MISCELLANEOUS CASE,CR_MISC,,,,Criminal Miscellaneous,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: CR_MISC.
+26,Madhya Pradesh High Court,Jabalpur,DR,DEATH REFERENCE,DREF,,,,Death Reference,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: DREF.
+26,Madhya Pradesh High Court,Jabalpur,TR,TAX REFERENCE,Tax_Ref,,,,Tax Reference Case,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: Tax_Ref.
+26,Madhya Pradesh High Court,Jabalpur,WP,WRIT PETITION,WP_C,WP_CRL,,,Writ Petition (Civil),Writ Petition (Criminal),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: WP_C, WP_CRL."
+29,Madras High Court,Chennai,AS,FIRST APPEAL,FA,AS,,,First Appeal,Appeal from Subordinate Court,,,YES,YES,suggested,"Website code differs from eCourts. Backend should search: FA, AS."
+29,Madras High Court,Chennai,Arb Appeal,Arbitration Appeal,ARB_A,,,,Arbitration Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: ARB_A.
+29,Madras High Court,Chennai,CONT P,CONTEMPT PETITION,CONMT,,,,Contempt Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: CONMT.
+29,Madras High Court,Chennai,CP,COMPANY PETITION,COP,CP_CA,,,Company Petition,Company Petition (Companies Act),,,NO,YES,suggested,"Website code differs from eCourts. Backend should search: COP, CP_CA."
+29,Madras High Court,Chennai,CRL A,CRIMINAL APPEAL,CRL_A,,,,Criminal Appeal,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+29,Madras High Court,Chennai,CRL RC,CRIMINAL REVISION CASE,CRLRC,CR_REV,,,Criminal Revision Case,Criminal Revision,,,YES,YES,suggested,"Website code differs from eCourts. Backend should search: CRLRC, CR_REV."
+29,Madras High Court,Chennai,CROS.OBJ,CROSS OBJECTION,CO,XOBJ,,,Cross Objection,Cross Objection,,,NO,YES,suggested,"Website code differs from eCourts. Backend should search: CO, XOBJ."
+29,Madras High Court,Chennai,CS,CIVIL SUITS,CS,,,,Civil Suit,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: CS.
+29,Madras High Court,Chennai,ELP,ELECTION PETITION,EP,,,,Election Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: EP.
+29,Madras High Court,Chennai,EP,EXECUTION PETITION,EP,,,,Election Petition,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: EP.
+29,Madras High Court,Chennai,OP,ORIGINAL PETITION,OMP,,,,Original Miscellaneous Petition,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: OMP.
+29,Madras High Court,Chennai,TCR,TAX CASE REFERENCE,Tax_Ref,,,,Tax Reference Case,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: Tax_Ref.
+29,Madras High Court,Chennai,WP,WRIT PETITION,WP_C,WP_CRL,,,Writ Petition (Civil),Writ Petition (Criminal),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: WP_C, WP_CRL."
+29,Madras High Court,Chennai,WP Crl.,Writ Petition Criminal,WP_CRL,,,,Writ Petition (Criminal),,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: WP_CRL.
+30,Madras High Court,Madurai,AS,Appeal Suit(1),FA,AS,,,First Appeal,Appeal from Subordinate Court,,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: FA, AS."
+30,Madras High Court,Madurai,CRL A,Criminal Appeal(273),CRL_A,,,,Criminal Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+30,Madras High Court,Madurai,CRL RC,CRIMINAL REVISION CASE(13),CRLRC,,,,Criminal Revision Case,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: CRLRC.
+30,Madras High Court,Madurai,WP,WRIT PETITION(49),WP_C,WP_CRL,,,Writ Petition (Civil),Writ Petition (Criminal),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: WP_C, WP_CRL."
+31,Manipur High Court,Imphal,Crl.A.,Appeal against Judgment/Sentence.(88),CRL_A,,,,Criminal Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+31,Manipur High Court,Imphal,ITA,Application under Section 256(2)(71),ITA,,,,Income Tax Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: ITA.
+31,Manipur High Court,Imphal,LPA,Latters Patent Appeal(187),LPA,,,,Letters Patent Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: LPA.
+31,Manipur High Court,Imphal,RFA,First Appeal from Judgment Decree in Suit(22),RFA,FA,,,Regular First Appeal,First Appeal,,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: RFA, FA."
+31,Manipur High Court,Imphal,RSA,Second Appeal from Judgment Decree(25),RSA,SA,,,Regular Second Appeal,Second Appeal,,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: RSA, SA."
+31,Manipur High Court,Imphal,SCLP,Petition for Leave to Appeal to Supreme Court(37),SLP_C,SLP_CRL,,,Special Leave Petition (Civil),Special Leave Petition (Criminal),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: SLP_C, SLP_CRL."
+31,Manipur High Court,Imphal,WP(C),Writ Petition under Article 226 of the Constitution(35),WP_C,,,,Writ Petition (Civil),,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: WP_C.
+32,Meghalaya High Court,Shillong,CP,Condonation Petition-(68),COP,CP_CA,,,Company Petition,Company Petition (Companies Act),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: COP, CP_CA."
+32,Meghalaya High Court,Shillong,Crl.A.,Appeal Against Judgment Sentence-(166),CRL_A,,,,Criminal Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+32,Meghalaya High Court,Shillong,ITA,Application Under Section 256 2-(148),ITA,,,,Income Tax Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: ITA.
+32,Meghalaya High Court,Shillong,LPA,Latters Patent Appeal-(23),LPA,,,,Letters Patent Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: LPA.
+32,Meghalaya High Court,Shillong,RFA,First Appeal Fron Judgment And Decree In Suit-(96),RFA,FA,,,Regular First Appeal,First Appeal,,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: RFA, FA."
+32,Meghalaya High Court,Shillong,RSA,Second Appeal From Judgment And Decree-(99),RSA,SA,,,Regular Second Appeal,Second Appeal,,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: RSA, SA."
+32,Meghalaya High Court,Shillong,SCLP,Petition For Leave To Appeal To Supreme Court-(113),SLP_C,SLP_CRL,,,Special Leave Petition (Civil),Special Leave Petition (Criminal),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: SLP_C, SLP_CRL."
+32,Meghalaya High Court,Shillong,SLP,Special Leave Petition-(203),SLP_C,SLP_CRL,,,Special Leave Petition (Civil),Special Leave Petition (Criminal),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: SLP_C, SLP_CRL."
+32,Meghalaya High Court,Shillong,W.P.,Crl.)(Writ And Habeas Corpus And Other Relief In Relation To A Criminal Pro-(173),WP_C,WP_CRL,,,Writ Petition (Civil),Writ Petition (Criminal),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: WP_C, WP_CRL."
+32,Meghalaya High Court,Shillong,WA,Appeal Before Division Bench Against Judgment Or Order Of Single Judge-(112),WA,,,,Writ Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: WA.
+32,Meghalaya High Court,Shillong,WP(C),Writ Petition Under Article 226 And 227 Of The Constitution-(111),WP_C,,,,Writ Petition (Civil),,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: WP_C.
+33,Orissa High Court,Cuttack,ARBP,ARBP-Petitions under Arbitration and Conciliation Act - (4),ARB_PET,Arb_Pet,,,Arbitration Petition (uppercase variant),Arbitration Petition,,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: ARB_PET, Arb_Pet."
+33,Orissa High Court,Cuttack,AS,AS-Admirality Suit. - (5),FA,AS,,,First Appeal,Appeal from Subordinate Court,,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: FA, AS."
+33,Orissa High Court,Cuttack,CRA,CRA-Criminal Appeals - (23),CRL_A,CRA,,,Criminal Appeal,Criminal Appeal (DC),,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: CRL_A, CRA."
+33,Orissa High Court,Cuttack,CRLA,CRLA-Appeal against Judgement/Sentence. - (24),CRL_A,,,,Criminal Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+33,Orissa High Court,Cuttack,CRP,CRP-Revision Petition. - (33),CRP,,,,Civil Revision Petition,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: CRP.
+33,Orissa High Court,Cuttack,ITA,ITA-Appeals Income-tax - (69),ITA,,,,Income Tax Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: ITA.
+33,Orissa High Court,Cuttack,LPA,LPA-Letters Patent Appeals. - (79),LPA,,,,Letters Patent Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: LPA.
+33,Orissa High Court,Cuttack,MACA,MACA-Motor Accident Appeals. - (82),MACA,MA_CA,,,Motor Accident Claims Appeal,Miscellaneous Application (Companies Act),,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: MACA, MA_CA."
+33,Orissa High Court,Cuttack,RFA,RFA-FA from Judgement and Decree in Suit - (104),RFA,FA,,,Regular First Appeal,First Appeal,,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: RFA, FA."
+33,Orissa High Court,Cuttack,RSA,RSA-Second Appeal from Judgement and Decree. - (106),RSA,SA,,,Regular Second Appeal,Second Appeal,,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: RSA, SA."
+33,Orissa High Court,Cuttack,SCLP,SCLP-Pet.for leave to appeal to Supreme Court - (111),SLP_C,SLP_CRL,,,Special Leave Petition (Civil),Special Leave Petition (Criminal),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: SLP_C, SLP_CRL."
+33,Orissa High Court,Cuttack,WA,WA-Appeals before DB against SB Judgement - (125),WA,,,,Writ Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: WA.
+33,Orissa High Court,Cuttack,WP(C),WP(C)-Writ Petition under Art.226 and 227. - (126),WP_C,,,,Writ Petition (Civil),,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: WP_C.
+33,Orissa High Court,Cuttack,WPCRL,WPCRL-Pet.UA.226 for Writ of Habeas Corpus. - (127),WP_CRL,,,,Writ Petition (Criminal),,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: WP_CRL.
+33,Orissa High Court,Cuttack,WTA,WTA-Appl.for reference under Wealth Tax Act. - (128),WTA,,,,Wealth Tax Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: WTA.
+34,Patna High Court,Patna,C.R.,CIVIL REVISION,C_REV,CR,,,Civil Revision,Civil Revision (short form),,,YES,YES,suggested,"Website code differs from eCourts. Backend should search: C_REV, CR."
+34,Patna High Court,Patna,COMP PET,COMPANY PETITION,COP,,,,Company Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: COP.
+34,Patna High Court,Patna,CR. MISC.,CRIMINAL MISCELLANEOUS,CR_MISC,,,,Criminal Miscellaneous,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: CR_MISC.
+34,Patna High Court,Patna,CR. REV.,CRIMINAL REVISION,CR_REV,CRLRC,,,Criminal Revision,Criminal Revision Case,,,YES,YES,suggested,"Website code differs from eCourts. Backend should search: CR_REV, CRLRC."
+34,Patna High Court,Patna,CR. WJC,Criminal Writ Jurisdiction Case,CR_WJC,,,,Criminal Writ Jurisdiction Case,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: CR_WJC.
+34,Patna High Court,Patna,D. REF.,DEATH REFERENCE,DREF,,,,Death Reference,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: DREF.
+34,Patna High Court,Patna,E.P.,ELECTION PETITION,EP,,,,Election Petition,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: EP.
+34,Patna High Court,Patna,L.P.A,Letters Patent Appeal,LPA,,,,Letters Patent Appeal,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: LPA.
+34,Patna High Court,Patna,SLP,SPECIAL LEAVE PETITION,SLP_C,SLP_CRL,,,Special Leave Petition (Civil),Special Leave Petition (Criminal),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: SLP_C, SLP_CRL."
+35,Punjab and Haryana High Court,Chandigarh,CEA,CENTRAL EXCEISE APPEAL (WEF 10-11-2003),EX_CESTAT,CESTAT_APPEAL,,,Excise Appeal,CESTAT Appeal,,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: EX_CESTAT, CESTAT_APPEAL."
+35,Punjab and Haryana High Court,Chandigarh,CMA,COMPANY MISC. APPLICATION,CMA,,,,Civil Miscellaneous Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: CMA.
+35,Punjab and Haryana High Court,Chandigarh,CP,COMPANY PETITIONS,COP,CP_CA,,,Company Petition,Company Petition (Companies Act),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: COP, CP_CA."
+35,Punjab and Haryana High Court,Chandigarh,CRA,CRIMINAL APPEAL,CRL_A,CRA,,,Criminal Appeal,Criminal Appeal (DC),,,YES,YES,suggested,"Website code differs from eCourts. Backend should search: CRL_A, CRA."
+35,Punjab and Haryana High Court,Chandigarh,CRWP,CRIMINAL WRIT PETITION,WP_CRL,,,,Writ Petition (Criminal),,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: WP_CRL.
+35,Punjab and Haryana High Court,Chandigarh,CWP,CIVIL WRIT PETITION,WP_C,,,,Writ Petition (Civil),,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: WP_C.
+35,Punjab and Haryana High Court,Chandigarh,EDC,ESTATE DUTY CASE,EDA,,,,Estate Duty Appeal,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: EDA.
+35,Punjab and Haryana High Court,Chandigarh,EP,ELECTION PETITIONS,EP,,,,Election Petition,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: EP.
+35,Punjab and Haryana High Court,Chandigarh,GTC,GIFT TAX CASE,GTA,,,,Gift Tax Appeal,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: GTA.
+35,Punjab and Haryana High Court,Chandigarh,ITC,INCOME TAX CASES,ITA,Tax_Ref,,,Income Tax Appeal,Tax Reference Case,,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: ITA, Tax_Ref."
+35,Punjab and Haryana High Court,Chandigarh,RERA-APPL,RERA APPEAL,RERA,,,,RERA Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: RERA.
+35,Punjab and Haryana High Court,Chandigarh,SA,SERVICE APPEAL,SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: SA, RSA."
+35,Punjab and Haryana High Court,Chandigarh,TCRM,TRANSFER CRIMINAL PETITION,TP_CRL,,,,Transfer Petition (Criminal),,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: TP_CRL.
+37,Rajasthan High Court,Jaipur,CMAP,CIVIL MISCELLANEOUS APPLICATION,CMAppl,MA,,,Civil Miscellaneous Application,Miscellaneous Application (Civil),,,NO,YES,suggested,"Website code differs from eCourts. Backend should search: CMAppl, MA."
+37,Rajasthan High Court,Jaipur,CR,CIVIL REVISION PETITION,CRP,,,,Civil Revision Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: CRP.
+37,Rajasthan High Court,Jaipur,CRLA,CRIMINAL APPEAL,CRL_A,,,,Criminal Appeal,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+37,Rajasthan High Court,Jaipur,CRLMA,CRIMINAL MISCELLANEOUS APPLICATION,MCrA,CRL_MA,,,Miscellaneous Criminal Application,Criminal Miscellaneous Application (DC),,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: MCrA, CRL_MA."
+37,Rajasthan High Court,Jaipur,CRLW,CRIMINAL WRIT PETITION,WP_CRL,,,,Writ Petition (Criminal),,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: WP_CRL.
+37,Rajasthan High Court,Jaipur,CRW,CIVIL REVIEW PETITION,RP_C,,,,Review Petition (Civil),,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: RP_C.
+37,Rajasthan High Court,Jaipur,CW,CIVIL WRIT PETITION,WP_C,,,,Writ Petition (Civil),,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: WP_C.
+37,Rajasthan High Court,Jaipur,HC,HABEAS CORPUS PETITION,HCP,,,,Habeas Corpus Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: HCP.
+36,Rajasthan High Court,Jodhpur,CR,CIVIL REVISION PETITION,CRP,,,,Civil Revision Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: CRP.
+36,Rajasthan High Court,Jodhpur,CRLA,CRIMINAL APPEAL,CRL_A,,,,Criminal Appeal,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+36,Rajasthan High Court,Jodhpur,CRLW,CRIMINAL WRIT PETITION,WP_CRL,,,,Writ Petition (Criminal),,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: WP_CRL.
+36,Rajasthan High Court,Jodhpur,CRW,CIVIL REVIEW PETITION,RP_C,,,,Review Petition (Civil),,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: RP_C.
+36,Rajasthan High Court,Jodhpur,CW,CIVIL WRIT PETITION,WP_C,,,,Writ Petition (Civil),,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: WP_C.
+36,Rajasthan High Court,Jodhpur,EDC,ESTATE DUTY CASES,EDA,,,,Estate Duty Appeal,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: EDA.
+36,Rajasthan High Court,Jodhpur,HC,HABEAS CORPUS PETITION,HCP,,,,Habeas Corpus Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: HCP.
+36,Rajasthan High Court,Jodhpur,ITC,INCOME TAX CASES,ITA,Tax_Ref,,,Income Tax Appeal,Tax Reference Case,,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: ITA, Tax_Ref."
+38,Sikkim High Court,Gangtok,Crl. A.,Criminal Appeal-(21),CRL_A,,,,Criminal Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+38,Sikkim High Court,Gangtok,RFA,First Appeal From Judgment And Decree In Suit-(1),RFA,FA,,,Regular First Appeal,First Appeal,,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: RFA, FA."
+38,Sikkim High Court,Gangtok,RSA,Second Appeal From Judgment And Decree-(4),RSA,SA,,,Regular Second Appeal,Second Appeal,,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: RSA, SA."
+38,Sikkim High Court,Gangtok,WP(PIL),Writ Petition Pil-(26),WP_PIL,WP_C_PIL,PIL,,Writ Petition (Public Interest Litigation),Writ Petition (Public Interest Litigation),Public Interest Litigation,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: WP_PIL, WP_C_PIL, PIL."
+42,Supreme Court,Supreme Court,ARBIT.PETITON,ARBITRATION PETITION,Arb_Pet,,,,Arbitration Petition,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: Arb_Pet.
+42,Supreme Court,Supreme Court,C.A.,CIVIL APPEAL,CA,,,,Civil Appeal,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: CA.
+42,Supreme Court,Supreme Court,Crl.A.,CRIMINAL APPEAL,CRL_A,,,,Criminal Appeal,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+42,Supreme Court,Supreme Court,D.REF.,DEATH REFERENCE CASE,DREF,,,,Death Reference,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: DREF.
+42,Supreme Court,Supreme Court,ORGNL.SUIT,ORIGINAL SUIT,OS,,,,Original Suit,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: OS.
+42,Supreme Court,Supreme Court,R.P.(C),REVIEW PETITION (CIVIL),RP_C,,,,Review Petition (Civil),,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: RP_C.
+42,Supreme Court,Supreme Court,R.P.(Crl.),REVIEW PETITION (CRIMINAL),RP_CRL,,,,Review Petition (Criminal),,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: RP_CRL.
+42,Supreme Court,Supreme Court,SLP(C),SPECIAL LEAVE TO PETITION (CIVIL),SLP_C,,,,Special Leave Petition (Civil),,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: SLP_C.
+42,Supreme Court,Supreme Court,SLP(Crl),SPECIAL LEAVE TO PETITION (CRIMINAL),SLP_CRL,,,,Special Leave Petition (Criminal),,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: SLP_CRL.
+42,Supreme Court,Supreme Court,SPL.REF.,SPECIAL REFERENCE CASE,Special_Ref,,,,Special Reference Case,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: Special_Ref.
+42,Supreme Court,Supreme Court,T.P.(C),TRANSFER PETITION (CIVIL),TP_C,,,,Transfer Petition (Civil),,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: TP_C.
+42,Supreme Court,Supreme Court,T.P.(Crl.),TRANSFER PETITION (CRIMINAL),TP_CRL,,,,Transfer Petition (Criminal),,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: TP_CRL.
+42,Supreme Court,Supreme Court,T.REF,TAX REFERENCE CASE,Tax_Ref,,,,Tax Reference Case,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: Tax_Ref.
+42,Supreme Court,Supreme Court,W.P.(C),WRIT TO PETITION (CIVIL),WP_C,,,,Writ Petition (Civil),,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: WP_C.
+42,Supreme Court,Supreme Court,W.P.(Crl.),WRIT TO PETITION (CRIMINAL),WP_CRL,,,,Writ Petition (Criminal),,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: WP_CRL.
+39,Telangana High Court,Hyderabad,APPL,APPLICATION IN CIVIL SUIT,CMAppl,MA,,,Civil Miscellaneous Application,Miscellaneous Application (Civil),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: CMAppl, MA."
+39,Telangana High Court,Hyderabad,ARBAPPL,ARBITRATION APPLICATION,ARB_PET,Arb_Pet,ARB_A,,Arbitration Petition (uppercase variant),Arbitration Petition,Arbitration Appeal,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: ARB_PET, Arb_Pet, ARB_A."
+39,Telangana High Court,Hyderabad,AS,FIRST APPEAL,FA,AS,,,First Appeal,Appeal from Subordinate Court,,,YES,YES,suggested,"Website code differs from eCourts. Backend should search: FA, AS."
+39,Telangana High Court,Hyderabad,CAPPEAL,COMPANY APPEAL,CAPP_CA,CAPP_AT,,,Company Appeal (Companies Act),Company Appeal (AT),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: CAPP_CA, CAPP_AT."
+39,Telangana High Court,Hyderabad,CEA,CENTRAL EXCISE APPEALS,EX_CESTAT,CESTAT_APPEAL,,,Excise Appeal,CESTAT Appeal,,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: EX_CESTAT, CESTAT_APPEAL."
+39,Telangana High Court,Hyderabad,COMS,COMMERCIAL SUIT,COM_S,,,,Commercial Suit,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: COM_S.
+39,Telangana High Court,Hyderabad,CP,COMPANY PETITION,COP,CP_CA,,,Company Petition,Company Petition (Companies Act),,,NO,YES,suggested,"Website code differs from eCourts. Backend should search: COP, CP_CA."
+39,Telangana High Court,Hyderabad,CRLA,CRIMINAL APPEAL,CRL_A,,,,Criminal Appeal,,,,YES,YES,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+39,Telangana High Court,Hyderabad,CRLA(FSSA),CRIMINAL APPEAL(Food Safety and Standard Act),CRL_A,,,,Criminal Appeal,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+39,Telangana High Court,Hyderabad,CRLATR,CRIMINAL APPEAL TRANSFER,CRL_A,,,,Criminal Appeal,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+39,Telangana High Court,Hyderabad,EDC,ESTATE DUTY CASE,EDA,,,,Estate Duty Appeal,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: EDA.
+39,Telangana High Court,Hyderabad,EXEP,EXECUTION PETITION,EA,,,,Execution Application (Civil),,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: EA.
+39,Telangana High Court,Hyderabad,GTC,GIFT TAX CASE,GTA,,,,Gift Tax Appeal,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: GTA.
+39,Telangana High Court,Hyderabad,ITC,INCOME TAX CASE,ITA,Tax_Ref,,,Income Tax Appeal,Tax Reference Case,,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: ITA, Tax_Ref."
+39,Telangana High Court,Hyderabad,ITTA,INCOME TAX TRIBUNAL APPEAL,ITA,,,,Income Tax Appeal,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: ITA.
+39,Telangana High Court,Hyderabad,MACMA,MOTOR ACCIDENT CIVIL MISCELLANEOUS APPEAL,MACA,,,,Motor Accident Claims Appeal,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: MACA.
+39,Telangana High Court,Hyderabad,OP,ORIGINAL PETITION,OMP,,,,Original Miscellaneous Petition,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: OMP.
+39,Telangana High Court,Hyderabad,REFCRLA,REFERRED CRLA,CRL_A,,,,Criminal Appeal,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+39,Telangana High Court,Hyderabad,SCLP,SUPREME COURT LEAVE PETITION,SLP_C,SLP_CRL,,,Special Leave Petition (Civil),Special Leave Petition (Criminal),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: SLP_C, SLP_CRL."
+39,Telangana High Court,Hyderabad,SUOMOTUWP,SUOMOTU WRIT PETITION,WP_C,,,,Writ Petition (Civil),,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: WP_C.
+39,Telangana High Court,Hyderabad,SUOMOTUWP(PIL),SUOMOTU WRIT PETITION(PUBLIC INTEREST LITIGATION),WP_PIL,WP_C_PIL,,,Writ Petition (Public Interest Litigation),Writ Petition (Public Interest Litigation),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: WP_PIL, WP_C_PIL."
+39,Telangana High Court,Hyderabad,TRC,TAX REVISION CASE (OLD),Tax_Ref,,,,Tax Reference Case,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: Tax_Ref.
+39,Telangana High Court,Hyderabad,TRCRLA,TRANSFER CRIMINAL APPEAL,CRL_A,,,,Criminal Appeal,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+39,Telangana High Court,Hyderabad,TRCRLP,TRANSFER CRIMINAL PETITION,TP_CRL,,,,Transfer Petition (Criminal),,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: TP_CRL.
+39,Telangana High Court,Hyderabad,TREVC,TAX REVISION CASE,Tax_Ref,,,,Tax Reference Case,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: Tax_Ref.
+39,Telangana High Court,Hyderabad,TUPWP,TAKEN UP WRIT PETITION,WP_C,,,,Writ Petition (Civil),,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: WP_C.
+39,Telangana High Court,Hyderabad,TUPWP(PIL),TAKEN UP PUBLIC INTEREST LITIGATION,WP_PIL,WP_C_PIL,,,Writ Petition (Public Interest Litigation),Writ Petition (Public Interest Litigation),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: WP_PIL, WP_C_PIL."
+39,Telangana High Court,Hyderabad,WP,WRIT PETITION,WP_C,WP_CRL,,,Writ Petition (Civil),Writ Petition (Criminal),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: WP_C, WP_CRL."
+39,Telangana High Court,Hyderabad,WP(PIL),PUBLIC INTEREST LITIGATION,PIL,WP_PIL,WP_C_PIL,,Public Interest Litigation,Writ Petition (Public Interest Litigation),Writ Petition (Public Interest Litigation),,YES,YES,suggested,"Website code differs from eCourts. Backend should search: PIL, WP_PIL, WP_C_PIL."
+39,Telangana High Court,Hyderabad,WP(TR),WRIT PETITION TRANSFERED,WP_C,,,,Writ Petition (Civil),,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: WP_C.
+39,Telangana High Court,Hyderabad,X-OBJ,Cross Objection,XOBJ,CO,,,Cross Objection,Cross Objection,,,YES,YES,suggested,"Website code differs from eCourts. Backend should search: XOBJ, CO."
+40,Tripura High Court,Agartala,CAVT,Caveat,CAV,,,,Caveat,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: CAV.
+40,Tripura High Court,Agartala,Crl.A.,Appeal Against Judgment Or Sentence.,CRL_A,,,,Criminal Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+40,Tripura High Court,Agartala,ITA,Application under Section 256(2),ITA,,,,Income Tax Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: ITA.
+40,Tripura High Court,Agartala,MAC App.,Motor Accident Claims Appeal,MACA,,,,Motor Accident Claims Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: MACA.
+40,Tripura High Court,Agartala,MAF,Miscellaneous Appeal(first),MFA,,,,Miscellaneous First Appeal,,,,NO,NO,suggested,Website code differs from eCourts. Backend should search: MFA.
+40,Tripura High Court,Agartala,RCFA,First Appeal,FA,,,,First Appeal,,,,NO,YES,suggested,Website code differs from eCourts. Backend should search: FA.
+40,Tripura High Court,Agartala,RCSA,Second Appeal,SA,RCS_A,,,Second Appeal,Regular Civil Suit - Class A,,,YES,YES,suggested,"Website code differs from eCourts. Backend should search: SA, RCS_A."
+40,Tripura High Court,Agartala,RFA,First Appeal from Judgment and Decree in Suit,RFA,FA,,,Regular First Appeal,First Appeal,,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: RFA, FA."
+40,Tripura High Court,Agartala,RSA,Second Appeal from Judgment and Decree,RSA,SA,,,Regular Second Appeal,Second Appeal,,,YES,NO,suggested,"Website code differs from eCourts. Backend should search: RSA, SA."
+40,Tripura High Court,Agartala,SCLP,Petition for Leave to Appeal to Supreme Court,SLP_C,SLP_CRL,,,Special Leave Petition (Civil),Special Leave Petition (Criminal),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: SLP_C, SLP_CRL."
+40,Tripura High Court,Agartala,WA,Appeal before Division Bench against judgment or order of Single Judge in a Writ Petition.,WA,,,,Writ Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: WA.
+40,Tripura High Court,Agartala,WP(C),Writ Petition under Article 226 and 227 of the Constitution,WP_C,,,,Writ Petition (Civil),,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: WP_C.
+41,Uttarakhand High Court,Nainital,CRLA,CRIMINAL APPEAL(14),CRL_A,,,,Criminal Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+41,Uttarakhand High Court,Nainital,WPCRL,WRIT PETITION CRIMINAL(168),WP_CRL,,,,Writ Petition (Criminal),,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: WP_CRL.

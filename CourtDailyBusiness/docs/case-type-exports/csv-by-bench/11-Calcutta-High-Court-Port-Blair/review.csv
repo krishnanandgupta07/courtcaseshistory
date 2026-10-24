@@ -1,0 +1,12 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+11,Calcutta High Court,Port Blair,COT,CROSS OBJECTION APPE,CO,XOBJ,,,Cross Objection,Cross Objection,,,NO,NO,review,"Related but not confirmed. Review before seeding. Possible eCourts codes: CO, XOBJ."
+11,Calcutta High Court,Port Blair,CRAN,CRIMINAL APPLICATION,MCrA,,,,Miscellaneous Criminal Application,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: MCrA.
+11,Calcutta High Court,Port Blair,CRC,CIVIL REVISION CONTEMPT,C_REV,,,,Civil Revision,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: C_REV.
+11,Calcutta High Court,Port Blair,CRMSPL,CRIMINAL MISC. CASE(SPL. LEAVE PETITION),CRLP,,,,Criminal Leave Petition,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: CRLP.
+11,Calcutta High Court,Port Blair,FAT,TENDER FIRST APPEAL,FA,,,,First Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: FA.
+11,Calcutta High Court,Port Blair,SAT,TENDER SECOND APPEAL,SA,,,,Second Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: SA.
+11,Calcutta High Court,Port Blair,SMA,SECOND MISCELLANEOUS APPEAL,SA,,,,Second Appeal,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: SA.
+11,Calcutta High Court,Port Blair,SRC,SPECIAL REFERENCE CASE(C),Special_Ref,,,,Special Reference Case,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: Special_Ref.
+11,Calcutta High Court,Port Blair,SRCR,SPECIAL REFERENCE CASE(CR),Special_Ref,,,,Special Reference Case,,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: Special_Ref.
+11,Calcutta High Court,Port Blair,WPA,WRIT PETITION,WP_C,WP_CRL,,,Writ Petition (Civil),Writ Petition (Criminal),,,NO,NO,review,"Related but not confirmed. Review before seeding. Possible eCourts codes: WP_C, WP_CRL."
+11,Calcutta High Court,Port Blair,WPCR,WRIT PETITION(CIVIL RULE),WP_C,,,,Writ Petition (Civil),,,,NO,NO,review,Related but not confirmed. Review before seeding. Possible eCourts codes: WP_C.

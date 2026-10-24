@@ -1,0 +1,368 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+1,Allahabad High Court,Allahabad(Prayagraj),RERA,RERA APPEAL,RERA,,,,RERA Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+2,Allahabad High Court,Lucknow,RERA,RERA APPEAL,RERA,,,,RERA Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+3,Andhra Pradesh High Court,Amaravati,CMA,CIVIL MISCELLANEOUS APPEAL(12),CMA,,,,Civil Miscellaneous Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+3,Andhra Pradesh High Court,Amaravati,CRLP,CRIMINAL PETITION(21),CRLP,,,,Criminal Leave Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+3,Andhra Pradesh High Court,Amaravati,CRLRC,CRIMINAL REVISION CASE(22),CRLRC,,,,Criminal Revision Case,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+3,Andhra Pradesh High Court,Amaravati,CRP,CIVIL REVISION PETITION(23),CRP,,,,Civil Revision Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+3,Andhra Pradesh High Court,Amaravati,CS,CIVIL SUIT(24),CS,,,,Civil Suit,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+3,Andhra Pradesh High Court,Amaravati,EP,ELECTION PETITION(26),EP,,,,Election Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+3,Andhra Pradesh High Court,Amaravati,PIL,PUBLIC INTEREST LITIGATION(39),PIL,WP_PIL,WP_C_PIL,,Public Interest Litigation,Writ Petition (Public Interest Litigation),Writ Petition (Public Interest Litigation),,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+3,Andhra Pradesh High Court,Amaravati,SA,SECOND APPEAL(49),SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+3,Andhra Pradesh High Court,Amaravati,WA,WRIT APPEAL(62),WA,,,,Writ Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+3,Andhra Pradesh High Court,Amaravati,WTA,WEALTH TAX APPEAL(66),WTA,,,,Wealth Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+5,Bombay High Court,Aurangabad,ABA,ANTICIPATORY BAIL APPLICATION,ABA,,,,Anticipatory Bail Application,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+5,Bombay High Court,Aurangabad,ARB,ARBITRATION APPLICATION,Arb,,,,Arbitration Case (DC),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+5,Bombay High Court,Aurangabad,BA,BAIL APPLICATION,BA,,,,Bail Application,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+5,Bombay High Court,Aurangabad,EP,Election petition,EP,,,,Election Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+5,Bombay High Court,Aurangabad,FA,First Appeal,FA,,,,First Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+5,Bombay High Court,Aurangabad,ITA,INCOME TAX APPEAL,ITA,,,,Income Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+5,Bombay High Court,Aurangabad,LPA,Letter Patent Appeal,LPA,,,,Letters Patent Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+5,Bombay High Court,Aurangabad,PIL,Public Interest Litigation,PIL,WP_PIL,WP_C_PIL,,Public Interest Litigation,Writ Petition (Public Interest Litigation),Writ Petition (Public Interest Litigation),,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+5,Bombay High Court,Aurangabad,SA,Second Appeal,SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+5,Bombay High Court,Aurangabad,WTA,Wealth Tax Apeal,WTA,,,,Wealth Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+8,Bombay High Court,Kolhapur,EP,ELECTION PETITION,EP,,,,Election Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+8,Bombay High Court,Kolhapur,FA,First Appeal,FA,,,,First Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+8,Bombay High Court,Kolhapur,FEMA,FEMA APPEAL,FEMA,,,,FEMA Case,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+8,Bombay High Court,Kolhapur,LPA,Letter Patent Appeal,LPA,,,,Letters Patent Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+8,Bombay High Court,Kolhapur,PIL,Public Interest Litigation,PIL,WP_PIL,WP_C_PIL,,Public Interest Litigation,Writ Petition (Public Interest Litigation),Writ Petition (Public Interest Litigation),,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+8,Bombay High Court,Kolhapur,RPC,Review Petn. in CRA,RP_C,,,,Review Petition (Civil),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+8,Bombay High Court,Kolhapur,SA,Second Appeal,SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+4,Bombay High Court,Mumbai,FA,First Appeal,FA,,,,First Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+4,Bombay High Court,Mumbai,FEMA,FEMA APPEAL,FEMA,,,,FEMA Case,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+4,Bombay High Court,Mumbai,LPA,Letter Patent Appeal,LPA,,,,Letters Patent Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+4,Bombay High Court,Mumbai,PIL,Public Interest Litigation,PIL,WP_PIL,WP_C_PIL,,Public Interest Litigation,Writ Petition (Public Interest Litigation),Writ Petition (Public Interest Litigation),,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+4,Bombay High Court,Mumbai,RPC,Review Petn. in CRA,RP_C,,,,Review Petition (Civil),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+4,Bombay High Court,Mumbai,SA,Second Appeal,SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+6,Bombay High Court,Nagpur,CS,Civil Suits (Transfer Civil Suit),CS,,,,Civil Suit,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+6,Bombay High Court,Nagpur,EP,Election petition,EP,,,,Election Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+6,Bombay High Court,Nagpur,FA,First Appeal,FA,,,,First Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+6,Bombay High Court,Nagpur,GTA,Gift Tax application,GTA,,,,Gift Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+6,Bombay High Court,Nagpur,ITA,Income tax application,ITA,,,,Income Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+6,Bombay High Court,Nagpur,LPA,Letter Patent Appeal,LPA,,,,Letters Patent Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+6,Bombay High Court,Nagpur,PIL,Public Interest Litigation,PIL,WP_PIL,WP_C_PIL,,Public Interest Litigation,Writ Petition (Public Interest Litigation),Writ Petition (Public Interest Litigation),,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+6,Bombay High Court,Nagpur,RPC,Review Petn. in CRA,RP_C,,,,Review Petition (Civil),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+6,Bombay High Court,Nagpur,RPC.,Review Petn. in FCA,RP_C,,,,Review Petition (Civil),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+6,Bombay High Court,Nagpur,SA,Second Appeal,SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+6,Bombay High Court,Nagpur,WTA,Wealth Tax application,WTA,,,,Wealth Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+7,Bombay High Court,Panaji,COP,Company Petition,COP,,,,Company Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+7,Bombay High Court,Panaji,CS,Civil Suit,CS,,,,Civil Suit,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+7,Bombay High Court,Panaji,EA,Execution Application,EA,,,,Execution Application (Civil),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+7,Bombay High Court,Panaji,FA,First Appeal,FA,,,,First Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+7,Bombay High Court,Panaji,ITA,Income Tax Appeal,ITA,,,,Income Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+7,Bombay High Court,Panaji,LPA,Letter Patent Appeal,LPA,,,,Letters Patent Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+7,Bombay High Court,Panaji,SA,Second Appeal,SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+10,Calcutta High Court,Jalpaiguri,CR,CIVIL REVISION,CR,C_REV,,,Civil Revision (short form),Civil Revision,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+10,Calcutta High Court,Jalpaiguri,CRR,CRIMINAL REVISION,CRR,CR_REV,CRLRC,,Criminal Revision (DC),Criminal Revision,Criminal Revision Case,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+10,Calcutta High Court,Jalpaiguri,FA,CIVIL FIRST APPEAL,FA,,,,First Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+10,Calcutta High Court,Jalpaiguri,LPA,LETTERS PATENT APPEAL,LPA,,,,Letters Patent Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+10,Calcutta High Court,Jalpaiguri,SA,CIVIL SECOND APPEAL,SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+11,Calcutta High Court,Port Blair,CR,CIVIL REVISION,CR,C_REV,,,Civil Revision (short form),Civil Revision,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+11,Calcutta High Court,Port Blair,CRR,CRIMINAL REVISION,CRR,CR_REV,CRLRC,,Criminal Revision (DC),Criminal Revision,Criminal Revision Case,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+11,Calcutta High Court,Port Blair,FA,CIVIL FIRST APPEAL,FA,,,,First Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+11,Calcutta High Court,Port Blair,LPA,LETTERS PATENT APPEAL,LPA,,,,Letters Patent Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+11,Calcutta High Court,Port Blair,SA,CIVIL SECOND APPEAL,SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+9,Calcutta High Court,kolkata,ITA,INCOME TAX APPEAL(67),ITA,,,,Income Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+9,Calcutta High Court,kolkata,LPA,LETTERS PATENT APPEAL(72),LPA,,,,Letters Patent Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+12,Chhattisgarh High Court,Bilaspur,ARBA,ARBA,ARB_A,,,,Arbitration Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+12,Chhattisgarh High Court,Bilaspur,TPC,TPC,TP_C,,,,Transfer Petition (Civil),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+12,Chhattisgarh High Court,Bilaspur,WPPIL,WPPIL,WP_PIL,,,,Writ Petition (Public Interest Litigation),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+13,Delhi High Court,New Delhi,C.O.,CIVIL ORIGINAL,CO,,,,Cross Objection,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+13,Delhi High Court,New Delhi,GTA,GIFT TAX APPEALS,GTA,,,,Gift Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+13,Delhi High Court,New Delhi,ITA,INCOME TAX APPEAL,ITA,,,,Income Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+13,Delhi High Court,New Delhi,LPA,LETTER PATENT APPEAL,LPA,,,,Letters Patent Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+13,Delhi High Court,New Delhi,O.M.P.,ORGL. MISC. PETITION,OMP,,,,Original Miscellaneous Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+13,Delhi High Court,New Delhi,RC.S.A.,SEC. APP. FROM ORDER,RCS_A,,,,Regular Civil Suit - Class A,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+13,Delhi High Court,New Delhi,RFA,REGULAR FIST APPEAL,RFA,FA,,,Regular First Appeal,First Appeal,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+13,Delhi High Court,New Delhi,W.P.(C),CIVIL WRITS,WP_C,,,,Writ Petition (Civil),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+13,Delhi High Court,New Delhi,W.P.(CRL),CRIMINAL WRITS,WP_CRL,,,,Writ Petition (Criminal),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+13,Delhi High Court,New Delhi,WTA,WEALTH TAX CASE,WTA,,,,Wealth Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+15,Gauhati High Court,Aizawl,Arb.A.,Appeals under Indian Arbitration Act.(139),ARB_A,,,,Arbitration Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+15,Gauhati High Court,Aizawl,BA,Bail Application(57),BA,,,,Bail Application,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+15,Gauhati High Court,Aizawl,CMAppl.,Miscellaneous Applications,CMAppl,,,,Civil Miscellaneous Application,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+15,Gauhati High Court,Aizawl,CREV,Civil Revision(14),C_REV,,,,Civil Revision,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+15,Gauhati High Court,Aizawl,W.P.(Crl.),Petition u/a 226 for Writ and Habeas Corpus and other relief in relation to a Cr P(173),WP_CRL,,,,Writ Petition (Criminal),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+14,Gauhati High Court,Guwahati,Arb.A.,Appeals under Indian Arbitration Act.(139),ARB_A,,,,Arbitration Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+14,Gauhati High Court,Guwahati,BA,Bail Application(57),BA,,,,Bail Application,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+14,Gauhati High Court,Guwahati,CMAppl.,Miscellaneous Applications,CMAppl,,,,Civil Miscellaneous Application,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+14,Gauhati High Court,Guwahati,CREV,Civil Revision(14),C_REV,,,,Civil Revision,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+14,Gauhati High Court,Guwahati,CRP,Revision_Petition(102),CRP,,,,Civil Revision Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+14,Gauhati High Court,Guwahati,CRREV,Criminal Revision(56),CR_REV,,,,Criminal Revision,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+14,Gauhati High Court,Guwahati,CS,Civil Suit(95),CS,,,,Civil Suit,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+14,Gauhati High Court,Guwahati,Crl.P.,Criminal_Petition(210),CRLP,,,,Criminal Leave Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+14,Gauhati High Court,Guwahati,EP,Election Petition(17),EP,,,,Election Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+14,Gauhati High Court,Guwahati,FA,First_Appeal(18),FA,,,,First Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+16,Gauhati High Court,Itanagar,CREV,Civil Revision(14),C_REV,,,,Civil Revision,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+16,Gauhati High Court,Itanagar,CRP,Revision Petition(102),CRP,,,,Civil Revision Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+16,Gauhati High Court,Itanagar,CS,Civil Suit(95),CS,,,,Civil Suit,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+16,Gauhati High Court,Itanagar,FA,First Appeal(18),FA,,,,First Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+16,Gauhati High Court,Itanagar,IA.,Interlocutory applications in pending Suits/Appeals(108),IA,,,,Interlocutory Application,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+16,Gauhati High Court,Itanagar,MC(RA),MISC. CASE (R.A.)(85),MCrA,,,,Miscellaneous Criminal Application,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+17,Gauhati High Court,Kohima,Arb.A.,Appeals under Indian Arbitration Act.(139),ARB_A,,,,Arbitration Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+17,Gauhati High Court,Kohima,CMAppl.,Miscellaneous Applications,CMAppl,,,,Civil Miscellaneous Application,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+17,Gauhati High Court,Kohima,CRP,Revision Petition(102),CRP,,,,Civil Revision Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+17,Gauhati High Court,Kohima,CS,Civil Suit(95),CS,,,,Civil Suit,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+17,Gauhati High Court,Kohima,FA,First Appeal(18),FA,,,,First Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+17,Gauhati High Court,Kohima,I.A.,Interlocutory Application.(218),IA,,,,Interlocutory Application,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+17,Gauhati High Court,Kohima,MC(RA),MISC. CASE (R.A.)(85),MCrA,,,,Miscellaneous Criminal Application,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+17,Gauhati High Court,Kohima,PIL,Public Interest Litigation(93),PIL,WP_PIL,WP_C_PIL,,Public Interest Litigation,Writ Petition (Public Interest Litigation),Writ Petition (Public Interest Litigation),,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+17,Gauhati High Court,Kohima,RCSA,Second Appeal(130),RCS_A,,,,Regular Civil Suit - Class A,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+17,Gauhati High Court,Kohima,SA,Second Appeal(39),SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+17,Gauhati High Court,Kohima,W.P.(Crl.),Petition u/a 226 for Writ and Habeas Corpus and other relief in relation to a Cr P(173),WP_CRL,,,,Writ Petition (Criminal),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+18,Gujarat High Court,Ahmedabad,Arb.A.,Appeals under Indian Arbitration Act.(139),ARB_A,,,,Arbitration Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+18,Gujarat High Court,Ahmedabad,CMAppl.,Miscellaneous Applications,CMAppl,,,,Civil Miscellaneous Application,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+18,Gujarat High Court,Ahmedabad,CRP,Revision Petition(102),CRP,,,,Civil Revision Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+18,Gujarat High Court,Ahmedabad,CS,Civil Suit(95),CS,,,,Civil Suit,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+18,Gujarat High Court,Ahmedabad,FA,First Appeal(18),FA,,,,First Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+18,Gujarat High Court,Ahmedabad,I.A.,Interlocutory Application.(218),IA,,,,Interlocutory Application,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+18,Gujarat High Court,Ahmedabad,MC(RA),MISC. CASE (R.A.)(85),MCrA,,,,Miscellaneous Criminal Application,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+18,Gujarat High Court,Ahmedabad,PIL,Public Interest Litigation(93),PIL,WP_PIL,WP_C_PIL,,Public Interest Litigation,Writ Petition (Public Interest Litigation),Writ Petition (Public Interest Litigation),,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+18,Gujarat High Court,Ahmedabad,RCSA,Second Appeal(130),RCS_A,,,,Regular Civil Suit - Class A,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+18,Gujarat High Court,Ahmedabad,SA,Second Appeal(39),SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+18,Gujarat High Court,Ahmedabad,W.P.(Crl.),Petition u/a 226 for Writ and Habeas Corpus and other relief in relation to a Cr P(173),WP_CRL,,,,Writ Petition (Criminal),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+19,Himachal Pradesh High Court,Shimla,ARB.A,Arbitration Appeal(49),ARB_A,,,,Arbitration Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+19,Himachal Pradesh High Court,Shimla,C.REV,Civil Review Petition(29),C_REV,,,,Civil Revision,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+19,Himachal Pradesh High Court,Shimla,CO,Cross Objection(32),CO,,,,Cross Objection,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+19,Himachal Pradesh High Court,Shimla,CO.P,Company Petition(3),COP,,,,Company Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+19,Himachal Pradesh High Court,Shimla,CR.R,Criminal Revision Petition(305),CRR,,,,Criminal Revision (DC),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+19,Himachal Pradesh High Court,Shimla,CS,Civil Suit(5),CS,,,,Civil Suit,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+19,Himachal Pradesh High Court,Shimla,GTA,Gift Tax Appeal(54),GTA,,,,Gift Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+19,Himachal Pradesh High Court,Shimla,ITA,Income Tax Appeal(44),ITA,,,,Income Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+19,Himachal Pradesh High Court,Shimla,PP,Probate Petition(14),PP,,,,Probate Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+19,Himachal Pradesh High Court,Shimla,RFA,Regular First Appeal(21),RFA,FA,,,Regular First Appeal,First Appeal,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+19,Himachal Pradesh High Court,Shimla,RSA,Regular Second Appeal(23),RSA,SA,,,Regular Second Appeal,Second Appeal,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+19,Himachal Pradesh High Court,Shimla,WTA,Wealth Tax Appeal(46),WTA,,,,Wealth Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+20,Jammu & Kashmir and Ladakh High Court,Jammu,BA,BAIL APPLICATION(50),BA,,,,Bail Application,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+20,Jammu & Kashmir and Ladakh High Court,Jammu,EP,ELECTION PETITION(76),EP,,,,Election Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+20,Jammu & Kashmir and Ladakh High Court,Jammu,HCP,HABEAS CORPUS PETITION(17),HCP,,,,Habeas Corpus Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+20,Jammu & Kashmir and Ladakh High Court,Jammu,ITA,INCOME TAX APPEAL(111),ITA,,,,Income Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+20,Jammu & Kashmir and Ladakh High Court,Jammu,LPA,LETTERS PATENT APPEAL(1),LPA,,,,Letters Patent Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+20,Jammu & Kashmir and Ladakh High Court,Jammu,OS,CIVIL ORIGINAL SUIT(31),OS,,,,Original Suit,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+20,Jammu & Kashmir and Ladakh High Court,Jammu,PIL,PUBLIC INTEREST LITIGATION(153),PIL,WP_PIL,WP_C_PIL,,Public Interest Litigation,Writ Petition (Public Interest Litigation),Writ Petition (Public Interest Litigation),,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+20,Jammu & Kashmir and Ladakh High Court,Jammu,RPC,REVIEW PETITIONS (CIVIL)(27),RP_C,,,,Review Petition (Civil),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+20,Jammu & Kashmir and Ladakh High Court,Jammu,WP(C)PIL,PUBLIC INTEREST LITIGATION -DB(320),WP_C_PIL,,,,Writ Petition (Public Interest Litigation),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+21,Jharkhand High Court,Ranchi,A.B.A.,ANTICIPATORY BAIL(57),ABA,,,,Anticipatory Bail Application,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+21,Jharkhand High Court,Ranchi,B.A.,REGULAR BAIL(56),BA,,,,Bail Application,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+21,Jharkhand High Court,Ranchi,C.A.,COMPANY APPEAL(20),CA,,,,Civil Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+21,Jharkhand High Court,Ranchi,C.O.,CROSS OBJECTIONS(52),CO,,,,Cross Objection,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+21,Jharkhand High Court,Ranchi,C.R.,CIVIL REVISION(8),CR,,,,Civil Revision (short form),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+21,Jharkhand High Court,Ranchi,C.Rev.,CIVIL REVIEW(11),C_REV,,,,Civil Revision,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+21,Jharkhand High Court,Ranchi,Cr.Misc.,CRIMINAL MISCELLENOUS(6),CR_MISC,,,,Criminal Miscellaneous,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+21,Jharkhand High Court,Ranchi,Cr.Rev.,CRIMINAL REVISION(7),CR_REV,,,,Criminal Revision,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+21,Jharkhand High Court,Ranchi,Cr.WJC,Cr.WJC(CRIMINAL WRIT)(16),CR_WJC,,,,Criminal Writ Jurisdiction Case,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+21,Jharkhand High Court,Ranchi,D. Ref.,DEATH REFERENCE(28),DREF,,,,Death Reference,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+21,Jharkhand High Court,Ranchi,E.P.,ELECTION PETITION(14),EP,,,,Election Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+21,Jharkhand High Court,Ranchi,FA,FIRST APPEAL(1),FA,,,,First Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+21,Jharkhand High Court,Ranchi,SA,SECOND APPEAL(9),SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+21,Jharkhand High Court,Ranchi,T.S.,TESTAMENTARY SUIT(22),TS,,,,Testamentary Suit,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+22,Karnataka High Court,Bengaluru,COP,Company Petition,COP,,,,Company Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+22,Karnataka High Court,Bengaluru,CRL.RC,Criminal Referred Case,CRLRC,,,,Criminal Revision Case,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+22,Karnataka High Court,Bengaluru,CRP,Civil Revision Petition,CRP,,,,Civil Revision Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+22,Karnataka High Court,Bengaluru,EP,Election Petition,EP,,,,Election Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+22,Karnataka High Court,Bengaluru,GTA,Gift Tax Appeal,GTA,,,,Gift Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+22,Karnataka High Court,Bengaluru,ITA,Income Tax Appeal,ITA,,,,Income Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+22,Karnataka High Court,Bengaluru,MFA,Miscellaneous First Appeal,MFA,,,,Miscellaneous First Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+22,Karnataka High Court,Bengaluru,OS,Original Suit,OS,,,,Original Suit,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+22,Karnataka High Court,Bengaluru,RFA,Regular First Appeal,RFA,FA,,,Regular First Appeal,First Appeal,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+22,Karnataka High Court,Bengaluru,RSA,Regular Second Appeal,RSA,SA,,,Regular Second Appeal,Second Appeal,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+22,Karnataka High Court,Bengaluru,STA,Sales Tax Appeal,STA,,,,Sur Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+22,Karnataka High Court,Bengaluru,WA,Writ Appeal,WA,,,,Writ Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+22,Karnataka High Court,Bengaluru,WTA,Wealth Tax Appeal,WTA,,,,Wealth Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+23,Karnataka High Court,Dharwad,COP,Company Petition,COP,,,,Company Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+23,Karnataka High Court,Dharwad,CRL.RC,Criminal Referred Case,CRLRC,,,,Criminal Revision Case,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+23,Karnataka High Court,Dharwad,CRP,Civil Revision Petition,CRP,,,,Civil Revision Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+23,Karnataka High Court,Dharwad,EP,Election Petition,EP,,,,Election Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+23,Karnataka High Court,Dharwad,GTA,Gift Tax Appeal,GTA,,,,Gift Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+23,Karnataka High Court,Dharwad,ITA,Income Tax Appeal,ITA,,,,Income Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+23,Karnataka High Court,Dharwad,MFA,Miscellaneous First Appeal,MFA,,,,Miscellaneous First Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+23,Karnataka High Court,Dharwad,OS,Original Suit,OS,,,,Original Suit,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+23,Karnataka High Court,Dharwad,RFA,Regular First Appeal,RFA,FA,,,Regular First Appeal,First Appeal,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+23,Karnataka High Court,Dharwad,RSA,Regular Second Appeal,RSA,SA,,,Regular Second Appeal,Second Appeal,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+23,Karnataka High Court,Dharwad,STA,Sales Tax Appeal,STA,,,,Sur Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+23,Karnataka High Court,Dharwad,WA,Writ Appeal,WA,,,,Writ Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+23,Karnataka High Court,Dharwad,WTA,Wealth Tax Appeal,WTA,,,,Wealth Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+24,Karnataka High Court,Kalaburagi,COP,Company Petition,COP,,,,Company Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+24,Karnataka High Court,Kalaburagi,CRL.RC,Criminal Referred Case,CRLRC,,,,Criminal Revision Case,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+24,Karnataka High Court,Kalaburagi,CRP,Civil Revision Petition,CRP,,,,Civil Revision Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+24,Karnataka High Court,Kalaburagi,EP,Election Petition,EP,,,,Election Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+24,Karnataka High Court,Kalaburagi,GTA,Gift Tax Appeal,GTA,,,,Gift Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+24,Karnataka High Court,Kalaburagi,ITA,Income Tax Appeal,ITA,,,,Income Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+24,Karnataka High Court,Kalaburagi,MFA,Miscellaneous First Appeal,MFA,,,,Miscellaneous First Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+24,Karnataka High Court,Kalaburagi,OS,Original Suit,OS,,,,Original Suit,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+24,Karnataka High Court,Kalaburagi,RFA,Regular First Appeal,RFA,FA,,,Regular First Appeal,First Appeal,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+24,Karnataka High Court,Kalaburagi,RSA,Regular Second Appeal,RSA,SA,,,Regular Second Appeal,Second Appeal,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+24,Karnataka High Court,Kalaburagi,STA,Sales Tax Appeal,STA,,,,Sur Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+24,Karnataka High Court,Kalaburagi,WA,Writ Appeal,WA,,,,Writ Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+24,Karnataka High Court,Kalaburagi,WTA,Wealth Tax Appeal,WTA,,,,Wealth Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+25,Kerala High Court,Kochi,COM.S,Commercial Suit-(177),COM_S,,,,Commercial Suit,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+25,Kerala High Court,Kochi,COP,Company Petition-(102),COP,,,,Company Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+25,Kerala High Court,Kochi,CRL.RC,Criminal Referred Case-(113),CRLRC,,,,Criminal Revision Case,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+25,Kerala High Court,Kochi,CRP,Civil Revision Petition-(108),CRP,,,,Civil Revision Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+25,Kerala High Court,Kochi,EP,Election Petition-(116),EP,,,,Election Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+25,Kerala High Court,Kochi,GTA,Gift Tax Appeal-(148),GTA,,,,Gift Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+25,Kerala High Court,Kochi,ITA,Income Tax Appeal-(120),ITA,,,,Income Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+25,Kerala High Court,Kochi,OS,Original Suit-(154),OS,,,,Original Suit,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+25,Kerala High Court,Kochi,RFA,Regular First Appeal-(132),RFA,FA,,,Regular First Appeal,First Appeal,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+25,Kerala High Court,Kochi,RSA,Regular Second Appeal-(136),RSA,SA,,,Regular Second Appeal,Second Appeal,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+25,Kerala High Court,Kochi,SA,Second Appeal-(174),SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+25,Kerala High Court,Kochi,WA,Writ Appeal-(145),WA,,,,Writ Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+25,Kerala High Court,Kochi,WTA,Wealth Tax Appeal-(149),WTA,,,,Wealth Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+27,Madhya Pradesh High Court,Gwalior,CMA,CIVIL MISCELLANEOUS APPLICATION,CMA,CMAppl,MA,,Civil Miscellaneous Appeal,Civil Miscellaneous Application,Miscellaneous Application (Civil),,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+27,Madhya Pradesh High Court,Gwalior,CR,CIVIL REVISION,CR,C_REV,,,Civil Revision (short form),Civil Revision,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+27,Madhya Pradesh High Court,Gwalior,CREV,CIVIL REVIEW,C_REV,,,,Civil Revision,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+27,Madhya Pradesh High Court,Gwalior,CRP,CIVIL REVISION PETITION,CRP,,,,Civil Revision Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+27,Madhya Pradesh High Court,Gwalior,CRR,CRIMINAL REVISION,CRR,CR_REV,CRLRC,,Criminal Revision (DC),Criminal Revision,Criminal Revision Case,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+27,Madhya Pradesh High Court,Gwalior,CS,CIVIL SUIT,CS,,,,Civil Suit,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+27,Madhya Pradesh High Court,Gwalior,EP,ELECTION PETITION,EP,,,,Election Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+27,Madhya Pradesh High Court,Gwalior,FA,FIRST APPEAL,FA,,,,First Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+27,Madhya Pradesh High Court,Gwalior,ITA,INCOME TAX APPEAL,ITA,,,,Income Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+27,Madhya Pradesh High Court,Gwalior,LPA,LETTER PATENT APPEAL,LPA,,,,Letters Patent Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+27,Madhya Pradesh High Court,Gwalior,SA,SECOND APPEAL,SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+27,Madhya Pradesh High Court,Gwalior,WA,WRIT APPEAL,WA,,,,Writ Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+27,Madhya Pradesh High Court,Gwalior,WTA,WEALTH TAX APPEAL,WTA,,,,Wealth Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+28,Madhya Pradesh High Court,Indore,CMA,CIVIL MISCELLANEOUS APPLICATION,CMA,CMAppl,MA,,Civil Miscellaneous Appeal,Civil Miscellaneous Application,Miscellaneous Application (Civil),,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+28,Madhya Pradesh High Court,Indore,CR,CIVIL REVISION,CR,C_REV,,,Civil Revision (short form),Civil Revision,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+28,Madhya Pradesh High Court,Indore,CREV,CIVIL REVIEW,C_REV,,,,Civil Revision,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+28,Madhya Pradesh High Court,Indore,CRP,CIVIL REVISION PETITION,CRP,,,,Civil Revision Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+28,Madhya Pradesh High Court,Indore,CRR,CRIMINAL REVISION,CRR,CR_REV,CRLRC,,Criminal Revision (DC),Criminal Revision,Criminal Revision Case,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+28,Madhya Pradesh High Court,Indore,CS,CIVIL SUIT,CS,,,,Civil Suit,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+28,Madhya Pradesh High Court,Indore,EP,ELECTION PETITION,EP,,,,Election Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+28,Madhya Pradesh High Court,Indore,FA,FIRST APPEAL,FA,,,,First Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+28,Madhya Pradesh High Court,Indore,ITA,INCOME TAX APPEAL,ITA,,,,Income Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+28,Madhya Pradesh High Court,Indore,LPA,LETTER PATENT APPEAL,LPA,,,,Letters Patent Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+28,Madhya Pradesh High Court,Indore,SA,SECOND APPEAL,SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+28,Madhya Pradesh High Court,Indore,WA,WRIT APPEAL,WA,,,,Writ Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+28,Madhya Pradesh High Court,Indore,WTA,WEALTH TAX APPEAL,WTA,,,,Wealth Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+26,Madhya Pradesh High Court,Jabalpur,CMA,CIVIL MISCELLANEOUS APPLICATION,CMA,CMAppl,MA,,Civil Miscellaneous Appeal,Civil Miscellaneous Application,Miscellaneous Application (Civil),,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+26,Madhya Pradesh High Court,Jabalpur,CR,CIVIL REVISION,CR,C_REV,,,Civil Revision (short form),Civil Revision,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+26,Madhya Pradesh High Court,Jabalpur,CREV,CIVIL REVIEW,C_REV,,,,Civil Revision,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+26,Madhya Pradesh High Court,Jabalpur,CRP,CIVIL REVISION PETITION,CRP,,,,Civil Revision Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+26,Madhya Pradesh High Court,Jabalpur,CRR,CRIMINAL REVISION,CRR,CR_REV,CRLRC,,Criminal Revision (DC),Criminal Revision,Criminal Revision Case,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+26,Madhya Pradesh High Court,Jabalpur,CS,CIVIL SUIT,CS,,,,Civil Suit,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+26,Madhya Pradesh High Court,Jabalpur,EP,ELECTION PETITION,EP,,,,Election Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+26,Madhya Pradesh High Court,Jabalpur,FA,FIRST APPEAL,FA,,,,First Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+26,Madhya Pradesh High Court,Jabalpur,ITA,INCOME TAX APPEAL,ITA,,,,Income Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+26,Madhya Pradesh High Court,Jabalpur,LPA,LETTER PATENT APPEAL,LPA,,,,Letters Patent Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+26,Madhya Pradesh High Court,Jabalpur,SA,SECOND APPEAL,SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+26,Madhya Pradesh High Court,Jabalpur,WA,WRIT APPEAL,WA,,,,Writ Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+26,Madhya Pradesh High Court,Jabalpur,WTA,WEALTH TAX APPEAL,WTA,,,,Wealth Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+29,Madras High Court,Chennai,(CR) A,COPY RIGHTS APPLICATION,CRA,,,,Criminal Appeal (DC),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+29,Madras High Court,Chennai,CMA,CIVIL MISC. APPEAL,CMA,,,,Civil Miscellaneous Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+29,Madras High Court,Chennai,CRP,CIVIL REVISION PETITION,CRP,,,,Civil Revision Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+29,Madras High Court,Chennai,HCP,HABEAS CORPUS PETITION,HCP,,,,Habeas Corpus Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+29,Madras High Court,Chennai,IP,INSOLVENCY PETITION,IP,,,,Insolvency Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+29,Madras High Court,Chennai,LPA,LETTERS PATENT APPEAL,LPA,,,,Letters Patent Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+29,Madras High Court,Chennai,SA,SECOND APPEAL,SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+29,Madras High Court,Chennai,WA,WRIT APPEAL,WA,,,,Writ Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+30,Madras High Court,Madurai,CMA,CIVIL MISCELLANEOUS APPEAL(2),CMA,,,,Civil Miscellaneous Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+30,Madras High Court,Madurai,CRP,CIVIL REVISION PETITION(12),CRP,,,,Civil Revision Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+30,Madras High Court,Madurai,HCP,HABEAS CORPUS PETITION(22),HCP,,,,Habeas Corpus Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+30,Madras High Court,Madurai,SA,SECOND APPEAL(38),SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+30,Madras High Court,Madurai,WA,WRIT APPEAL(48),WA,,,,Writ Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+30,Madras High Court,Madurai,WP Crl.,Writ Petition Criminal(334),WP_CRL,,,,Writ Petition (Criminal),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+31,Manipur High Court,Imphal,Arb.A,Appeals under Indian Arbitration Act.(63),ARB_A,,,,Arbitration Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+31,Manipur High Court,Imphal,CAV,Caveat(153),CAV,,,,Caveat,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+31,Manipur High Court,Imphal,CMAppl.,Misc Applications eg Leave to Sue as indigent person restoration application condonat(33),CMAppl,,,,Civil Miscellaneous Application,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+31,Manipur High Court,Imphal,CREV,Civil Revision(172),C_REV,,,,Civil Revision,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+31,Manipur High Court,Imphal,CRP,Revision Petition(27),CRP,,,,Civil Revision Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+31,Manipur High Court,Imphal,CRREV,Criminal Revision(179),CR_REV,,,,Criminal Revision,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+31,Manipur High Court,Imphal,CS,Civil Suit(21),CS,,,,Civil Suit,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+31,Manipur High Court,Imphal,FA,First Appeal(181),FA,,,,First Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+31,Manipur High Court,Imphal,MC(OC),Misc. Case of Original Case(107),MCOC,,,,Motor Vehicle Compensation Case,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+31,Manipur High Court,Imphal,PIL,Public Interest Litigation(36),PIL,WP_PIL,WP_C_PIL,,Public Interest Litigation,Writ Petition (Public Interest Litigation),Writ Petition (Public Interest Litigation),,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+31,Manipur High Court,Imphal,RCSA,Second Appeal(54),RCS_A,,,,Regular Civil Suit - Class A,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+31,Manipur High Court,Imphal,SA,Second Appeal(200),SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+31,Manipur High Court,Imphal,W.P.(Crl.),Petition under Art226 for Writ and Habeas Corpus and other relief in relation to a Crimina(95),WP_CRL,,,,Writ Petition (Criminal),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+31,Manipur High Court,Imphal,WA,Writ Appeal(203),WA,,,,Writ Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+32,Meghalaya High Court,Shillong,Arb.A.,Appeals Under Indian Arbitration Act.-(139),ARB_A,,,,Arbitration Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+32,Meghalaya High Court,Shillong,BA,Bail Application-(57),BA,,,,Bail Application,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+32,Meghalaya High Court,Shillong,CMAppl.,Miscelleneous Applications-(109),CMAppl,,,,Civil Miscellaneous Application,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+32,Meghalaya High Court,Shillong,CREV,Civil Revision-(14),C_REV,,,,Civil Revision,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+32,Meghalaya High Court,Shillong,CRP,Revision Petition-(102),CRP,,,,Civil Revision Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+32,Meghalaya High Court,Shillong,CS,Civil Suit-(95),CS,,,,Civil Suit,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+32,Meghalaya High Court,Shillong,FA,First Appeal-(18),FA,,,,First Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+32,Meghalaya High Court,Shillong,MC(RA),Misc. Case  In R.a.-(85),MCrA,,,,Miscellaneous Criminal Application,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+32,Meghalaya High Court,Shillong,PIL,Public Interest Litigation-(93),PIL,WP_PIL,WP_C_PIL,,Public Interest Litigation,Writ Petition (Public Interest Litigation),Writ Petition (Public Interest Litigation),,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+32,Meghalaya High Court,Shillong,RCSA,Second Appeal-(130),RCS_A,,,,Regular Civil Suit - Class A,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+32,Meghalaya High Court,Shillong,SA,Second Appeal.-(39),SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+33,Orissa High Court,Cuttack,ARBA,ARBA-Appeals under Arbitration Conciliation Act - (3),ARB_A,,,,Arbitration Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+33,Orissa High Court,Cuttack,CRLMA,CRLMA-Other Miscellaneous Application. - (26),CRL_MA,,,,Criminal Miscellaneous Application (DC),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+33,Orissa High Court,Cuttack,CRREV,CRREV-Criminal Revision - (35),CR_REV,,,,Criminal Revision,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+33,Orissa High Court,Cuttack,CS,CS-Civil Suit - (36),CS,,,,Civil Suit,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+33,Orissa High Court,Cuttack,DREF,DREF-Death Reference. - (43),DREF,,,,Death Reference,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+33,Orissa High Court,Cuttack,EP,EP-Election Petition Case. - (50),EP,,,,Election Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+33,Orissa High Court,Cuttack,FA,FA-First Appeal - (55),FA,,,,First Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+33,Orissa High Court,Cuttack,OS,OS-Original Suit. - (95),OS,,,,Original Suit,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+33,Orissa High Court,Cuttack,RCSA,RCSA-Second Appeals(Rent Control Matters) - (103),RCS_A,,,,Regular Civil Suit - Class A,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+33,Orissa High Court,Cuttack,SA,SA-Second Appeal - (108),SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+34,Patna High Court,Patna,C. REV.,CIVIL REVIEW,C_REV,,,,Civil Revision,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+34,Patna High Court,Patna,COMP. APP,COMPANY APPEAL,COMP_APP,,,,Compensation Application,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+34,Patna High Court,Patna,CWJC,Civil Writ Jurisdiction Case,CWJC,,,,Civil Writ Jurisdiction Case,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+34,Patna High Court,Patna,FA,FIRST APPEAL,FA,,,,First Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+34,Patna High Court,Patna,SA,SECOND APPEAL,SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+34,Patna High Court,Patna,T.S.,TITLE SUIT,TS,,,,Testamentary Suit,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+35,Punjab and Haryana High Court,Chandigarh,ARB,ARBITRATION ACT CASE (WEF 15/10/03),Arb,,,,Arbitration Case (DC),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+35,Punjab and Haryana High Court,Chandigarh,CA,CIVIL APPEAL/COMPANY APPLICATION,CA,,,,Civil Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+35,Punjab and Haryana High Court,Chandigarh,CR,CIVIL REVISION,CR,C_REV,,,Civil Revision (short form),Civil Revision,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+35,Punjab and Haryana High Court,Chandigarh,CRR,CRIMINAL REVISION,CRR,CR_REV,CRLRC,,Criminal Revision (DC),Criminal Revision,Criminal Revision Case,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+35,Punjab and Haryana High Court,Chandigarh,CS,CIVIL SUIT,CS,,,,Civil Suit,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+35,Punjab and Haryana High Court,Chandigarh,GTA,GIFT TAX APPEAL,GTA,,,,Gift Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+35,Punjab and Haryana High Court,Chandigarh,INTTA,INTEREST TAX APPEAL,INTTA,,,,Interest Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+35,Punjab and Haryana High Court,Chandigarh,ITA,INCOME TAX APPEAL,ITA,,,,Income Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+35,Punjab and Haryana High Court,Chandigarh,LPA,LETTER PATENT APPEAL,LPA,,,,Letters Patent Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+35,Punjab and Haryana High Court,Chandigarh,RA-CA,REVIEW IN COMPANY APPEAL,RA_CA,,,,Restoration Application (Companies Act),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+35,Punjab and Haryana High Court,Chandigarh,RFA,REGULAR FIRST APPEAL,RFA,FA,,,Regular First Appeal,First Appeal,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+35,Punjab and Haryana High Court,Chandigarh,RSA,REGULAR SECOND APPEAL,RSA,SA,,,Regular Second Appeal,Second Appeal,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+35,Punjab and Haryana High Court,Chandigarh,STA,SALES TAX APPEAL,STA,,,,Sur Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+35,Punjab and Haryana High Court,Chandigarh,WTA,WEALTH TAX APPEAL,WTA,,,,Wealth Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+35,Punjab and Haryana High Court,Chandigarh,XOBJ,CROSS OBJECTION,XOBJ,CO,,,Cross Objection,Cross Objection,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+37,Rajasthan High Court,Jaipur,CMA,CIVIL MISCELLANEOUS APPEAL,CMA,,,,Civil Miscellaneous Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+37,Rajasthan High Court,Jaipur,COP,COMPANY PETITION,COP,,,,Company Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+37,Rajasthan High Court,Jaipur,EP,ELECTION PETITION,EP,,,,Election Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+37,Rajasthan High Court,Jaipur,GTA,GIFT TAX APPEAL,GTA,,,,Gift Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+37,Rajasthan High Court,Jaipur,ITA,INCOME TAX APPEAL,ITA,,,,Income Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+37,Rajasthan High Court,Jaipur,WTA,WEALTH TAX APPEAL,WTA,,,,Wealth Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+36,Rajasthan High Court,Jodhpur,CMA,CIVIL MISC. APPEAL,CMA,,,,Civil Miscellaneous Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+36,Rajasthan High Court,Jodhpur,COP,COMPANY PETITION,COP,,,,Company Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+36,Rajasthan High Court,Jodhpur,CRLMA,CRIMINAL MISC. APPLI,CRL_MA,,,,Criminal Miscellaneous Application (DC),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+36,Rajasthan High Court,Jodhpur,EP,ELECTION PETITION,EP,,,,Election Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+36,Rajasthan High Court,Jodhpur,GTA,GIFT TAX APPEAL,GTA,,,,Gift Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+36,Rajasthan High Court,Jodhpur,ITA,INCOME TAX APPEAL,ITA,,,,Income Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+36,Rajasthan High Court,Jodhpur,LPA,LETTER PATENT APPEAL,LPA,,,,Letters Patent Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+36,Rajasthan High Court,Jodhpur,WTA,WEALTH TAX APPEAL,WTA,,,,Wealth Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+38,Sikkim High Court,Gangtok,Arb.A.,Appeals Under Indian Arbiration Act-(16),ARB_A,,,,Arbitration Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+38,Sikkim High Court,Gangtok,CRP,Revision Petition-(6),CRP,,,,Civil Revision Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+38,Sikkim High Court,Gangtok,WA,Writ Appeal-(36),WA,,,,Writ Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+38,Sikkim High Court,Gangtok,WP(Crl.),Writ Petition Criminal-(20),WP_CRL,,,,Writ Petition (Criminal),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+42,Supreme Court,Supreme Court,MA,MISCELLANEOUS APPLICATION,MA,,,,Miscellaneous Application (Civil),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+39,Telangana High Court,Hyderabad,CMA,CIVIL MISCELLANEOUS APPEAL,CMA,,,,Civil Miscellaneous Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+39,Telangana High Court,Hyderabad,CRLP,CRIMINAL PETITION,CRLP,,,,Criminal Leave Petition,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+39,Telangana High Court,Hyderabad,CRLRC,CRIMINAL REVISION CASE,CRLRC,CR_REV,,,Criminal Revision Case,Criminal Revision,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+39,Telangana High Court,Hyderabad,CRP,CIVIL REVISION PETITION,CRP,,,,Civil Revision Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+39,Telangana High Court,Hyderabad,CS,CIVIL SUIT,CS,,,,Civil Suit,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+39,Telangana High Court,Hyderabad,EP,ELECTION PETITION,EP,,,,Election Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+39,Telangana High Court,Hyderabad,LPA,LETTER PATENT APPEAL,LPA,,,,Letters Patent Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+39,Telangana High Court,Hyderabad,PIL,PUBLIC INTEREST LITIGATION (OLD),PIL,WP_PIL,WP_C_PIL,,Public Interest Litigation,Writ Petition (Public Interest Litigation),Writ Petition (Public Interest Litigation),,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+39,Telangana High Court,Hyderabad,SA,SECOND APPEAL,SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+39,Telangana High Court,Hyderabad,WA,WRIT APPEAL,WA,,,,Writ Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+39,Telangana High Court,Hyderabad,WTA,WEALTH TAX APPEAL,WTA,,,,Wealth Tax Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+40,Tripura High Court,Agartala,Arb.A.,Appeals under Indian Arbitration Act.,ARB_A,,,,Arbitration Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+40,Tripura High Court,Agartala,BA,Bail Application,BA,,,,Bail Application,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+40,Tripura High Court,Agartala,CMAppl.,Miscellaneous Applications,CMAppl,,,,Civil Miscellaneous Application,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+40,Tripura High Court,Agartala,CRP,Civil Revision Petition,CRP,,,,Civil Revision Petition,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+40,Tripura High Court,Agartala,CS,Civil Suit,CS,,,,Civil Suit,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+40,Tripura High Court,Agartala,FA,First Appeal,FA,,,,First Appeal,,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+40,Tripura High Court,Agartala,LPA,Latters Patent Appeal,LPA,,,,Letters Patent Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+40,Tripura High Court,Agartala,PIL,Public Interest Litigation,PIL,WP_PIL,WP_C_PIL,,Public Interest Litigation,Writ Petition (Public Interest Litigation),Writ Petition (Public Interest Litigation),,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+40,Tripura High Court,Agartala,SA,Second Appeal,SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,YES,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+40,Tripura High Court,Agartala,W.P.(Crl.),Petition U/A 226 For Writ And Habeas Corpus And Other Relief In Relation To A Criminal Pro,WP_CRL,,,,Writ Petition (Criminal),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+40,Tripura High Court,Agartala,WP(C)(PIL),Public Interest Letigation,WP_C_PIL,,,,Writ Petition (Public Interest Litigation),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+41,Uttarakhand High Court,Nainital,ABA,ANTICIPATORY BAIL APPLICATION(183),ABA,,,,Anticipatory Bail Application,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+41,Uttarakhand High Court,Nainital,CAV,CAVEAT(49),CAV,,,,Caveat,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+41,Uttarakhand High Court,Nainital,FA,FIRST APPEAL(17),FA,,,,First Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+41,Uttarakhand High Court,Nainital,GTA,GIFT TAX APPEAL(173),GTA,,,,Gift Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+41,Uttarakhand High Court,Nainital,ITA,INCOME TAX APPEAL(41),ITA,,,,Income Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+41,Uttarakhand High Court,Nainital,OS,ORIGINAL SUIT (CIVIL SUIT)(175),OS,,,,Original Suit,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+41,Uttarakhand High Court,Nainital,SA,SECOND APPEAL(25),SA,RSA,,,Second Appeal,Regular Second Appeal,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+41,Uttarakhand High Court,Nainital,WPPIL,WRIT PETITION PUBLIC INTEREST LITIGATION(167),WP_PIL,,,,Writ Petition (Public Interest Litigation),,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.
+41,Uttarakhand High Court,Nainital,WTA,WEALTH TAX APPEAL(172),WTA,,,,Wealth Tax Appeal,,,,YES,NO,exact,Same (or compatible) code and name — search website code as-is on eCourts.

@@ -1,0 +1,5 @@
+﻿bench_id,court,bench,website_case_type_code,website_case_type_name,ecourts_case_type_code_1,ecourts_case_type_code_2,ecourts_case_type_code_3,ecourts_case_type_code_4,ecourts_case_type_name_1,ecourts_case_type_name_2,ecourts_case_type_name_3,ecourts_case_type_name_4,website_and_ecourts_code_same,website_and_ecourts_name_same,match_type,comparison_note
+16,Gauhati High Court,Itanagar,CP,Condonation Petition(68),COP,CP_CA,,,Company Petition,Company Petition (Companies Act),,,NO,NO,suggested,"Website code differs from eCourts. Backend should search: COP, CP_CA."
+16,Gauhati High Court,Itanagar,Crl.A.,Appeal against Judgment/Sentence.(166),CRL_A,,,,Criminal Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: CRL_A.
+16,Gauhati High Court,Itanagar,ITA,Application under Section 256(2)(148),ITA,,,,Income Tax Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: ITA.
+16,Gauhati High Court,Itanagar,LPA,Latters Patent Appeal(23),LPA,,,,Letters Patent Appeal,,,,YES,NO,suggested,Website code differs from eCourts. Backend should search: LPA.

@@ -173,13 +173,13 @@ function normalizeBusinessOnDateEntries(value: unknown): BusinessOnDateEntry[] {
     const record = asRecord(item);
     if (!record) continue;
     entries.push({
-      date: pickString(record, ['date', 'businessDate', 'hearingDate']),
+      date: pickString(record, ['date', 'businessDate', 'businessOnDate']),
       courtOf: pickString(record, ['courtOf', 'court', 'courtName']),
       petitioner: pickString(record, ['petitioner', 'petitioners']),
       respondent: pickString(record, ['respondent', 'respondents']),
-      business: pickString(record, ['business', 'businessOnDate', 'remarks', 'remark']),
+      business: pickString(record, ['business', 'remarks', 'remark']),
       nextPurpose: pickString(record, ['nextPurpose', 'purpose', 'purposeOfListing']),
-      nextHearingDate: pickString(record, ['nextHearingDate', 'nextDate']),
+      nextHearingDate: pickString(record, ['nextHearingDate', 'nextDate', 'hearingDate']),
     });
   }
   return entries;
@@ -193,7 +193,7 @@ function normalizeOrders(value: unknown): CaseOrder[] {
     if (!record) continue;
     orders.push({
       orderDate: pickString(record, ['orderDate', 'date']),
-      orderType: pickString(record, ['orderType', 'type']),
+      orderType: pickString(record, ['orderType', 'type', 'description']),
       orderUrl: pickString(record, ['orderUrl', 'url', 'pdfUrl', 'fileName']),
     });
   }
@@ -226,6 +226,7 @@ function normalizeFiles(value: unknown): CaseFile[] {
     if (!record) continue;
     files.push({
       pdfFile: pickString(record, ['pdfFile', 'pdf', 'fileName']),
+      pdfUrl: pickString(record, ['pdfUrl', 'url', 'fileUrl', 'downloadUrl']),
       markdownFile: pickString(record, ['markdownFile', 'mdFile']),
       markdownContent: pickString(record, ['markdownContent', 'content']),
     });
@@ -253,13 +254,20 @@ function normalizeCaseResult(item: unknown): CaseDetail {
     courtCode: pickString(record, ['courtCode', 'court_code', 'cnrCourtCode', 'courtName', 'code']),
     petitioners,
     respondents,
-    benchName: pickString(record, ['benchName', 'benchType']),
+    benchName: pickString(record, ['benchName', 'benchType', 'bench', 'bench_name']),
     purpose: pickString(record, ['purpose']),
     lastHearingDate: pickString(record, ['lastHearingDate']) ?? null,
     contestedStatus: pickString(record, ['contestedStatus']),
     judicialSection: pickString(record, ['judicialSection', 'judicialSectionRaw']),
     caseCategoryFacetPath: pickString(record, ['caseCategoryFacetPath', 'caseCategory']),
-    courtName: pickString(record, ['courtName']),
+    courtName: pickString(record, [
+      'courtName',
+      'court',
+      'establishmentName',
+      'courtEstablishment',
+      'courtComplexName',
+      'court_name',
+    ]),
     caseType: pickString(record, ['caseType']),
     caseTypeRaw: pickString(record, ['caseTypeRaw']),
     caseTypeSub: pickString(record, ['caseTypeSub']),
@@ -636,7 +644,7 @@ export async function fetchAppCourtsList(courtLevel: CourtLevel): Promise<AppCou
 
 /** Case types for a local bench (`case_types` table). Public `benchId` query. */
 export async function fetchCaseTypesByBench(benchId: string): Promise<SelectOption[]> {
-  const body = await apiGetPublic('/api/casetypes', { benchId });
+  const body = await apiGetPublic('/api/web/casetypes', { benchId });
   const options = sortSelectOptions(
     normalizeOptions(body).filter((option) => option.code !== 'UNKNOWN'),
   );
@@ -692,6 +700,9 @@ export function resolveEcourtsCourtCode(
     for (const token of benchTokens) {
       if (name.includes(token)) score += 4;
     }
+    // City/civil courts are sometimes listed under HC; prefer an actual High Court.
+    if (/\bhigh\s+court\b/.test(name)) score += 5;
+    else if (/\bcity\s+court\b|\bcivil\s+court\b/.test(name)) score -= 3;
     if (score > bestScore) {
       bestScore = score;
       bestCode = court.code;

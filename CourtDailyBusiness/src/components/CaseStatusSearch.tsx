@@ -196,6 +196,25 @@ export function CaseStatusSearch({ courtTypeId, preferredCourtName }: Props) {
   const [showDataReadyToast, setShowDataReadyToast] = useState(false);
   const refreshGenerationRef = useRef(0);
 
+  const selectedComplexName =
+    complexes.find((item) => item.code === complexId)?.name ?? '';
+  const selectedDistrictCourtName =
+    dcCourts.find((item) => item.code === courtCode)?.name ?? '';
+  const selectedTribunalName =
+    tribunals.find((item) => item.code === tribunalCode)?.name ?? '';
+  const selectedTribunalCourtName =
+    tribunalCourts.find((item) => item.code === courtCode)?.name ?? '';
+  const searchBenchName = isSimpleCourtLevel
+    ? selectedBenchName
+    : isDistrict
+      ? selectedDistrictCourtName
+      : selectedTribunalCourtName;
+  const searchCourtName = isSimpleCourtLevel
+    ? courtName
+    : isDistrict
+      ? selectedDistrictCourtName || selectedComplexName
+      : selectedTribunalCourtName || selectedTribunalName;
+
   function resetResults() {
     refreshGenerationRef.current += 1;
     setResults(null);
@@ -1047,6 +1066,10 @@ export function CaseStatusSearch({ courtTypeId, preferredCourtName }: Props) {
             <CaseDetailView
               key={result.cnr || `${result.courtCode}-${result.registrationNumber}-${index}`}
               caseData={result}
+              searchMode="case-status"
+              courtLevel={courtLevel}
+              searchBenchName={searchBenchName}
+              searchCourtName={searchCourtName}
             />
           ))}
         </div>
